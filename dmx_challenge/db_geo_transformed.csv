@@ -1,0 +1,184 @@
+sucursal,ubicacion,Country,State,City
+Ciudad Piramide,"19.49, -99.23",Mexico,Estado de México,Naucalpan de Juárez
+Valle Verde,"19.52, -99.27",Mexico,Estado de México,Naucalpan de Juárez
+Rio Blanco,"19.54, -99.29",Mexico,State of Mexico,Ciudad López Mateos
+Colina del Sol,"19.56, -99.25",Mexico,Estado de México,Ciudad López Mateos
+Parque Jurica,"19.51, -99.24",Mexico,Estado de México,Naucalpan de Juárez
+Colina Plateada,"19.55, -99.22",Mexico,Estado de México,Tlalnepantla
+Altos de Queretaro,"19.53, -99.21",Mexico,Estado de México,Tlalnepantla
+Sol y Campo,"19.57, -99.2",Mexico,Estado de México,Tlalnepantla
+Satelite 1,"19.5107, -99.2355",Mexico,Estado de México,Naucalpan de Juárez
+Satelite 2,"19.515, -99.24",Mexico,Estado de México,Naucalpan de Juárez
+Satelite 3,"19.52, -99.245",Mexico,Estado de México,Tlalnepantla
+Bahia Dorada,"18.931, -99.23",Mexico,Sinaloa,Los Mochis
+Costa Marquesa,"18.9275, -99.25",Mexico,Morelos,Cuernavaca
+Alto de Chilpan,"19.5565, -99.2133",Mexico,Estado de México,Tlalnepantla
+Cuautla Vista,"18.8128, -98.95",Mexico,Morelos,Cuautla
+Jardines del Valle,"18.91, -99.17",Mexico,Morelos,Jiutepec
+Llanos de Igualdad,"18.92, -99.11",Mexico,Morelos,La Joya
+Parque Jojutla,"18.62, -99.18",Mexico,Morelos,Jojutla
+Valle Chalco,"19.28, -98.96",Mexico,Estado de México,Xico
+Montana Azul,"19.27, -98.94",Mexico,Estado de México,Xico
+Reyes Paz A,"19.36, -98.98",Mexico,Estado de México,Los Reyes Acaquilpan
+Reyes Paz B,"19.365, -98.985",Mexico,Estado de México,Los Reyes Acaquilpan
+Bosques Neza,"19.4, -98.98",Mexico,Estado de México,Chimalhuacán
+Cumbre Neza,"19.405, -98.99",Mexico,Estado de México,Ciudad Nezahualcóyotl
+Riberas Texcoco,"19.51, -98.88",Mexico,Estado de México,Texcoco de Mora
+Jardin Aragon A,"19.495, -99.11",Mexico,Ciudad de México,Ciudad de México
+Pilares del Norte,"19.51, -99.13",Mexico,Ciudad de México,Ciudad de México
+Residencia A,"19.44, -99.155",Mexico,Ciudad de México,Ciudad de México
+Residencia B,"19.445, -99.16",Mexico,Ciudad de México,Ciudad de México
+Colinas GAM,"19.51, -99.12",Mexico,Ciudad de México,Ciudad de México
+Plaza Central,"19.44, -99.13",Mexico,Ciudad de México,Ciudad de México
+Los Arcos,"19.46, -99.145",Mexico,Ciudad de México,Ciudad de México
+Campo Zaragoza,"19.41, -99.175",Mexico,Ciudad de México,Ciudad de México
+Lomas Zaragoza,"19.415, -99.18",Mexico,Ciudad de México,Ciudad de México
+Avance 1,"19.4326, -99.1332",Mexico,Ciudad de México,Ciudad de México
+Avance 2,"19.434, -99.131",Mexico,Ciudad de México,Ciudad de México
+Avance 3,"19.431, -99.135",Mexico,Ciudad de México,Ciudad de México
+Avance 4,"19.433, -99.137",Mexico,Ciudad de México,Ciudad de México
+Parque Obregon,"19.365, -99.162",Mexico,Ciudad de México,Ciudad de México
+Centro Viejo,"19.4265, -99.133",Mexico,Ciudad de México,Ciudad de México
+Mirador Tlalpan A,"19.3, -99.18",Mexico,Ciudad de México,Ciudad de México
+Mirador Tlalpan B,"19.31, -99.185",Mexico,Ciudad de México,Ciudad de México
+Lagunas de Xochimilco,"19.26, -99.105",Mexico,Ciudad de México,Ciudad de México
+Plaza Zapata,"19.355, -99.15",Mexico,Ciudad de México,Ciudad de México
+Robledal A,"19.4, -99.05",Mexico,Estado de México,Ciudad Nezahualcóyotl
+Robledal B,"19.405, -99.0525",Mexico,Estado de México,Ciudad Nezahualcóyotl
+Campo Florido A,"19.37, -99.035",Mexico,Ciudad de México,Ciudad de México
+Campo Florido B,"19.375, -99.0375",Mexico,Ciudad de México,Ciudad de México
+Campo Florido C,"19.38, -99.04",Mexico,Ciudad de México,Ciudad de México
+Campo Florido D,"19.385, -99.0425",Mexico,Ciudad de México,Ciudad de México
+Riberas del Sur,"19.36, -99.025",Mexico,Ciudad de México,Ciudad de México
+Sierra Cordobesa,"18.88, -96.93",Mexico,Veracruz,Córdoba
+Valles de Orizaba,"18.85, -97.1",Mexico,Veracruz,Orizaba
+Alturas de Puebla,"19.05, -98.2",Mexico,Puebla,Heroica Puebla de Zaragoza
+Jardines Manuel,"19.06, -98.21",Mexico,Puebla,Heroica Puebla de Zaragoza
+Lomas Santiago,"19.08, -98.23",Mexico,Puebla,Francisco I. Madero
+Llanos Tehuacan,"18.45, -97.38",Mexico,Puebla,Tehuacán
+Bosques Tlaxcala,"19.32, -98.23",Mexico,Tlaxcala,Ocotlán
+Colinas Miron,"19.2, -96.15",Mexico,Veracruz,Veracruz
+Valle Rica,"19.18, -96.14",Mexico,Veracruz,Veracruz
+Puerto Bravo,"19.21, -96.16",Mexico,Veracruz,Veracruz
+Puerta Cuauhtemoc,"19.22, -96.17",Mexico,Veracruz,Heroica Veracruz
+Cumbres Xalapa,"19.54, -96.91",Mexico,Veracruz,Xalapa-Enríquez
+Lomas Xalapa,"19.545, -96.915",Mexico,Veracruz,Xalapa-Enríquez
+Paso del Norte,"31.74, -106.46",Mexico,Chihuahua,Juárez
+Rio Bravo,"25.98, -98.26",Mexico,Tamaulipas,La Retama
+Aceros del Norte,"26.92, -100.32",Mexico,Nuevo León,El Armadillo
+Paso Nuevo,"29.33, -100.98",Mexico,Coahuila de Zaragoza,Ciudad Acuña
+Piedras Altas,"28.71, -100.53",Mexico,Coahuila de Zaragoza,Piedras Negras
+Valles del Norte,"25.74, -100.31",Mexico,Nuevo León,Monterrey
+Laguna Norte,"25.57, -103.41",Mexico,Coahuila,Torreón
+Sabinas Sierra,"27.85, -101.15",Mexico,Coahuila,Sabinas
+Campos Saltillo,"25.43, -100.99",Mexico,Coahuila de Zaragoza,Saltillo
+Centro Saltillo,"25.42, -100.995",Mexico,Coahuila de Zaragoza,Saltillo
+Lomas de Alamos,"25.72, -100.34",Mexico,Nuevo León,Monterrey
+Valle Apodaca,"25.78, -100.195",Mexico,Nuevo León,Ciudad Apodaca
+Puente Lincoln,"25.72, -100.4",Mexico,Nuevo León,Monterrey
+Cumbres Regias,"25.73, -100.39",Mexico,Nuevo León,Monterrey
+Centro Regio,"25.67, -100.31",Mexico,Nuevo León,Monterrey
+Bulevar Regio,"25.68, -100.32",Mexico,Nuevo León,Monterrey
+San Nicolas Valle,"25.74, -100.29",Mexico,Nuevo León,San Nicolás de los Garza
+Sierra Santa,"25.66, -100.35",Mexico,Nuevo León,San Pedro Garza García
+Bosque Verde,"31.87, -106.43",United States,Texas,El Paso County
+Palacio del Norte,"31.73, -106.48",Mexico,Chihuahua,Juárez
+Valle de Guadalupe,"32.54, -116.97",Mexico,Baja California,Tijuana
+Parque Madero,"31.74, -106.49",Mexico,Chihuahua,Juárez
+Expo Regia,"31.69, -106.38",Mexico,Chihuahua,Juárez
+Desierto Norte,"31.77, -106.53",Mexico,Chihuahua,Ciudad Juárez
+Desierto Bravo,"31.78, -106.54",Mexico,Chihuahua,Ciudad Juárez
+Rio Revolucion,"31.82, -106.44",United States,Texas,El Paso County
+Valle Real,"22.27, -97.87",Mexico,Tamaulipas,Tampico
+Victoria Alta,"23.74, -99.14",Mexico,Tamaulipas,Ciudad Victoria
+Bahia Aeropuerto,"22.28, -97.87",Mexico,Tamaulipas,Tampico
+Plaza Tampico,"22.22, -97.86",Mexico,Tamaulipas,Tampico
+Colinas Tampico,"22.24, -97.87",Mexico,Tamaulipas,Tampico
+Rio Madero,"22.23, -97.85",Mexico,Tamaulipas,Tampico
+Sierra Chihuahua,"28.63, -106.08",Mexico,Chihuahua,Chihuahua
+Campus Sierra,"28.635, -106.085",Mexico,Chihuahua,Chihuahua
+Victoria Sierra,"28.73, -106.15",Mexico,Chihuahua,Chihuahua
+Plaza Cuauhtemoc,"28.4, -106.87",Mexico,Chihuahua,Cuauhtémoc
+Juarez Norte,"31.74, -106.48",Mexico,Chihuahua,Juárez
+Jardines del Norte,"28.655, -106.09",Mexico,Chihuahua,Chihuahua
+Americas Plaza,"28.67, -106.12",Mexico,Chihuahua,Chihuahua
+Patio Grande,"28.58, -106.09",Mexico,Chihuahua,Chihuahua
+Colinas Jilotepec,"28.61, -106.14",Mexico,Chihuahua,Chihuahua
+Parral Viejo,"26.93, -105.66",Mexico,Chihuahua,Hidalgo del Parral
+Bahia Azul,"31.86, -116.6",Mexico,Baja California,Ensenada
+Plaza Pacifico,"32.42, -117.05",Mexico,Baja California,Playas de Rosarito
+Cabo Fuerte,"22.89, -109.91",Mexico,Baja California Sur,Cabo San Lucas
+Valle Mexicali,"32.65, -115.48",Mexico,Baja California,Mexicali
+Norte Mexicali,"32.68, -115.5",United States,California,Imperial County
+Frontera Oeste,"32.53, -117.03",Mexico,Baja California,Tijuana
+Frontera Bravo,"32.37, -114.94",Mexico,Sonora,Rubén Gaxiola Romo
+Valles de Culiacan,"24.8, -107.42",Mexico,Sinaloa,Culiacán Rosales
+Culiacan Norte,"24.81, -107.45",Mexico,Sinaloa,Bacurimí
+Sierra Durango,"24.03, -104.67",Mexico,Durango,Durango
+Durango Norte,"24.05, -104.68",Mexico,Durango,Durango
+Valle del Rio,"25.69, -109.05",Mexico,Sinaloa,Los Mochis
+Plaza Mochis,"25.79, -108.99",Mexico,Sinaloa,Los Mochis
+Bahia Dorada,"25.4, -109.52",Mexico,Sinaloa,Los Mochis
+Obregon Central,"27.48, -109.93",Mexico,Sonora,Ciudad Obregón
+Obregon Norte,"27.49, -109.95",Mexico,Sonora,Ciudad Obregón
+Sierra Hermosillo,"29.07, -110.95",Mexico,Sonora,Hermosillo
+Hermosillo Norte,"29.12, -110.95",Mexico,Sonora,Hermosillo
+Valle de Navojoa,"27.07, -109.44",Mexico,Sonora,Navojoa
+Frontera Nogales,"31.34, -110.94",United States,Arizona,Santa Cruz County
+Guadalajara Uno,"20.67, -103.35",Mexico,Jalisco,Guadalajara
+Guadalajara Dos,"20.675, -103.34",Mexico,Jalisco,Guadalajara
+Guadalajara Tres,"20.665, -103.36",Mexico,Jalisco,Guadalajara
+Aguas Central,"21.88, -102.29",Mexico,Aguascalientes,Aguascalientes
+Aguas Norte,"21.9, -102.3",Mexico,Aguascalientes,Aguascalientes
+Sierra Colima,"19.24, -103.72",Mexico,Colima,Colima
+Rio Fresnillo,"23.18, -102.88",Mexico,Zacatecas,Fresnillo
+Bahia Manzanillo,"19.05, -104.32",Mexico,Colima,Manzanillo
+San Luis Norte,"22.17, -100.98",Mexico,San Luis Potosí,San Luis Potosí
+San Luis Alturas,"22.19, -101.0",Mexico,San Luis Potosí,San Luis Potosí
+Cumbres Zacatecas,"22.77, -102.58",Mexico,Zacatecas,Zacatecas
+Plaza Celaya,"20.52, -100.81",Mexico,Guanajuato,Celaya
+Hidalgo Valle,"20.09, -98.75",Mexico,Hidalgo,Pachuca de Soto
+Jardines Irapuato,"20.67, -101.34",Mexico,Guanajuato,Irapuato
+Canadas Leon,"21.13, -101.7",Mexico,Guanajuato,León de los Aldama
+Norte Leon,"21.16, -101.69",Mexico,Guanajuato,León de los Aldama
+Valle Piedad,"20.34, -102.03",Mexico,Michoacán,La Piedad de Cabadas
+Bahia Lazaro,"18.02, -102.22",Mexico,Michoacán,Las Guacamayas
+Colinas Morelia,"19.7, -101.19",Mexico,Michoacán,Morelia
+Morelia Norte,"19.73, -101.18",Mexico,Michoacán,Morelia
+Camelinas Plaza,"19.72, -101.19",Mexico,Michoacán,Morelia
+Jardines Uruapan,"19.42, -102.06",Mexico,Michoacán,Uruapan
+Valle Zamora,"19.98, -102.28",Mexico,Michoacán,Zamora de Hidalgo
+Riviera Zihua,"17.64, -101.55",Mexico,Guerrero,Zihuatanejo
+Montes Zitacuaro,"19.43, -100.36",Mexico,Michoacán,Zitácuaro
+GDL Central,"20.67, -103.35",Mexico,Jalisco,Guadalajara
+Norte GDL,"20.72, -103.38",Mexico,Jalisco,Zapopan
+Riviera Vallarta,"20.62, -105.23",Mexico,Jalisco,Puerto Vallarta
+Valle Tepic,"21.51, -104.89",Mexico,Nayarit,Tepic
+Norte Tepic,"21.53, -104.88",Mexico,Nayarit,Tepic
+Jardines Tlaque,"20.62, -103.33",Mexico,Jalisco,Guadalajara
+Montes Tonala,"20.62, -103.23",Mexico,Jalisco,Tonalá
+Guzman Valle,"19.7, -103.47",Mexico,Jalisco,Ciudad Guzmán
+IMSS GDL,"20.67, -103.36",Mexico,Jalisco,Guadalajara
+Oblatos Plaza,"20.68, -103.3",Mexico,Jalisco,Guadalajara
+Las Aguilas,"20.67, -103.41",Mexico,Jalisco,Zapopan
+Zapopan Plaza,"20.72, -103.4",Mexico,Jalisco,Zapopan
+Rio Coatzacoalcos,"18.14, -94.43",Mexico,Veracruz,Coatzacoalcos
+Valle Comitan,"16.25, -92.13",Mexico,Chiapas,Comitán de Domínguez
+Selva Tapachula,"14.9, -92.26",Mexico,Chiapas,Tapachula de Córdova y Ordóñez
+Tuxtla Norte,"16.76, -93.13",Mexico,Chiapas,Tuxtla Gutiérrez
+Tuxtla Central,"16.75, -93.12",Mexico,Chiapas,Tuxtla Gutiérrez
+Villa Central,"17.74, -91.77",Mexico,Tabasco,Emiliano Zapata
+Villa Norte,"17.75, -91.77",Mexico,Tabasco,Emiliano Zapata
+Villa Alturas,"17.73, -91.77",Mexico,Tabasco,Emiliano Zapata
+Sierra Oaxaca,"17.07, -96.72",Mexico,Oaxaca,Oaxaca de Juárez
+Riviera Escondida,"15.86, -97.07",Mexico,Oaxaca,Puerto Escondido
+Bahia Cruz,"15.75, -96.13",Mexico,Oaxaca,Bahía de Santa Cruz Huatulco
+Rio Tuxtepec,"18.09, -96.12",Mexico,Oaxaca,San Juan Bautista Tuxtepec
+Bahia Campeche,"19.85, -90.53",Mexico,Campeche,San Francisco de Campeche
+Riviera Cancun,"21.16, -86.84",Mexico,Quintana Roo,Cancún
+Bahia Chetumal,"18.5, -88.3",Mexico,Quintana Roo,Chetumal
+Isla del Carmen,"18.64, -91.82",Mexico,Campeche,Ciudad del Carmen
+Sierra Merida,"20.97, -89.62",Mexico,Yucatán,Mérida
+Merida Norte,"21.03, -89.62",Mexico,Yucatán,Mérida
+Alturas Merida,"21.02, -89.63",Mexico,Yucatán,Mérida
+Riviera Playa,"20.63, -87.07",Mexico,Quintana Roo,Playa del Carmen

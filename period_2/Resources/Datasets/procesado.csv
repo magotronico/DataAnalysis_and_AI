@@ -1,0 +1,1625 @@
+,Residence,Age,Class_Time,Class_Rating,Class_Medium,Self_Study_Time,Fitness_Time,Sleep_Time,Social_Media_Time,Social_Media_Platform,TV_Time,Meals_Number,Weight_Change,Health_Issue,Stress_Busters,Time_Utilized,Miss,More_Social_connection,Total_studying_time,Total_resting_time
+0,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,0,6,2,Others,0,3,2,NO,MUSIC,NO,TRAVELLING,YES,7,8
+1,Delhi-NCR,20,3,Poor,Smartphone,2,1,6,5,Instagram,0,3,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,5,12
+2,Delhi-NCR,25,0,Poor,Smartphone,4,0,6,1,Youtube,0,1,1,YES,WORK,NO,SCHOOL/WORK,YES,4,8
+3,Delhi-NCR,20,2,Poor,Smartphone,2,1,6,4,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,11
+4,Outside Delhi-NCR,20,2,Poor,Tablet,1,1,9,5,Instagram,0,3,0,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,3,14
+5,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,1,8,2,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,7,12
+6,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,1,1,8,5,Instagram,3,3,1,YES,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,2,14
+7,Delhi-NCR,25,1,Poor,Laptop/Desktop,0,1,7,3,Instagram,1,2,0,YES,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,2,12
+8,Delhi-NCR,25,3,Poor,Laptop/Desktop,0,0,8,3,Instagram,0,3,0,YES,MUSIC,NO,SCHOOL/WORK,NO,3,11
+9,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,0,8,3,Instagram,0,3,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,5,11
+10,Delhi-NCR,25,3,Poor,Smartphone,3,1,6,2,Instagram,1,3,0,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,6,10
+11,Delhi-NCR,20,1,Poor,Smartphone,2,1,8,1,Youtube,0,3,2,NO,MUSIC,NO,BEING OUTSIDE,NO,3,10
+12,Delhi-NCR,25,0,Poor,Laptop/Desktop,4,0,7,5,Youtube,0,2,2,NO,READING,NO,SOCIALIZE,NO,4,12
+13,Delhi-NCR,25,4,Poor,Smartphone,2,1,8,4,Instagram,0,3,0,NO,EXERCISE,YES,SOCIALIZE,YES,6,13
+14,Delhi-NCR,25,4,Poor,Laptop/Desktop,2,1,9,5,Instagram,2,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,NO,6,14
+15,Delhi-NCR,25,4,Poor,Smartphone,1,0,8,5,Instagram,1,4,1,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,5,14
+16,Delhi-NCR,25,4,Poor,Laptop/Desktop,2,1,7,1,Others,0,3,1,NO,EXERCISE,YES,TRAVELLING,YES,6,9
+17,Delhi-NCR,20,3,Poor,Smartphone,4,2,9,2,Instagram,1,3,1,NO,READING,YES,SCHOOL/WORK,NO,7,14
+18,Delhi-NCR,20,4,Poor,Smartphone,2,0,9,5,Others,3,2,0,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,6,14
+19,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,8,3,Instagram,0,2,0,YES,MUSIC,NO,SCHOOL/WORK,YES,8,11
+20,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,0,9,2,Whatsapp,0,2,2,NO,MUSIC,NO,BEING OUTSIDE,NO,7,11
+21,Delhi-NCR,30,4,Poor,Laptop/Desktop,4,1,6,2,Others,0,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,8,9
+22,Delhi-NCR,25,4,Poor,Smartphone,4,1,6,3,Youtube,0,4,2,NO,OTHERS,NO,SOCIALIZE,NO,8,10
+23,Delhi-NCR,20,4,Poor,Smartphone,4,1,7,2,Whatsapp,1,2,1,YES,MUSIC,YES,BEING OUTSIDE,YES,8,11
+24,Delhi-NCR,25,4,Poor,Laptop/Desktop,1,0,6,2,Others,0,3,1,YES,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,5,8
+25,Outside Delhi-NCR,25,4,Poor,Smartphone,2,1,8,3,Instagram,1,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,13
+26,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,7,1,Instagram,0,3,1,NO,READING,NO,TRAVELLING,YES,5,9
+27,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,8,2,Instagram,0,3,0,NO,REST,NO,BEING OUTSIDE,YES,6,10
+28,Outside Delhi-NCR,25,1,Poor,Smartphone,2,1,8,2,Others,2,3,0,NO,MUSIC,NO,SCHOOL/WORK,YES,3,13
+29,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,0,0,9,5,Youtube,1,4,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,NO,2,14
+30,Delhi-NCR,20,4,Poor,Smartphone,2,1,8,2,Whatsapp,2,4,2,YES,MUSIC,NO,BEING OUTSIDE,NO,6,13
+31,Delhi-NCR,25,4,Poor,Laptop/Desktop,3,1,8,1,Instagram,0,2,0,NO,MUSIC,NO,BEING OUTSIDE,NO,7,10
+32,Delhi-NCR,20,2,Poor,Smartphone,2,3,9,1,Others,0,4,2,NO,REST,NO,SOCIALIZE,NO,4,13
+33,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,0,8,1,Instagram,0,4,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,5,9
+34,Delhi-NCR,20,2,Poor,Smartphone,4,2,7,1,Instagram,3,4,1,NO,MUSIC,YES,BEING OUTSIDE,NO,6,13
+35,Delhi-NCR,20,2,Poor,Smartphone,3,0,6,2,Youtube,0,3,1,YES,READING,NO,SCHOOL/WORK,NO,5,8
+36,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,2,8,2,Others,0,4,0,NO,MUSIC,YES,TRAVELLING,YES,7,12
+37,Delhi-NCR,20,0,Poor,Smartphone,1,0,8,2,Youtube,2,3,2,YES,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,2,12
+38,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,7,2,Whatsapp,0,3,2,NO,READING,NO,BEING OUTSIDE,YES,8,10
+39,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,0,6,1,Youtube,0,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,7,8
+40,Delhi-NCR,20,0,Poor,Smartphone,2,2,9,1,Instagram,0,4,2,NO,READING,YES,BEING OUTSIDE,YES,2,12
+41,Delhi-NCR,25,4,Poor,Smartphone,4,1,8,2,Youtube,2,4,2,NO,REST,YES,BEING OUTSIDE,YES,8,13
+42,Delhi-NCR,20,4,Poor,Smartphone,2,0,7,1,Whatsapp,0,3,0,YES,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,8
+43,Delhi-NCR,20,2,Poor,Smartphone,2,2,8,1,Youtube,0,4,0,NO,MUSIC,NO,SOCIALIZE,YES,4,11
+44,Delhi-NCR,20,1,Poor,Smartphone,4,0,8,5,Youtube,2,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,5,14
+45,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,7,1,Whatsapp,0,3,0,YES,MUSIC,NO,SCHOOL/WORK,YES,5,9
+46,Delhi-NCR,25,0,Poor,Smartphone,4,0,8,1,Instagram,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,NO,4,10
+47,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,6,1,Instagram,0,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,8,8
+48,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,8,1,Instagram,2,4,0,NO,REST,YES,BEING OUTSIDE,YES,7,12
+49,Delhi-NCR,20,0,Poor,Laptop/Desktop,2,1,6,5,Instagram,0,1,2,NO,OTHERS,NO,SOCIALIZE,YES,2,12
+50,Delhi-NCR,20,2,Poor,Laptop/Desktop,0,1,8,2,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,11
+51,Delhi-NCR,25,2,Poor,Smartphone,1,1,7,5,Instagram,1,4,1,NO,MUSIC,YES,BEING OUTSIDE,YES,3,14
+52,Delhi-NCR,20,4,Poor,Smartphone,4,2,7,2,Instagram,1,3,0,NO,MUSIC,NO,BEING OUTSIDE,YES,8,12
+53,Delhi-NCR,20,3,Poor,Smartphone,1,1,8,3,Whatsapp,0,4,2,NO,EXERCISE,YES,BEING OUTSIDE,YES,4,12
+54,Delhi-NCR,20,1,Poor,Smartphone,3,2,9,1,Youtube,1,2,1,YES,REST,NO,TRAVELLING,YES,4,13
+55,Delhi-NCR,20,2,Poor,Tablet,2,1,8,5,Instagram,0,4,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,4,14
+56,Outside Delhi-NCR,20,2,Poor,Smartphone,3,1,6,2,Instagram,1,4,0,NO,MUSIC,NO,TRAVELLING,NO,5,10
+57,Delhi-NCR,25,4,Poor,Smartphone,4,0,7,2,Whatsapp,0,1,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,8,9
+58,Delhi-NCR,20,2,Poor,Smartphone,2,0,7,3,Whatsapp,2,2,2,NO,READING,NO,SOCIALIZE,NO,4,12
+59,Delhi-NCR,20,1,Poor,Laptop/Desktop,0,1,7,5,Instagram,2,3,2,NO,OTHERS,NO,SOCIALIZE,YES,2,14
+60,Delhi-NCR,20,3,Poor,Smartphone,2,2,8,5,Instagram,0,4,2,NO,MUSIC,NO,SCHOOL/WORK,YES,5,14
+61,Outside Delhi-NCR,20,3,Poor,Smartphone,4,0,6,4,Others,0,2,0,YES,MUSIC,YES,BEING OUTSIDE,NO,7,10
+62,Delhi-NCR,20,0,Poor,Smartphone,1,1,8,2,Instagram,0,3,1,NO,MUSIC,YES,SCHOOL/WORK,YES,2,11
+63,Delhi-NCR,20,3,Poor,Laptop/Desktop,3,0,9,5,Others,3,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,6,14
+64,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,8,5,Instagram,1,2,0,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,8,14
+65,Delhi-NCR,20,2,Poor,Smartphone,2,1,9,3,Instagram,1,2,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,4,14
+66,Delhi-NCR,20,0,Poor,Laptop/Desktop,1,1,9,2,Instagram,2,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,2,14
+67,Outside Delhi-NCR,25,1,Poor,Smartphone,4,0,9,1,Whatsapp,0,3,1,NO,REST,YES,SCHOOL/WORK,YES,5,10
+68,Delhi-NCR,20,2,Poor,Tablet,2,1,8,5,Instagram,0,4,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,4,14
+69,Delhi-NCR,20,4,Poor,Smartphone,3,1,7,1,Instagram,0,3,0,YES,WRITING,YES,SCHOOL/WORK,YES,7,9
+70,Outside Delhi-NCR,25,4,Poor,Smartphone,3,1,8,1,Others,0,3,1,NO,REST,NO,ALL,NO,7,10
+71,Delhi-NCR,20,3,Poor,Smartphone,4,1,7,1,Whatsapp,0,4,2,YES,MUSIC,NO,BEING OUTSIDE,NO,7,9
+72,Outside Delhi-NCR,20,4,Poor,Smartphone,3,1,7,3,Instagram,2,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,7,13
+73,Outside Delhi-NCR,25,4,Poor,Smartphone,3,1,7,1,Instagram,0,3,2,YES,EXERCISE,NO,BEING OUTSIDE,NO,7,9
+74,Delhi-NCR,20,0,Poor,Smartphone,4,1,8,1,Whatsapp,0,3,0,NO,MUSIC,NO,SCHOOL/WORK,YES,4,10
+75,Delhi-NCR,20,4,Poor,Laptop/Desktop,0,0,8,2,Instagram,1,3,0,YES,READING,NO,SCHOOL/WORK,NO,4,11
+76,Delhi-NCR,20,2,Poor,Smartphone,3,1,6,4,Instagram,1,3,0,NO,MUSIC,NO,SCHOOL/WORK,YES,5,12
+77,Delhi-NCR,20,3,Poor,Smartphone,1,0,9,4,Whatsapp,0,3,2,NO,MUSIC,NO,SCHOOL/WORK,YES,4,13
+78,Delhi-NCR,25,2,Poor,Smartphone,0,0,9,4,Instagram,2,3,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,2,14
+79,Delhi-NCR,25,1,Poor,Smartphone,2,1,8,1,Whatsapp,0,3,0,NO,MUSIC,NO,SCHOOL/WORK,NO,3,10
+80,Outside Delhi-NCR,20,4,Poor,Smartphone,2,2,7,2,Youtube,1,3,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,6,12
+81,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,4,0,8,5,Others,1,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,7,14
+82,Outside Delhi-NCR,25,4,Poor,Smartphone,4,1,7,1,Whatsapp,0,4,1,YES,MUSIC,YES,TRAVELLING,NO,8,9
+83,Outside Delhi-NCR,20,3,Poor,Smartphone,3,1,7,3,Youtube,1,2,2,NO,MUSIC,NO,SOCIALIZE,NO,6,12
+84,Delhi-NCR,25,2,Poor,Smartphone,4,2,8,0,Instagram,0,4,0,NO,READING,YES,BEING OUTSIDE,YES,6,10
+85,Delhi-NCR,20,2,Poor,Smartphone,1,1,7,2,Youtube,0,2,2,NO,MUSIC,NO,SCHOOL/WORK,NO,3,10
+86,Delhi-NCR,20,1,Poor,Smartphone,2,1,8,1,Instagram,0,3,0,NO,MUSIC,NO,SCHOOL/WORK,NO,3,10
+87,Delhi-NCR,20,2,Poor,Smartphone,3,1,8,1,Instagram,1,3,1,NO,MUSIC,YES,BEING OUTSIDE,YES,5,11
+88,Outside Delhi-NCR,20,0,Poor,Smartphone,2,2,8,0,Others,0,2,1,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,2,10
+89,Delhi-NCR,25,3,Poor,Smartphone,3,0,9,2,Whatsapp,0,2,0,YES,REST,NO,SCHOOL/WORK,YES,6,11
+90,Delhi-NCR,20,1,Poor,Smartphone,4,1,8,1,Youtube,0,4,2,NO,REST,NO,SCHOOL/WORK,YES,5,10
+91,Outside Delhi-NCR,15,4,Poor,Laptop/Desktop,4,1,7,4,Instagram,1,4,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,8,13
+92,Delhi-NCR,20,2,Poor,Smartphone,3,1,9,2,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,5,12
+93,Delhi-NCR,20,3,Poor,Smartphone,4,0,7,3,Youtube,1,3,2,NO,READING,YES,SCHOOL/WORK,NO,7,11
+94,Delhi-NCR,20,2,Poor,Smartphone,4,1,6,1,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,8
+95,Delhi-NCR,20,2,Poor,Smartphone,2,1,8,1,Youtube,0,4,2,NO,MUSIC,NO,TRAVELLING,YES,4,10
+96,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,4,1,6,1,Others,0,3,2,NO,REST,YES,SCHOOL/WORK,YES,8,8
+97,Outside Delhi-NCR,25,4,Poor,Smartphone,4,1,8,1,Youtube,0,3,2,NO,REST,YES,SOCIALIZE,YES,8,10
+98,Delhi-NCR,20,4,Poor,Smartphone,3,0,9,5,Whatsapp,0,3,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,7,14
+99,Delhi-NCR,20,1,Poor,Smartphone,2,0,7,1,Whatsapp,0,2,0,YES,REST,NO,SCHOOL/WORK,NO,3,8
+100,Outside Delhi-NCR,20,4,Poor,Smartphone,4,1,7,2,Whatsapp,1,3,0,NO,REST,YES,SCHOOL/WORK,YES,8,11
+101,Delhi-NCR,20,2,Poor,Smartphone,3,1,6,1,Whatsapp,0,3,2,NO,MUSIC,YES,BEING OUTSIDE,YES,5,8
+102,Delhi-NCR,20,2,Poor,Smartphone,4,1,8,2,Youtube,0,4,1,NO,WRITING,NO,BEING OUTSIDE,NO,6,11
+103,Outside Delhi-NCR,20,3,Poor,Smartphone,3,0,9,2,Youtube,2,2,1,NO,REST,YES,TRAVELLING,YES,6,13
+104,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,1,Youtube,1,2,2,NO,MUSIC,NO,SCHOOL/WORK,YES,8,11
+105,Delhi-NCR,20,2,Poor,Smartphone,2,1,9,2,Others,2,2,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,4,14
+106,Delhi-NCR,20,2,Poor,Smartphone,4,0,9,4,Whatsapp,2,3,1,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,6,14
+107,Delhi-NCR,20,4,Poor,Smartphone,1,1,8,1,Youtube,0,4,0,NO,REST,YES,BEING OUTSIDE,YES,5,10
+108,Delhi-NCR,25,0,Poor,Smartphone,2,1,9,0,Youtube,0,4,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,10
+109,Delhi-NCR,20,3,Poor,Smartphone,4,1,7,2,Youtube,0,3,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,7,10
+110,Delhi-NCR,15,4,Poor,Smartphone,2,1,6,1,Whatsapp,1,3,2,NO,EXERCISE,NO,BEING OUTSIDE,YES,6,9
+111,Outside Delhi-NCR,25,1,Poor,Laptop/Desktop,4,1,7,1,Whatsapp,0,3,2,NO,WRITING,YES,BEING OUTSIDE,YES,5,9
+112,Delhi-NCR,20,3,Poor,Laptop/Desktop,2,1,9,1,Youtube,0,3,1,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,5,11
+113,Delhi-NCR,20,3,Poor,Smartphone,4,0,7,2,Instagram,1,2,2,YES,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,7,10
+114,Outside Delhi-NCR,20,3,Poor,Smartphone,3,0,9,2,Youtube,2,2,1,NO,REST,YES,TRAVELLING,YES,6,13
+115,Delhi-NCR,20,1,Poor,Smartphone,1,0,6,0,Others,0,2,0,NO,REST,YES,SCHOOL/WORK,YES,2,8
+116,Delhi-NCR,20,2,Poor,Smartphone,4,1,7,1,Youtube,1,2,0,NO,MUSIC,YES,SOCIALIZE,YES,6,10
+117,Delhi-NCR,20,2,Poor,Smartphone,2,2,8,2,Youtube,3,2,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,4,14
+118,Outside Delhi-NCR,15,4,Poor,Smartphone,2,1,8,2,Whatsapp,1,3,2,NO,MUSIC,YES,SOCIALIZE,NO,6,12
+119,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,6,1,Others,0,3,0,YES,SOCIALIZE,YES,SCHOOL/WORK,YES,5,8
+120,Delhi-NCR,20,3,Poor,Laptop/Desktop,2,1,8,2,Others,2,3,2,NO,MUSIC,NO,BEING OUTSIDE,NO,5,13
+121,Delhi-NCR,20,4,Poor,Smartphone,3,0,7,2,Whatsapp,0,2,0,YES,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,7,9
+122,Delhi-NCR,20,1,Poor,Laptop/Desktop,1,1,9,1,Instagram,0,3,2,NO,MUSIC,YES,BEING OUTSIDE,YES,2,11
+123,Delhi-NCR,20,2,Poor,Smartphone,2,1,9,2,Whatsapp,0,3,2,NO,MUSIC,NO,BEING OUTSIDE,NO,4,12
+124,Outside Delhi-NCR,25,4,Poor,Smartphone,4,1,8,2,Instagram,0,3,0,NO,REST,NO,BEING OUTSIDE,YES,8,11
+125,Outside Delhi-NCR,15,4,Poor,Smartphone,4,2,6,1,Instagram,1,4,2,NO,MUSIC,YES,SOCIALIZE,YES,8,10
+126,Delhi-NCR,20,4,Poor,Tablet,3,1,8,2,Whatsapp,3,4,0,NO,MUSIC,NO,BEING OUTSIDE,NO,7,14
+127,Outside Delhi-NCR,25,1,Poor,Smartphone,3,0,6,1,Instagram,1,1,1,YES,READING,NO,BEING OUTSIDE,YES,4,8
+128,Delhi-NCR,20,0,Poor,Smartphone,4,2,7,0,Instagram,0,4,2,YES,MUSIC,YES,SOCIALIZE,YES,4,9
+129,Delhi-NCR,20,3,Poor,Laptop/Desktop,1,0,6,2,Others,0,2,0,NO,OTHERS,NO,BEING OUTSIDE,YES,4,8
+130,Delhi-NCR,25,4,Poor,Smartphone,1,0,6,1,Whatsapp,0,2,1,NO,INDOOR ACTIVITIES,NO,TRAVELLING,NO,5,8
+131,Delhi-NCR,25,3,Poor,Smartphone,2,0,7,2,Others,0,3,0,YES,READING,NO,SCHOOL/WORK,YES,5,9
+132,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,7,2,Others,3,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,6,12
+133,Outside Delhi-NCR,20,4,Poor,Smartphone,3,0,8,4,Others,2,3,0,YES,REST,NO,SCHOOL/WORK,YES,7,14
+134,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,1,0,9,4,Others,0,4,0,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,2,13
+135,Outside Delhi-NCR,25,4,Poor,Smartphone,3,1,8,1,Youtube,1,3,2,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,7,11
+136,Delhi-NCR,25,1,Poor,Smartphone,4,1,7,2,Others,0,2,0,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,5,10
+137,Outside Delhi-NCR,25,0,Poor,Smartphone,1,0,7,5,Whatsapp,0,4,0,NO,MUSIC,NO,SCHOOL/WORK,YES,2,12
+138,Outside Delhi-NCR,20,0,Poor,Smartphone,3,2,9,1,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,3,12
+139,Outside Delhi-NCR,15,4,Poor,Smartphone,2,3,7,1,Instagram,2,4,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,13
+140,Outside Delhi-NCR,20,0,Poor,Smartphone,3,2,8,2,Whatsapp,1,3,2,YES,MUSIC,YES,SCHOOL/WORK,YES,3,13
+141,Outside Delhi-NCR,20,0,Poor,Smartphone,1,0,8,0,Whatsapp,1,3,1,YES,READING,NO,BEING OUTSIDE,YES,2,9
+142,Outside Delhi-NCR,25,1,Poor,Smartphone,3,1,7,1,Whatsapp,0,3,2,NO,REST,NO,SCHOOL/WORK,YES,4,9
+143,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,9,2,Others,3,3,1,NO,REST,YES,BEING OUTSIDE,YES,8,14
+144,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,3,1,9,0,Others,2,4,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,3,12
+145,Outside Delhi-NCR,25,1,Poor,Laptop/Desktop,1,2,7,2,Youtube,1,4,0,NO,MUSIC,NO,SOCIALIZE,YES,2,12
+146,Outside Delhi-NCR,20,1,Poor,Smartphone,2,1,8,3,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,3,12
+147,Outside Delhi-NCR,25,3,Poor,Smartphone,0,3,6,2,Instagram,0,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,3,11
+148,Outside Delhi-NCR,20,2,Poor,Smartphone,2,1,8,2,Instagram,2,3,0,YES,MUSIC,YES,BEING OUTSIDE,YES,4,13
+149,Outside Delhi-NCR,25,1,Poor,Smartphone,4,0,7,1,Others,0,3,2,NO,SOCIALIZE,YES,SOCIALIZE,YES,5,8
+150,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,1,1,6,2,Others,1,2,1,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,4,10
+151,Outside Delhi-NCR,15,4,Poor,Smartphone,1,0,9,1,Whatsapp,3,3,2,NO,READING,NO,SOCIALIZE,YES,5,13
+152,Delhi-NCR,25,1,Poor,Smartphone,4,1,9,1,Instagram,0,3,2,YES,MUSIC,NO,SCHOOL/WORK,NO,5,11
+153,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,4,0,8,3,Instagram,1,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,6,12
+154,Delhi-NCR,20,2,Poor,Smartphone,4,1,8,2,Instagram,0,3,0,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,6,11
+155,Outside Delhi-NCR,25,1,Poor,Smartphone,0,1,6,2,Whatsapp,0,2,1,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,2,9
+156,Outside Delhi-NCR,15,4,Poor,Smartphone,4,0,7,3,Instagram,2,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,12
+157,Delhi-NCR,25,3,Poor,Smartphone,4,3,7,3,Youtube,0,3,1,YES,SOCIALIZE,NO,SCHOOL/WORK,NO,7,13
+158,Outside Delhi-NCR,30,3,Poor,Laptop/Desktop,3,1,8,1,Whatsapp,1,3,2,NO,SOCIALIZE,YES,TRAVELLING,YES,6,11
+159,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,0,3,8,5,Others,0,3,2,NO,SOCIALIZE,NO,SOCIALIZE,YES,3,14
+160,Outside Delhi-NCR,30,1,Poor,Laptop/Desktop,1,0,6,1,Others,0,2,2,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,8
+161,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,3,1,7,1,Instagram,0,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,6,9
+162,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,4,0,7,2,Whatsapp,0,4,0,NO,REST,YES,SCHOOL/WORK,NO,7,9
+163,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,3,1,8,4,Others,1,2,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,5,14
+164,Outside Delhi-NCR,20,0,Poor,Smartphone,3,1,8,1,Instagram,0,2,2,NO,REST,YES,SCHOOL/WORK,YES,3,10
+165,Delhi-NCR,30,4,Poor,Laptop/Desktop,4,1,8,1,Youtube,0,2,2,NO,REST,YES,BEING OUTSIDE,YES,8,10
+166,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,2,7,2,Youtube,0,3,2,NO,READING,YES,TRAVELLING,YES,8,11
+167,Delhi-NCR,25,0,Poor,Laptop/Desktop,0,2,9,5,Others,0,4,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,2,14
+168,Delhi-NCR,20,4,Poor,Tablet,4,1,7,1,Whatsapp,0,3,2,NO,READING,YES,ALL,YES,8,9
+169,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,0,7,2,Others,0,2,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,5,9
+170,Delhi-NCR,30,3,Poor,Smartphone,4,1,9,0,Whatsapp,1,2,0,NO,REST,YES,SCHOOL/WORK,YES,7,11
+171,Delhi-NCR,20,4,Poor,Smartphone,4,0,7,2,Youtube,0,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,8,9
+172,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,7,2,Others,2,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,NO,7,12
+173,Delhi-NCR,20,4,Poor,Smartphone,1,2,7,2,Instagram,0,4,0,NO,EXERCISE,YES,TRAVELLING,NO,5,11
+174,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,7,1,Whatsapp,1,2,2,NO,MUSIC,NO,BEING OUTSIDE,NO,8,10
+175,Outside Delhi-NCR,20,4,Poor,Tablet,2,1,7,1,Whatsapp,1,4,2,NO,READING,NO,SOCIALIZE,YES,6,10
+176,Delhi-NCR,20,4,Poor,Smartphone,2,0,7,0,Whatsapp,0,3,0,NO,REST,NO,SCHOOL/WORK,NO,6,8
+177,Delhi-NCR,20,0,Poor,Smartphone,4,1,9,1,Whatsapp,1,2,2,YES,REST,YES,SCHOOL/WORK,NO,4,12
+178,Delhi-NCR,20,0,Poor,Laptop/Desktop,2,0,9,3,Instagram,2,4,0,NO,REST,NO,SOCIALIZE,YES,2,14
+179,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,3,1,8,3,Whatsapp,0,4,0,NO,INDOOR ACTIVITIES,YES,TRAVELLING,NO,7,12
+180,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,3,0,6,0,Instagram,1,3,2,NO,MUSIC,NO,ALL,NO,7,8
+181,Delhi-NCR,25,1,Poor,Smartphone,4,2,8,2,Instagram,2,3,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,5,14
+182,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,3,0,9,5,Instagram,0,2,0,YES,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,3,14
+183,Delhi-NCR,25,1,Poor,Laptop/Desktop,0,0,9,5,Instagram,2,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,2,14
+184,Outside Delhi-NCR,20,2,Poor,Smartphone,2,1,8,2,Whatsapp,1,3,1,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,4,12
+185,Delhi-NCR,20,2,Poor,Smartphone,4,1,9,2,Others,0,4,2,NO,MUSIC,YES,SCHOOL/WORK,NO,6,12
+186,Outside Delhi-NCR,25,1,Poor,Laptop/Desktop,1,0,8,5,Whatsapp,0,4,0,NO,SOCIALIZE,NO,BEING OUTSIDE,YES,2,13
+187,Delhi-NCR,20,4,Poor,Smartphone,4,1,8,2,Whatsapp,3,4,2,NO,REST,NO,TRAVELLING,NO,8,14
+188,Delhi-NCR,25,4,Poor,Laptop/Desktop,3,2,8,2,Whatsapp,0,4,0,NO,REST,YES,BEING OUTSIDE,YES,7,12
+189,Outside Delhi-NCR,20,4,Poor,Any Gadget,4,3,8,0,Instagram,0,3,2,NO,READING,YES,SCHOOL/WORK,YES,8,11
+190,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,1,2,8,1,Youtube,3,3,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,5,14
+191,Outside Delhi-NCR,20,2,Poor,Smartphone,2,2,9,4,Youtube,0,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,4,14
+192,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,7,1,Others,0,3,0,NO,READING,NO,BEING OUTSIDE,YES,8,8
+193,Outside Delhi-NCR,30,3,Poor,Smartphone,1,1,6,1,Whatsapp,0,2,2,NO,REST,YES,SCHOOL/WORK,YES,4,8
+194,Delhi-NCR,20,1,Poor,Laptop/Desktop,1,0,8,1,Youtube,2,4,2,NO,OTHERS,NO,BEING OUTSIDE,NO,2,11
+195,Outside Delhi-NCR,20,4,Poor,Smartphone,3,2,9,1,Instagram,1,3,1,YES,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,7,13
+196,Delhi-NCR,20,4,Poor,Smartphone,2,1,9,3,Instagram,0,3,2,NO,REST,NO,SOCIALIZE,YES,6,13
+197,Delhi-NCR,20,1,Poor,Tablet,2,2,8,1,Youtube,0,2,1,NO,READING,NO,SCHOOL/WORK,YES,3,11
+198,Delhi-NCR,20,4,Poor,Any Gadget,2,0,6,4,Instagram,0,3,0,NO,MUSIC,NO,BEING OUTSIDE,NO,6,10
+199,Outside Delhi-NCR,20,4,Poor,Smartphone,4,2,7,2,Youtube,2,2,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,8,13
+200,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,0,7,2,Others,2,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,NO,5,11
+201,Delhi-NCR,20,4,Poor,Laptop/Desktop,0,0,9,1,Whatsapp,1,2,2,NO,MUSIC,NO,SCHOOL/WORK,YES,4,11
+202,Delhi-NCR,25,4,Poor,Smartphone,2,2,6,5,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,6,13
+203,Outside Delhi-NCR,15,4,Poor,Smartphone,4,0,8,2,Instagram,2,3,0,NO,MUSIC,NO,SCHOOL/WORK,YES,8,12
+204,Delhi-NCR,20,0,Poor,Laptop/Desktop,3,0,8,4,Others,1,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,3,13
+205,Outside Delhi-NCR,15,4,Poor,Laptop/Desktop,4,1,8,5,Whatsapp,0,3,1,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,NO,8,14
+206,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,6,1,Instagram,0,3,1,NO,MUSIC,YES,BEING OUTSIDE,YES,8,8
+207,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,4,1,8,2,Whatsapp,0,2,2,NO,SOCIALIZE,NO,SCHOOL/WORK,NO,4,11
+208,Outside Delhi-NCR,15,4,Poor,Smartphone,1,0,7,1,Youtube,1,3,2,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,5,9
+209,Outside Delhi-NCR,20,1,Poor,Smartphone,0,0,9,5,Youtube,1,2,0,YES,REST,NO,SCHOOL/WORK,YES,2,14
+210,Delhi-NCR,20,0,Poor,Laptop/Desktop,1,0,8,4,Others,2,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,2,14
+211,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,4,Youtube,0,4,0,NO,MUSIC,NO,SOCIALIZE,YES,6,13
+212,Delhi-NCR,25,2,Poor,Laptop/Desktop,2,1,6,3,Whatsapp,1,3,2,NO,READING,YES,BEING OUTSIDE,YES,4,11
+213,Delhi-NCR,25,0,Poor,Laptop/Desktop,4,0,7,3,Youtube,0,3,2,NO,READING,YES,NOTHING,YES,4,10
+214,Delhi-NCR,25,4,Poor,Laptop/Desktop,2,1,8,3,Instagram,0,2,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,6,12
+215,Delhi-NCR,20,3,Poor,Smartphone,4,1,7,1,Whatsapp,0,3,0,NO,REST,NO,BEING OUTSIDE,YES,7,9
+216,Outside Delhi-NCR,20,4,Poor,Any Gadget,2,1,6,0,Whatsapp,1,3,2,NO,OTHERS,YES,SOCIALIZE,YES,6,8
+217,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,4,1,8,2,Whatsapp,0,2,0,YES,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,4,11
+218,Delhi-NCR,20,1,Poor,Laptop/Desktop,3,0,8,3,Instagram,3,3,0,YES,MUSIC,YES,BEING OUTSIDE,YES,4,14
+219,Delhi-NCR,20,2,Poor,Smartphone,3,1,9,3,Whatsapp,3,3,0,NO,REST,NO,SCHOOL/WORK,YES,5,14
+220,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,6,2,Youtube,2,2,0,NO,REST,YES,SCHOOL/WORK,YES,6,10
+221,Delhi-NCR,25,0,Poor,Laptop/Desktop,2,0,8,3,Whatsapp,3,3,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,14
+222,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,8,1,Instagram,0,3,2,NO,MUSIC,YES,BEING OUTSIDE,NO,8,9
+223,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,8,0,Others,1,4,0,NO,READING,YES,SCHOOL/WORK,YES,7,10
+224,Delhi-NCR,20,4,Poor,Smartphone,2,1,8,2,Whatsapp,0,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,11
+225,Delhi-NCR,20,1,Poor,Smartphone,2,0,9,1,Instagram,0,2,2,NO,READING,NO,BEING OUTSIDE,NO,3,10
+226,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,6,1,Whatsapp,0,1,0,NO,REST,NO,BEING OUTSIDE,YES,7,8
+227,Delhi-NCR,20,1,Poor,Laptop/Desktop,3,1,9,4,Instagram,0,2,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,4,14
+228,Delhi-NCR,25,3,Poor,Smartphone,3,0,8,2,Instagram,1,3,0,NO,SOCIALIZE,NO,SCHOOL/WORK,NO,6,11
+229,Delhi-NCR,20,2,Poor,Laptop/Desktop,1,1,7,5,Instagram,1,4,2,NO,SOCIALIZE,NO,SOCIALIZE,YES,3,14
+230,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,6,1,Youtube,0,3,1,NO,MUSIC,YES,TRAVELLING,NO,8,8
+231,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,1,0,9,5,Whatsapp,2,4,2,YES,MUSIC,YES,TRAVELLING,YES,2,14
+232,Delhi-NCR,25,0,Poor,Laptop/Desktop,4,0,6,4,Youtube,2,3,0,NO,REST,NO,BEING OUTSIDE,YES,4,12
+233,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,3,1,8,1,Instagram,2,4,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,5,12
+234,Delhi-NCR,20,4,Poor,Smartphone,2,1,9,0,Whatsapp,0,3,2,NO,MUSIC,NO,ALL,NO,6,10
+235,Outside Delhi-NCR,25,1,Poor,Laptop/Desktop,3,1,7,3,Whatsapp,2,3,0,NO,READING,NO,TRAVELLING,YES,4,13
+236,Delhi-NCR,20,3,Poor,Smartphone,2,1,8,3,Whatsapp,0,3,2,NO,MUSIC,NO,SOCIALIZE,YES,5,12
+237,Delhi-NCR,25,4,Poor,Smartphone,4,1,8,1,Whatsapp,2,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,12
+238,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,4,1,8,2,Others,1,2,2,NO,MUSIC,YES,SCHOOL/WORK,NO,6,12
+239,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,1,1,8,4,Youtube,1,3,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,5,14
+240,Delhi-NCR,25,3,Poor,Laptop/Desktop,3,2,6,2,Youtube,2,2,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,12
+241,Outside Delhi-NCR,25,1,Poor,Smartphone,3,1,8,1,Instagram,0,2,1,YES,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,4,10
+242,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,4,0,6,3,Whatsapp,3,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,7,12
+243,Delhi-NCR,15,3,Poor,Tablet,4,3,7,3,Instagram,1,2,2,NO,OTHERS,YES,ALL,YES,7,14
+244,Outside Delhi-NCR,20,4,Poor,Smartphone,3,0,8,4,Youtube,0,4,2,NO,NO ACTIVITIES,YES,NOTHING,NO,7,12
+245,Delhi-NCR,20,1,Poor,Laptop/Desktop,3,2,7,1,Instagram,2,2,2,YES,INDOOR ACTIVITIES,NO,SCHOOL/WORK,NO,4,12
+246,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,3,2,9,5,Youtube,1,3,0,YES,INDOOR ACTIVITIES,YES,BEING OUTSIDE,NO,7,14
+247,Delhi-NCR,20,2,Poor,Laptop/Desktop,4,0,8,4,Youtube,0,3,2,NO,OTHERS,YES,SOCIALIZE,NO,6,12
+248,Delhi-NCR,25,4,Poor,Smartphone,2,1,9,2,Instagram,1,4,0,NO,MUSIC,YES,SCHOOL/WORK,NO,6,13
+249,Outside Delhi-NCR,20,0,Poor,Smartphone,0,2,7,5,Instagram,0,4,0,NO,WORK,YES,SOCIALIZE,YES,2,14
+250,Delhi-NCR,20,3,Poor,Smartphone,0,0,9,5,Instagram,0,3,1,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,3,14
+251,Delhi-NCR,25,2,Poor,Laptop/Desktop,2,1,9,2,Youtube,0,3,2,NO,REST,YES,SCHOOL/WORK,NO,4,12
+252,Delhi-NCR,30,0,Poor,Smartphone,1,1,7,1,Whatsapp,2,2,1,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,2,11
+253,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,6,3,Whatsapp,0,4,0,NO,READING,NO,SCHOOL/WORK,YES,8,9
+254,Delhi-NCR,20,4,Poor,Smartphone,2,1,9,2,Youtube,1,2,1,NO,OTHERS,NO,TRAVELLING,NO,6,13
+255,Delhi-NCR,25,0,Poor,Laptop/Desktop,2,0,9,5,Others,1,3,0,NO,MUSIC,YES,SCHOOL/WORK,NO,2,14
+256,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,2,0,8,0,Whatsapp,1,2,0,NO,REST,NO,SOCIALIZE,YES,6,9
+257,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,7,1,Others,0,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,8
+258,Delhi-NCR,25,0,Poor,Laptop/Desktop,2,1,7,1,Instagram,0,4,2,YES,MUSIC,YES,TRAVELLING,NO,2,9
+259,Outside Delhi-NCR,25,2,Poor,Smartphone,2,1,7,1,Whatsapp,3,3,2,NO,ONLINE ACTIVITIES,YES,ALL,NO,4,12
+260,Delhi-NCR,20,1,Poor,Laptop/Desktop,0,0,9,5,Instagram,2,2,2,NO,INDOOR ACTIVITIES,NO,NOTHING,NO,2,14
+261,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,2,0,8,2,Instagram,1,3,2,YES,READING,NO,BEING OUTSIDE,YES,4,11
+262,Delhi-NCR,15,4,Poor,Smartphone,2,0,8,2,Youtube,3,2,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,6,13
+263,Delhi-NCR,25,1,Poor,Laptop/Desktop,2,0,9,3,Whatsapp,3,2,0,YES,EXERCISE,NO,SOCIALIZE,NO,3,14
+264,Delhi-NCR,20,2,Poor,Smartphone,2,0,9,2,Others,1,3,2,NO,ONLINE ACTIVITIES,NO,NOTHING,NO,4,12
+265,Outside Delhi-NCR,20,4,Poor,Smartphone,1,1,9,1,Instagram,1,2,0,NO,ONLINE ACTIVITIES,NO,ALL,YES,5,12
+266,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,6,1,Youtube,0,4,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,8,8
+267,Outside Delhi-NCR,30,2,Poor,Smartphone,0,1,6,2,Others,0,3,0,NO,SOCIALIZE,NO,SOCIALIZE,YES,2,9
+268,Outside Delhi-NCR,15,4,Poor,Tablet,4,0,8,1,Others,1,3,2,NO,MUSIC,NO,SOCIALIZE,YES,8,10
+269,Outside Delhi-NCR,30,1,Poor,Laptop/Desktop,4,1,8,2,Others,0,3,0,NO,READING,YES,SCHOOL/WORK,YES,5,11
+270,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,3,1,8,2,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,6,11
+271,Delhi-NCR,15,4,Poor,Smartphone,3,3,8,3,Instagram,2,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,7,14
+272,Delhi-NCR,30,2,Poor,Laptop/Desktop,3,1,7,2,Others,1,3,2,NO,REST,YES,TRAVELLING,YES,5,11
+273,Delhi-NCR,20,0,Poor,Smartphone,4,1,6,2,Youtube,2,1,0,YES,READING,NO,SCHOOL/WORK,YES,4,11
+274,Delhi-NCR,20,1,Poor,Smartphone,2,1,7,2,Whatsapp,3,3,2,NO,MUSIC,NO,SCHOOL/WORK,YES,3,13
+275,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,6,1,Whatsapp,1,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,9
+276,Outside Delhi-NCR,20,4,Poor,Smartphone,4,1,6,2,Whatsapp,2,2,2,NO,EXERCISE,YES,TRAVELLING,NO,8,11
+277,Delhi-NCR,25,0,Poor,Laptop/Desktop,2,0,7,3,Others,0,3,2,NO,MUSIC,YES,BEING OUTSIDE,NO,2,10
+278,Delhi-NCR,25,4,Poor,Smartphone,0,1,7,4,Instagram,1,4,0,NO,MUSIC,YES,SOCIALIZE,YES,4,13
+279,Delhi-NCR,25,3,Poor,Laptop/Desktop,0,1,8,3,Instagram,0,3,0,YES,MUSIC,NO,SCHOOL/WORK,NO,3,12
+280,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,6,0,Others,0,3,2,NO,READING,YES,BEING OUTSIDE,YES,6,8
+281,Delhi-NCR,20,1,Poor,Laptop/Desktop,2,0,6,4,Instagram,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,3,11
+282,Delhi-NCR,15,0,Poor,Smartphone,2,2,9,2,Youtube,0,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,NO,2,13
+283,Delhi-NCR,30,1,Poor,Laptop/Desktop,2,1,6,4,Whatsapp,0,2,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,3,11
+284,Delhi-NCR,20,3,Poor,Laptop/Desktop,2,1,8,4,Others,0,3,2,YES,MUSIC,NO,TRAVELLING,YES,5,13
+285,Delhi-NCR,25,3,Poor,Laptop/Desktop,3,0,8,2,Instagram,0,4,1,NO,REST,NO,TRAVELLING,YES,6,10
+286,Outside Delhi-NCR,20,1,Poor,Laptop/Desktop,1,0,8,4,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,2,12
+287,Outside Delhi-NCR,20,1,Poor,Laptop/Desktop,2,2,9,4,Instagram,3,2,2,NO,MUSIC,YES,TRAVELLING,NO,3,14
+288,Outside Delhi-NCR,20,4,Poor,Smartphone,3,1,6,1,Others,2,1,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,7,10
+289,Delhi-NCR,20,1,Poor,Laptop/Desktop,4,0,8,3,Instagram,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,5,11
+290,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,8,2,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,7,11
+291,Delhi-NCR,20,0,Poor,Laptop/Desktop,2,1,6,4,Youtube,0,2,2,NO,OTHERS,NO,SOCIALIZE,YES,2,11
+292,Outside Delhi-NCR,20,1,Poor,Laptop/Desktop,1,0,9,2,Others,1,3,0,NO,MUSIC,NO,BEING OUTSIDE,YES,2,12
+293,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,4,1,8,2,Instagram,0,3,2,NO,REST,YES,SOCIALIZE,YES,6,11
+294,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,1,7,4,Others,0,3,1,NO,MUSIC,YES,BEING OUTSIDE,YES,7,12
+295,Delhi-NCR,20,4,Poor,Smartphone,1,1,8,5,Youtube,0,2,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+296,Delhi-NCR,15,1,Poor,Laptop/Desktop,1,0,8,0,Youtube,1,3,0,NO,MUSIC,NO,BEING OUTSIDE,NO,2,9
+297,Delhi-NCR,15,4,Poor,Smartphone,1,1,7,1,Whatsapp,3,2,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,5,12
+298,Delhi-NCR,20,2,Poor,Laptop/Desktop,1,1,7,1,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,3,10
+299,Outside Delhi-NCR,15,2,Poor,Laptop/Desktop,1,1,7,2,Instagram,2,2,0,NO,REST,YES,SOCIALIZE,YES,3,12
+300,Delhi-NCR,20,2,Poor,Laptop/Desktop,2,2,8,3,Instagram,0,3,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,4,13
+301,Delhi-NCR,25,1,Poor,Smartphone,3,0,7,3,Youtube,2,3,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,4,12
+302,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,0,1,9,4,Youtube,3,4,1,NO,REST,NO,SOCIALIZE,YES,3,14
+303,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,1,0,6,5,Instagram,1,3,2,YES,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,2,12
+304,Delhi-NCR,20,2,Poor,Laptop/Desktop,3,2,7,3,Instagram,1,2,1,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,5,13
+305,Outside Delhi-NCR,30,1,Poor,Smartphone,0,0,9,2,Others,2,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,13
+306,Delhi-NCR,25,2,Poor,Laptop/Desktop,0,1,9,5,Instagram,3,4,2,NO,MUSIC,NO,SCHOOL/WORK,NO,2,14
+307,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,2,1,8,2,Whatsapp,2,3,2,YES,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,4,13
+308,Delhi-NCR,15,4,Poor,Laptop/Desktop,3,1,9,3,Instagram,1,4,2,NO,MUSIC,YES,ALL,YES,7,14
+309,Outside Delhi-NCR,20,1,Poor,Laptop/Desktop,0,1,9,5,Youtube,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,2,14
+310,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,1,0,6,1,Youtube,2,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,4,9
+311,Outside Delhi-NCR,20,3,Poor,Smartphone,2,0,8,2,Instagram,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,5,10
+312,Delhi-NCR,15,4,Poor,Tablet,3,0,8,0,Others,1,2,1,NO,REST,NO,TRAVELLING,NO,7,9
+313,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,3,1,8,3,Instagram,0,4,0,NO,READING,YES,BEING OUTSIDE,YES,3,12
+314,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,2,1,9,2,Instagram,0,2,2,YES,MUSIC,NO,BEING OUTSIDE,YES,4,12
+315,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,8,2,Others,0,3,2,NO,READING,YES,BEING OUTSIDE,YES,7,11
+316,Delhi-NCR,25,0,Poor,Laptop/Desktop,2,1,7,2,Whatsapp,3,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,2,13
+317,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,2,0,7,5,Instagram,0,2,1,YES,MUSIC,NO,SOCIALIZE,YES,2,12
+318,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,0,7,3,Youtube,0,3,0,NO,READING,YES,BEING OUTSIDE,YES,5,10
+319,Outside Delhi-NCR,30,4,Poor,Smartphone,2,1,6,0,Others,1,2,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,6,8
+320,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,8,0,Youtube,0,2,2,NO,READING,YES,SCHOOL/WORK,YES,8,8
+321,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,4,0,7,2,Instagram,0,3,2,NO,MUSIC,YES,SOCIALIZE,NO,4,9
+322,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,1,9,1,Instagram,0,4,2,NO,MUSIC,NO,SOCIALIZE,NO,8,11
+323,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,4,1,8,5,Instagram,1,2,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,6,14
+324,Outside Delhi-NCR,20,0,Poor,Smartphone,4,1,7,4,Instagram,0,3,2,NO,READING,YES,TRAVELLING,YES,4,12
+325,Outside Delhi-NCR,20,4,Poor,Smartphone,2,1,9,2,Instagram,0,3,2,NO,MUSIC,YES,SOCIALIZE,NO,6,12
+326,Delhi-NCR,20,0,Poor,Laptop/Desktop,4,3,6,2,Whatsapp,0,4,1,NO,MUSIC,YES,SOCIALIZE,YES,4,11
+327,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,9,2,Youtube,0,4,0,NO,MUSIC,NO,BEING OUTSIDE,YES,8,12
+328,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,0,0,8,5,Instagram,1,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,4,14
+329,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,0,1,7,3,Instagram,0,2,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,2,11
+330,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,1,7,1,Whatsapp,0,2,1,NO,MUSIC,YES,TRAVELLING,YES,8,9
+331,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,9,4,Instagram,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,6,13
+332,Delhi-NCR,20,4,Poor,Smartphone,4,0,8,4,Instagram,3,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,14
+333,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,3,1,8,3,Whatsapp,2,3,0,NO,REST,YES,SCHOOL/WORK,YES,7,14
+334,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,2,Youtube,0,3,0,NO,EXERCISE,YES,SOCIALIZE,YES,6,11
+335,Outside Delhi-NCR,20,4,Poor,Smartphone,1,0,9,4,Whatsapp,1,3,1,YES,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,5,14
+336,Delhi-NCR,25,4,Poor,Tablet,0,3,9,5,Others,0,1,1,NO,REST,NO,TRAVELLING,NO,4,14
+337,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,6,1,Instagram,0,4,2,YES,MUSIC,YES,SCHOOL/WORK,YES,8,8
+338,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,3,0,7,3,Whatsapp,2,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,5,12
+339,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,1,1,8,1,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,NOTHING,YES,2,10
+340,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,2,0,8,1,Instagram,1,3,2,YES,READING,NO,SCHOOL/WORK,NO,4,10
+341,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,3,6,1,Whatsapp,0,3,2,NO,REST,YES,SCHOOL/WORK,NO,7,10
+342,Delhi-NCR,25,2,Poor,Smartphone,4,0,6,3,Whatsapp,0,4,1,NO,MUSIC,NO,SCHOOL/WORK,NO,6,9
+343,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,8,2,Whatsapp,0,1,2,NO,READING,NO,SCHOOL/WORK,NO,8,10
+344,Outside Delhi-NCR,20,2,Poor,Smartphone,2,0,9,4,Instagram,0,3,2,NO,SOCIALIZE,NO,SOCIALIZE,YES,4,13
+345,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,2,0,6,3,Instagram,0,4,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,6,9
+346,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,7,2,Others,0,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,8,9
+347,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,2,6,3,Youtube,0,3,2,NO,EXERCISE,YES,TRAVELLING,YES,7,11
+348,Outside Delhi-NCR,25,4,Poor,Smartphone,0,1,8,4,Others,0,3,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,4,13
+349,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,0,1,6,2,Others,1,4,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+350,Outside Delhi-NCR,20,0,Poor,Smartphone,3,1,9,3,Instagram,2,2,0,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,3,14
+351,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,1,1,8,3,Instagram,0,4,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,2,12
+352,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,1,0,9,2,Whatsapp,0,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,5,11
+353,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,2,1,6,2,Instagram,0,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,5,9
+354,Outside Delhi-NCR,15,3,Poor,Smartphone,2,1,7,2,Whatsapp,0,3,1,NO,EXERCISE,YES,SOCIALIZE,YES,5,10
+355,Delhi-NCR,15,4,Poor,Smartphone,2,1,8,1,Whatsapp,2,3,2,NO,EXERCISE,YES,SCHOOL/WORK,YES,6,12
+356,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,2,0,6,1,Youtube,0,3,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,6,8
+357,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,3,0,9,1,Whatsapp,1,3,2,NO,REST,NO,SCHOOL/WORK,NO,5,11
+358,Delhi-NCR,25,1,Poor,Smartphone,2,1,6,2,Instagram,0,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,3,9
+359,Delhi-NCR,20,4,Poor,Laptop/Desktop,0,0,9,2,Instagram,2,3,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,4,13
+360,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,2,0,9,4,Instagram,0,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,2,13
+361,Delhi-NCR,20,0,Poor,Laptop/Desktop,1,1,8,4,Whatsapp,0,3,0,NO,REST,NO,SCHOOL/WORK,YES,2,13
+362,Outside Delhi-NCR,25,0,Poor,Smartphone,4,1,7,2,Others,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,13
+363,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,2,8,2,Instagram,1,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,13
+364,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,3,0,7,5,Instagram,3,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,5,14
+365,Outside Delhi-NCR,20,2,Poor,Smartphone,4,3,6,1,Whatsapp,0,3,1,NO,EXERCISE,NO,SCHOOL/WORK,YES,6,10
+366,Outside Delhi-NCR,20,1,Poor,Smartphone,2,0,8,1,Youtube,1,2,1,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,3,10
+367,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,8,3,Others,2,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,13
+368,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,0,8,4,Youtube,2,4,0,NO,MUSIC,NO,BEING OUTSIDE,YES,7,14
+369,Delhi-NCR,20,0,Poor,Laptop/Desktop,1,0,9,5,Others,0,4,0,NO,REST,NO,TRAVELLING,NO,2,14
+370,Delhi-NCR,20,3,Poor,Smartphone,3,3,9,2,Youtube,0,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,6,14
+371,Outside Delhi-NCR,20,0,Poor,Smartphone,0,1,9,5,Youtube,1,3,0,YES,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,2,14
+372,Outside Delhi-NCR,25,1,Poor,Laptop/Desktop,4,2,8,2,Whatsapp,1,3,2,YES,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,5,13
+373,Outside Delhi-NCR,30,2,Poor,Laptop/Desktop,1,0,7,5,Whatsapp,3,3,2,NO,MUSIC,YES,TRAVELLING,YES,3,14
+374,Outside Delhi-NCR,15,4,Poor,Smartphone,4,0,7,1,Youtube,2,3,0,NO,MUSIC,NO,SOCIALIZE,NO,8,10
+375,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,0,1,9,2,Instagram,1,3,1,YES,MUSIC,NO,TRAVELLING,NO,2,13
+376,Outside Delhi-NCR,20,4,Poor,Smartphone,4,0,7,5,Youtube,0,2,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,8,12
+377,Delhi-NCR,30,2,Poor,Laptop/Desktop,1,1,8,4,Others,0,3,1,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,3,13
+378,Delhi-NCR,20,0,Poor,Laptop/Desktop,1,1,7,0,Instagram,0,3,0,NO,READING,YES,SCHOOL/WORK,YES,2,8
+379,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,4,2,8,4,Instagram,1,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+380,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,2,2,8,1,Instagram,0,3,1,NO,MUSIC,YES,BEING OUTSIDE,NO,6,11
+381,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,2,2,8,4,Youtube,3,3,1,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,14
+382,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,7,2,Youtube,0,3,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,8,10
+383,Delhi-NCR,30,3,Poor,Smartphone,4,0,6,1,Others,1,2,2,NO,READING,YES,BEING OUTSIDE,YES,7,8
+384,Outside Delhi-NCR,20,1,Poor,Tablet,2,3,8,2,Whatsapp,2,2,1,NO,READING,YES,SOCIALIZE,YES,3,14
+385,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,1,6,3,Whatsapp,2,3,2,NO,REST,NO,SOCIALIZE,YES,7,12
+386,Outside Delhi-NCR,25,1,Poor,Smartphone,4,1,8,4,Youtube,0,3,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,5,13
+387,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,8,1,Others,2,3,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,11
+388,Delhi-NCR,20,4,Poor,Tablet,4,0,9,2,Instagram,2,3,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,8,13
+389,Outside Delhi-NCR,20,2,Poor,Smartphone,0,0,8,5,Instagram,1,2,1,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+390,Outside Delhi-NCR,25,2,Poor,Smartphone,2,0,6,3,Whatsapp,0,2,1,NO,REST,NO,SCHOOL/WORK,NO,4,9
+391,Delhi-NCR,20,4,Poor,Smartphone,4,1,6,1,Whatsapp,0,4,2,NO,MUSIC,YES,BEING OUTSIDE,YES,8,8
+392,Outside Delhi-NCR,25,0,Poor,Smartphone,4,0,7,2,Whatsapp,0,3,2,YES,ONLINE ACTIVITIES,YES,SCHOOL/WORK,NO,4,9
+393,Outside Delhi-NCR,20,2,Poor,Smartphone,1,0,9,1,Whatsapp,0,3,1,NO,READING,NO,SCHOOL/WORK,YES,3,10
+394,Delhi-NCR,25,4,Poor,Laptop/Desktop,2,1,7,1,Youtube,1,3,2,NO,ONLINE ACTIVITIES,NO,ALL,YES,6,10
+395,Delhi-NCR,25,3,Poor,Smartphone,2,1,9,1,Whatsapp,1,4,2,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,5,12
+396,Outside Delhi-NCR,15,4,Poor,Laptop/Desktop,4,1,9,1,Instagram,2,4,2,NO,MUSIC,YES,SOCIALIZE,YES,8,13
+397,Outside Delhi-NCR,30,0,Poor,Smartphone,1,0,6,1,Whatsapp,1,3,1,YES,REST,NO,SCHOOL/WORK,NO,2,8
+398,Delhi-NCR,25,0,Poor,Laptop/Desktop,2,0,9,5,Youtube,0,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+399,Delhi-NCR,25,3,Poor,Laptop/Desktop,0,2,8,2,Instagram,2,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,3,14
+400,Outside Delhi-NCR,25,3,Poor,Smartphone,1,1,8,2,Instagram,0,3,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,4,11
+401,Delhi-NCR,20,2,Poor,Smartphone,1,1,8,5,Instagram,0,4,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,3,14
+402,Delhi-NCR,20,2,Poor,Laptop/Desktop,4,0,8,1,Youtube,0,4,1,YES,REST,NO,BEING OUTSIDE,NO,6,9
+403,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,1,8,3,Instagram,1,3,0,NO,MUSIC,NO,SCHOOL/WORK,NO,8,13
+404,Delhi-NCR,20,2,Poor,Smartphone,0,3,8,1,Others,0,3,0,NO,EXERCISE,NO,ALL,YES,2,12
+405,Delhi-NCR,20,0,Poor,Smartphone,0,0,7,3,Instagram,2,4,2,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,2,12
+406,Delhi-NCR,20,2,Poor,Laptop/Desktop,1,2,8,3,Instagram,2,4,0,NO,REST,YES,SCHOOL/WORK,NO,3,14
+407,Delhi-NCR,20,2,Poor,Smartphone,2,0,8,1,Instagram,1,2,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+408,Delhi-NCR,25,4,Poor,Smartphone,4,1,8,2,Youtube,2,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,8,13
+409,Delhi-NCR,25,4,Poor,Laptop/Desktop,1,0,9,1,Youtube,1,4,2,NO,MUSIC,YES,BEING OUTSIDE,YES,5,11
+410,Delhi-NCR,15,3,Poor,Smartphone,2,2,7,2,Whatsapp,2,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,NO,5,13
+411,Outside Delhi-NCR,20,4,Poor,Smartphone,3,0,8,1,Others,0,1,0,NO,ONLINE ACTIVITIES,NO,NOTHING,YES,7,9
+412,Delhi-NCR,25,0,Poor,Smartphone,2,1,6,0,Youtube,0,1,1,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,2,8
+413,Delhi-NCR,15,4,Poor,Tablet,3,1,9,1,Others,3,3,2,NO,SOCIALIZE,YES,ALL,YES,7,14
+414,Delhi-NCR,25,2,Poor,Smartphone,0,1,8,1,Youtube,0,4,0,NO,MUSIC,YES,TRAVELLING,YES,2,10
+415,Outside Delhi-NCR,25,2,Poor,Smartphone,1,1,7,4,Instagram,0,3,2,NO,EXERCISE,YES,SCHOOL/WORK,YES,3,12
+416,Outside Delhi-NCR,30,2,Poor,Smartphone,0,1,7,1,Whatsapp,1,3,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,NO,2,10
+417,Delhi-NCR,20,4,Poor,Smartphone,2,0,9,3,Others,3,2,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,6,14
+418,Delhi-NCR,20,1,Poor,Smartphone,2,0,9,2,Youtube,3,4,2,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,3,14
+419,Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,8,3,Instagram,1,4,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,7,13
+420,Delhi-NCR,30,4,Poor,Laptop/Desktop,3,0,6,3,Whatsapp,0,3,0,YES,REST,YES,SOCIALIZE,YES,7,9
+421,Outside Delhi-NCR,30,1,Poor,Laptop/Desktop,2,1,7,3,Whatsapp,0,3,0,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,3,11
+422,Outside Delhi-NCR,15,4,Poor,Smartphone,2,0,9,1,Whatsapp,2,2,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,12
+423,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,3,7,4,Instagram,1,2,1,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,6,14
+424,Delhi-NCR,25,1,Poor,Laptop/Desktop,4,0,8,2,Youtube,2,2,1,YES,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,5,12
+425,Delhi-NCR,25,4,Poor,Laptop/Desktop,3,0,8,4,Others,1,3,0,YES,MUSIC,NO,BEING OUTSIDE,NO,7,13
+426,Delhi-NCR,25,4,Poor,Laptop/Desktop,3,0,8,2,Whatsapp,1,3,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,7,11
+427,Delhi-NCR,25,1,Poor,Laptop/Desktop,4,2,7,1,Whatsapp,0,3,2,NO,WRITING,YES,BEING OUTSIDE,YES,5,10
+428,Delhi-NCR,20,0,Poor,Smartphone,4,0,8,4,Instagram,0,1,0,NO,READING,NO,SOCIALIZE,NO,4,12
+429,Delhi-NCR,20,1,Poor,Smartphone,2,0,7,1,Whatsapp,0,3,1,YES,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,3,8
+430,Delhi-NCR,25,2,Poor,Laptop/Desktop,0,0,7,5,Youtube,0,3,1,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,2,12
+431,Delhi-NCR,25,2,Poor,Laptop/Desktop,2,0,6,5,Instagram,0,2,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,4,11
+432,Outside Delhi-NCR,15,3,Poor,Smartphone,2,0,9,1,Youtube,2,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,5,12
+433,Outside Delhi-NCR,25,1,Poor,Laptop/Desktop,4,1,9,2,Whatsapp,3,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,5,14
+434,Delhi-NCR,25,1,Poor,Smartphone,0,0,6,2,Instagram,2,3,0,YES,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,2,10
+435,Outside Delhi-NCR,25,0,Poor,Smartphone,3,0,8,4,Instagram,1,3,2,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,3,13
+436,Delhi-NCR,30,2,Poor,Laptop/Desktop,2,1,7,4,Others,2,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,4,14
+437,Delhi-NCR,25,0,Poor,Smartphone,1,0,8,5,Whatsapp,1,3,2,NO,READING,NO,BEING OUTSIDE,NO,2,14
+438,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,4,1,6,1,Others,1,3,2,YES,REST,YES,SCHOOL/WORK,NO,8,9
+439,Delhi-NCR,30,4,Poor,Laptop/Desktop,3,1,7,1,Youtube,1,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,7,10
+440,Delhi-NCR,25,2,Poor,Smartphone,1,1,9,2,Youtube,2,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,3,14
+441,Delhi-NCR,25,4,Poor,Laptop/Desktop,3,0,6,2,Instagram,0,2,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,7,8
+442,Delhi-NCR,30,3,Poor,Smartphone,1,1,7,4,Instagram,1,3,2,NO,SOCIALIZE,YES,TRAVELLING,YES,4,13
+443,Delhi-NCR,25,1,Poor,Smartphone,2,0,9,1,Whatsapp,1,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,3,11
+444,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,0,Youtube,0,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,8,9
+445,Delhi-NCR,25,0,Poor,Smartphone,2,0,9,2,Instagram,0,3,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,11
+446,Delhi-NCR,20,4,Poor,Smartphone,1,1,6,2,Youtube,3,3,0,NO,MUSIC,NO,SCHOOL/WORK,YES,5,12
+447,Delhi-NCR,20,3,Poor,Laptop/Desktop,2,1,8,3,Youtube,0,3,2,NO,EXERCISE,NO,SCHOOL/WORK,YES,5,12
+448,Delhi-NCR,20,0,Poor,Smartphone,0,0,9,4,Youtube,3,3,1,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,2,14
+449,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,7,1,Others,0,3,1,YES,EXERCISE,NO,BEING OUTSIDE,YES,6,9
+450,Delhi-NCR,20,4,Poor,Smartphone,4,0,6,2,Whatsapp,0,3,0,NO,READING,YES,SCHOOL/WORK,YES,8,8
+451,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,3,0,8,4,Youtube,2,4,0,YES,REST,NO,TRAVELLING,NO,3,14
+452,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,2,1,9,1,Instagram,0,2,1,YES,MUSIC,YES,TRAVELLING,YES,4,11
+453,Delhi-NCR,25,4,Poor,Smartphone,4,1,7,2,Whatsapp,0,4,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,8,10
+454,Delhi-NCR,20,4,Poor,Smartphone,3,0,8,3,Youtube,0,3,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,NO,7,11
+455,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,7,1,Instagram,2,4,2,NO,REST,NO,SOCIALIZE,YES,8,11
+456,Delhi-NCR,20,4,Poor,Laptop/Desktop,0,0,8,1,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,4,9
+457,Delhi-NCR,20,4,Poor,Smartphone,2,1,7,1,Youtube,0,4,0,NO,EXERCISE,YES,BEING OUTSIDE,YES,6,9
+458,Outside Delhi-NCR,25,4,Poor,Smartphone,2,1,9,5,Instagram,2,4,0,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,6,14
+459,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,0,9,4,Instagram,1,4,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+460,Delhi-NCR,25,1,Poor,Smartphone,1,2,8,2,Instagram,0,3,1,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,2,12
+461,Delhi-NCR,30,2,Poor,Laptop/Desktop,1,1,6,1,Youtube,0,3,2,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,3,8
+462,Delhi-NCR,25,2,Poor,Laptop/Desktop,2,0,6,3,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,4,9
+463,Delhi-NCR,25,3,Poor,Laptop/Desktop,3,1,8,3,Instagram,0,2,1,NO,EXERCISE,YES,SOCIALIZE,NO,6,12
+464,Outside Delhi-NCR,25,4,Poor,Smartphone,1,1,9,1,Instagram,0,3,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,5,11
+465,Delhi-NCR,25,1,Poor,Laptop/Desktop,2,1,9,1,Whatsapp,0,3,2,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,3,11
+466,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,4,Instagram,0,2,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,6,13
+467,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,2,1,7,2,Youtube,1,3,1,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,5,11
+468,Outside Delhi-NCR,25,0,Poor,Laptop/Desktop,4,1,8,1,Others,0,4,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,4,10
+469,Delhi-NCR,25,0,Poor,Smartphone,0,1,9,1,Youtube,0,3,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,2,11
+470,Delhi-NCR,20,0,Poor,Laptop/Desktop,0,0,9,5,Instagram,0,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+471,Delhi-NCR,20,2,Poor,Smartphone,1,1,9,4,Youtube,1,4,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,3,14
+472,Delhi-NCR,20,0,Poor,Laptop/Desktop,3,1,9,2,Instagram,0,2,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,3,12
+473,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,1,7,1,Youtube,2,4,1,NO,REST,NO,SOCIALIZE,YES,7,11
+474,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,2,7,0,Whatsapp,0,4,2,YES,MUSIC,YES,SCHOOL/WORK,YES,8,9
+475,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,3,0,7,4,Youtube,0,3,0,NO,MUSIC,NO,SOCIALIZE,NO,6,11
+476,Delhi-NCR,25,4,Poor,Laptop/Desktop,0,0,8,3,Instagram,0,3,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,4,11
+477,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,2,2,9,2,Instagram,0,3,1,NO,MUSIC,YES,SCHOOL/WORK,YES,2,13
+478,Delhi-NCR,20,4,Poor,Smartphone,2,1,6,2,Instagram,1,3,0,NO,NO ACTIVITIES,YES,ALL,YES,6,10
+479,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,1,7,1,Instagram,0,3,0,YES,EXERCISE,YES,SCHOOL/WORK,YES,7,9
+480,Delhi-NCR,25,0,Poor,Laptop/Desktop,1,0,9,2,Whatsapp,2,3,0,NO,REST,NO,BEING OUTSIDE,NO,2,13
+481,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,1,2,9,2,Whatsapp,2,3,2,NO,MUSIC,YES,ALL,YES,5,14
+482,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,0,Others,1,3,1,NO,ONLINE ACTIVITIES,NO,NOTHING,YES,8,10
+483,Delhi-NCR,25,3,Poor,Laptop/Desktop,3,0,9,2,Others,0,4,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,11
+484,Delhi-NCR,20,1,Poor,Laptop/Desktop,3,0,9,4,Instagram,0,3,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,4,13
+485,Delhi-NCR,25,0,Poor,Laptop/Desktop,4,1,6,1,Youtube,2,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,4,10
+486,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,4,1,7,1,Whatsapp,0,3,0,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,7,9
+487,Outside Delhi-NCR,20,1,Poor,Laptop/Desktop,2,1,7,3,Instagram,0,3,2,NO,READING,NO,SOCIALIZE,YES,3,11
+488,Delhi-NCR,20,2,Poor,Laptop/Desktop,1,2,6,4,Instagram,1,2,1,NO,MUSIC,YES,SOCIALIZE,YES,3,13
+489,Delhi-NCR,20,3,Poor,Smartphone,1,1,9,4,Instagram,0,4,2,NO,MUSIC,YES,SOCIALIZE,YES,4,14
+490,Delhi-NCR,20,2,Poor,Laptop/Desktop,2,1,9,1,Youtube,1,3,2,NO,MUSIC,YES,BEING OUTSIDE,NO,4,12
+491,Delhi-NCR,20,2,Poor,Laptop/Desktop,2,0,9,2,Whatsapp,0,2,1,NO,MUSIC,YES,SCHOOL/WORK,YES,4,11
+492,Delhi-NCR,25,2,Poor,Smartphone,4,1,9,1,Others,0,3,2,YES,MUSIC,YES,SCHOOL/WORK,NO,6,11
+493,Delhi-NCR,20,0,Poor,Smartphone,1,0,8,4,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,2,14
+494,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,2,6,2,Instagram,0,4,2,NO,REST,YES,BEING OUTSIDE,NO,7,10
+495,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,3,Whatsapp,1,3,1,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,13
+496,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,7,2,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,8,10
+497,Delhi-NCR,20,3,Poor,Laptop/Desktop,2,0,6,2,Instagram,0,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,8
+498,Delhi-NCR,20,4,Poor,Smartphone,2,2,6,3,Youtube,2,2,1,NO,READING,NO,BEING OUTSIDE,NO,6,13
+499,Delhi-NCR,20,4,Poor,Smartphone,1,0,6,2,Instagram,0,3,0,NO,MUSIC,NO,SOCIALIZE,NO,5,8
+500,Delhi-NCR,25,3,Poor,Laptop/Desktop,3,1,8,3,Instagram,2,2,0,NO,MUSIC,NO,SOCIALIZE,NO,6,14
+501,Delhi-NCR,20,2,Poor,Smartphone,2,0,9,5,Instagram,1,2,2,NO,REST,NO,SCHOOL/WORK,NO,4,14
+502,Delhi-NCR,20,1,Poor,Smartphone,2,2,9,1,Youtube,1,2,1,YES,MUSIC,NO,TRAVELLING,YES,3,13
+503,Delhi-NCR,25,3,Poor,Laptop/Desktop,3,0,9,4,Others,0,4,0,NO,REST,NO,SCHOOL/WORK,NO,6,13
+504,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,4,1,6,3,Instagram,1,4,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,11
+505,Delhi-NCR,20,3,Poor,Smartphone,4,1,6,1,Others,1,4,0,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,7,9
+506,Delhi-NCR,20,2,Poor,Laptop/Desktop,0,0,9,1,Instagram,2,4,2,NO,SOCIALIZE,NO,BEING OUTSIDE,YES,2,12
+507,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,3,9,1,Youtube,0,2,1,YES,WRITING,YES,BEING OUTSIDE,YES,6,13
+508,Delhi-NCR,20,2,Poor,Smartphone,4,1,6,4,Youtube,0,1,0,YES,MUSIC,YES,TRAVELLING,YES,6,11
+509,Delhi-NCR,25,0,Poor,Laptop/Desktop,1,1,9,3,Others,0,3,0,NO,MUSIC,YES,TRAVELLING,YES,2,13
+510,Outside Delhi-NCR,30,2,Poor,Laptop/Desktop,2,1,8,0,Youtube,0,2,2,NO,READING,NO,NOTHING,YES,4,9
+511,Delhi-NCR,20,0,Poor,Laptop/Desktop,4,0,9,1,Whatsapp,1,3,0,NO,REST,NO,TRAVELLING,NO,4,11
+512,Outside Delhi-NCR,25,1,Poor,Smartphone,4,1,9,1,Others,0,3,2,NO,REST,NO,NOTHING,YES,5,11
+513,Delhi-NCR,20,2,Poor,Laptop/Desktop,3,1,8,2,Youtube,3,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,5,14
+514,Delhi-NCR,20,4,Poor,Smartphone,4,1,8,2,Youtube,1,3,2,NO,REST,YES,TRAVELLING,YES,8,12
+515,Delhi-NCR,20,2,Poor,Smartphone,2,0,9,5,Youtube,1,2,1,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,4,14
+516,Outside Delhi-NCR,25,1,Poor,Smartphone,4,1,9,1,Whatsapp,1,3,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,5,12
+517,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,3,0,8,2,Youtube,1,3,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,7,11
+518,Delhi-NCR,20,4,Poor,Smartphone,1,1,9,2,Instagram,1,3,0,YES,EXERCISE,NO,BEING OUTSIDE,YES,5,13
+519,Delhi-NCR,20,2,Poor,Smartphone,1,2,8,4,Others,2,4,1,NO,READING,NO,TRAVELLING,YES,3,14
+520,Outside Delhi-NCR,20,0,Poor,Smartphone,2,1,7,4,Instagram,0,2,2,NO,REST,NO,TRAVELLING,YES,2,12
+521,Delhi-NCR,25,2,Poor,Smartphone,2,1,8,1,Youtube,0,3,2,NO,REST,NO,SOCIALIZE,NO,4,10
+522,Delhi-NCR,20,2,Poor,Smartphone,4,1,8,2,Youtube,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,6,11
+523,Outside Delhi-NCR,25,2,Poor,Smartphone,2,1,8,4,Whatsapp,1,4,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,4,14
+524,Delhi-NCR,20,3,Poor,Smartphone,2,1,9,5,Instagram,1,3,2,NO,MUSIC,NO,SOCIALIZE,NO,5,14
+525,Outside Delhi-NCR,20,4,Poor,Smartphone,2,0,8,2,Whatsapp,3,3,2,NO,REST,YES,SOCIALIZE,YES,6,13
+526,Delhi-NCR,20,2,Poor,Smartphone,2,2,8,3,Youtube,0,4,1,YES,EXERCISE,YES,BEING OUTSIDE,NO,4,13
+527,Outside Delhi-NCR,25,4,Poor,Smartphone,4,1,7,1,Youtube,0,3,2,NO,REST,YES,SOCIALIZE,YES,8,9
+528,Outside Delhi-NCR,20,0,Poor,Smartphone,4,0,8,1,Youtube,0,3,1,YES,NO ACTIVITIES,NO,NOTHING,YES,4,9
+529,Outside Delhi-NCR,25,1,Poor,Laptop/Desktop,4,1,9,2,Instagram,0,3,0,NO,EXERCISE,NO,BEING OUTSIDE,YES,5,12
+530,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,4,1,8,1,Others,1,3,0,YES,MUSIC,NO,BEING OUTSIDE,NO,6,11
+531,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,3,1,9,3,Instagram,1,2,0,NO,REST,NO,SOCIALIZE,YES,7,14
+532,Delhi-NCR,20,4,Poor,Smartphone,4,2,6,2,Instagram,0,4,1,YES,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,8,10
+533,Delhi-NCR,25,0,Poor,Smartphone,2,1,9,1,Youtube,0,3,0,NO,READING,NO,TRAVELLING,YES,2,11
+534,Delhi-NCR,25,1,Poor,Laptop/Desktop,0,0,9,3,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,2,12
+535,Delhi-NCR,20,4,Poor,Smartphone,2,1,9,5,Instagram,3,3,0,NO,REST,NO,SCHOOL/WORK,YES,6,14
+536,Outside Delhi-NCR,25,2,Poor,Smartphone,2,0,8,1,Others,0,3,0,YES,READING,NO,SCHOOL/WORK,YES,4,9
+537,Delhi-NCR,25,0,Poor,Smartphone,0,0,9,4,Youtube,0,4,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,13
+538,Delhi-NCR,30,4,Poor,Laptop/Desktop,3,0,7,2,Whatsapp,2,3,2,NO,NO ACTIVITIES,NO,TRAVELLING,YES,7,11
+539,Delhi-NCR,20,3,Poor,Smartphone,1,1,6,2,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,4,9
+540,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,4,0,8,1,Instagram,0,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,6,9
+541,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,1,6,3,Others,2,4,2,NO,MUSIC,YES,SOCIALIZE,YES,5,12
+542,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,6,1,Others,1,4,0,NO,MUSIC,NO,SOCIALIZE,YES,8,8
+543,Outside Delhi-NCR,15,4,Poor,Smartphone,2,1,7,0,Others,1,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,9
+544,Outside Delhi-NCR,20,0,Poor,Smartphone,1,1,8,0,Whatsapp,2,3,2,NO,OTHERS,NO,ALL,YES,2,11
+545,Outside Delhi-NCR,30,4,Poor,Laptop/Desktop,3,1,7,4,Whatsapp,2,3,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,7,14
+546,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,1,1,8,2,Instagram,2,4,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,5,13
+547,Delhi-NCR,20,1,Poor,Laptop/Desktop,0,0,8,4,Whatsapp,0,4,0,NO,MUSIC,NO,SOCIALIZE,YES,2,12
+548,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,0,8,2,Instagram,0,2,2,YES,MUSIC,YES,SOCIALIZE,YES,7,10
+549,Outside Delhi-NCR,20,4,Poor,Smartphone,1,2,9,2,Whatsapp,0,2,1,NO,MUSIC,NO,BEING OUTSIDE,YES,5,13
+550,Outside Delhi-NCR,25,1,Poor,Smartphone,2,1,6,5,Instagram,0,2,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,3,12
+551,Outside Delhi-NCR,20,4,Poor,Smartphone,2,0,8,3,Instagram,0,2,2,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,11
+552,Delhi-NCR,30,2,Poor,Smartphone,3,0,6,1,Whatsapp,1,4,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,5,8
+553,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,2,2,7,4,Instagram,1,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,2,14
+554,Outside Delhi-NCR,20,4,Poor,Smartphone,0,0,7,1,Youtube,0,2,0,NO,MUSIC,NO,BEING OUTSIDE,NO,4,8
+555,Delhi-NCR,30,4,Poor,Laptop/Desktop,4,2,9,2,Others,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,14
+556,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,0,Youtube,0,3,0,NO,READING,NO,BEING OUTSIDE,NO,8,9
+557,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,4,0,9,2,Instagram,0,3,0,YES,SOCIALIZE,NO,SOCIALIZE,YES,6,11
+558,Outside Delhi-NCR,20,4,Poor,Smartphone,2,1,8,2,Youtube,1,3,2,NO,MUSIC,NO,SCHOOL/WORK,YES,6,12
+559,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,0,7,1,Instagram,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,5,8
+560,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,4,0,9,2,Youtube,1,4,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,7,12
+561,Delhi-NCR,25,0,Poor,Smartphone,1,1,8,1,Others,0,3,2,NO,EXERCISE,YES,BEING OUTSIDE,NO,2,10
+562,Delhi-NCR,30,0,Poor,Laptop/Desktop,0,1,9,2,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,2,13
+563,Outside Delhi-NCR,20,2,Poor,Smartphone,1,1,8,2,Youtube,3,3,2,NO,MUSIC,NO,BEING OUTSIDE,YES,3,14
+564,Outside Delhi-NCR,25,3,Poor,Smartphone,4,0,9,3,Others,0,2,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,7,12
+565,Delhi-NCR,30,3,Poor,Laptop/Desktop,2,1,8,1,Youtube,0,4,0,NO,MUSIC,YES,BEING OUTSIDE,YES,5,10
+566,Outside Delhi-NCR,25,0,Poor,Smartphone,4,1,8,0,Others,0,4,2,YES,OTHERS,NO,TRAVELLING,NO,4,9
+567,Outside Delhi-NCR,20,0,Poor,Smartphone,1,0,9,4,Youtube,1,3,0,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,2,14
+568,Outside Delhi-NCR,25,0,Poor,Smartphone,0,0,9,5,Others,3,2,2,NO,ART,NO,SCHOOL/WORK,YES,2,14
+569,Outside Delhi-NCR,30,4,Poor,Smartphone,2,1,8,4,Whatsapp,3,3,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,14
+570,Outside Delhi-NCR,25,1,Poor,Smartphone,2,1,8,2,Instagram,2,2,0,YES,REST,NO,SCHOOL/WORK,YES,3,13
+571,Outside Delhi-NCR,25,3,Poor,Smartphone,2,2,7,3,Whatsapp,3,2,2,NO,MUSIC,YES,SOCIALIZE,YES,5,14
+572,Outside Delhi-NCR,25,4,Poor,Smartphone,4,0,6,2,Instagram,1,2,2,NO,MUSIC,YES,BEING OUTSIDE,NO,8,9
+573,Delhi-NCR,30,2,Poor,Smartphone,1,1,7,4,Whatsapp,2,3,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,3,14
+574,Outside Delhi-NCR,30,1,Poor,Smartphone,1,1,8,3,Others,2,2,1,NO,EXERCISE,NO,SCHOOL/WORK,YES,2,14
+575,Outside Delhi-NCR,25,2,Poor,Smartphone,0,2,8,4,Instagram,2,2,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,NO,2,14
+576,Outside Delhi-NCR,20,2,Poor,Smartphone,1,1,8,2,Whatsapp,3,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,3,14
+577,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,4,1,9,2,Instagram,0,2,1,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,6,12
+578,Outside Delhi-NCR,25,0,Poor,Smartphone,2,3,9,1,Whatsapp,1,1,1,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,14
+579,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,4,1,8,3,Others,1,4,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,7,13
+580,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,4,0,6,1,Others,0,2,1,YES,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,7,8
+581,Delhi-NCR,25,2,Poor,Smartphone,3,0,8,2,Instagram,0,2,0,YES,MUSIC,NO,SCHOOL/WORK,NO,5,10
+582,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,9,3,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,8,12
+583,Delhi-NCR,25,3,Poor,Laptop/Desktop,4,0,7,1,Youtube,0,4,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,NO,7,8
+584,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,1,Whatsapp,2,3,0,NO,REST,YES,SOCIALIZE,YES,8,12
+585,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,6,4,Whatsapp,0,3,2,NO,REST,YES,SOCIALIZE,YES,8,10
+586,Delhi-NCR,25,3,Poor,Smartphone,4,1,8,1,Whatsapp,0,3,2,NO,REST,YES,SOCIALIZE,NO,7,10
+587,Delhi-NCR,25,4,Poor,Smartphone,4,0,6,2,Youtube,0,3,0,YES,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,8
+588,Delhi-NCR,20,2,Poor,Smartphone,3,2,8,1,Youtube,1,3,0,NO,MUSIC,NO,SCHOOL/WORK,NO,5,12
+589,Delhi-NCR,20,4,Poor,Smartphone,4,1,6,0,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,8,8
+590,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,6,3,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,8,10
+591,Outside Delhi-NCR,30,2,Poor,Laptop/Desktop,3,0,9,2,Others,0,3,0,NO,READING,NO,SCHOOL/WORK,YES,5,11
+592,Outside Delhi-NCR,25,2,Poor,Smartphone,3,1,9,2,Others,0,2,2,NO,REST,YES,SOCIALIZE,YES,5,12
+593,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,2,Youtube,1,3,2,NO,MUSIC,NO,BEING OUTSIDE,YES,8,12
+594,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,0,8,1,Youtube,0,2,2,NO,MUSIC,NO,SOCIALIZE,YES,5,9
+595,Delhi-NCR,25,4,Poor,Laptop/Desktop,2,0,9,2,Whatsapp,0,3,0,NO,MUSIC,NO,SCHOOL/WORK,NO,6,11
+596,Outside Delhi-NCR,30,4,Poor,Laptop/Desktop,3,1,6,2,Youtube,2,3,2,NO,REST,YES,TRAVELLING,YES,7,11
+597,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,2,0,7,2,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,10
+598,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,4,1,9,5,Youtube,1,3,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,14
+599,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,6,2,Others,3,3,1,NO,MUSIC,NO,BEING OUTSIDE,YES,6,11
+600,Delhi-NCR,20,4,Poor,Smartphone,1,0,6,5,Others,2,1,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,5,13
+601,Delhi-NCR,25,4,Poor,Smartphone,4,1,6,2,Instagram,2,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,11
+602,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,1,8,0,Whatsapp,1,3,2,NO,MUSIC,NO,BEING OUTSIDE,NO,5,10
+603,Outside Delhi-NCR,25,3,Poor,Laptop/Desktop,1,0,8,1,Instagram,0,3,0,NO,MUSIC,NO,BEING OUTSIDE,YES,4,9
+604,Delhi-NCR,25,4,Poor,Smartphone,4,0,9,2,Youtube,0,2,2,NO,MUSIC,NO,SCHOOL/WORK,YES,8,11
+605,Delhi-NCR,25,4,Poor,Smartphone,1,1,7,2,Instagram,0,4,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,5,10
+606,Delhi-NCR,25,4,Poor,Smartphone,2,2,9,2,Instagram,0,2,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,13
+607,Delhi-NCR,20,4,Poor,Smartphone,4,1,6,2,Instagram,1,3,0,NO,MUSIC,NO,SCHOOL/WORK,YES,8,10
+608,Delhi-NCR,30,2,Poor,Laptop/Desktop,1,1,7,1,Youtube,0,3,2,YES,ONLINE ACTIVITIES,NO,TRAVELLING,YES,3,9
+609,Delhi-NCR,20,4,Poor,Smartphone,4,1,9,3,Whatsapp,0,2,2,NO,MUSIC,NO,SCHOOL/WORK,NO,8,13
+610,Delhi-NCR,25,3,Poor,Smartphone,2,2,7,1,Whatsapp,3,2,2,NO,OTHERS,YES,TRAVELLING,YES,5,13
+611,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,2,7,3,Whatsapp,1,4,1,NO,REST,YES,SOCIALIZE,NO,6,13
+612,Delhi-NCR,25,4,Poor,Smartphone,3,0,8,3,Instagram,0,3,2,NO,OTHERS,NO,SCHOOL/WORK,YES,7,11
+613,Outside Delhi-NCR,30,4,Poor,Laptop/Desktop,1,0,7,1,Whatsapp,0,4,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,8
+614,Outside Delhi-NCR,20,1,Poor,Smartphone,2,0,7,2,Others,1,3,0,YES,EXERCISE,NO,SOCIALIZE,NO,3,10
+615,Outside Delhi-NCR,20,4,Poor,Smartphone,4,1,7,0,Instagram,0,3,1,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+616,Delhi-NCR,20,2,Poor,Laptop/Desktop,2,1,9,2,Instagram,1,4,2,NO,MUSIC,NO,SOCIALIZE,NO,4,13
+617,Outside Delhi-NCR,20,4,Poor,Smartphone,3,1,7,1,Youtube,1,2,0,NO,REST,YES,TRAVELLING,YES,7,10
+618,Outside Delhi-NCR,25,3,Poor,Smartphone,4,1,6,2,Youtube,0,3,2,NO,REST,YES,SCHOOL/WORK,YES,7,9
+619,Delhi-NCR,20,4,Poor,Smartphone,2,1,6,3,Youtube,1,3,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,6,11
+620,Outside Delhi-NCR,20,3,Poor,Smartphone,2,0,7,3,Youtube,1,2,1,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,5,11
+621,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,7,2,Instagram,1,3,2,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,8,10
+622,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,3,1,6,1,Instagram,0,4,2,NO,READING,NO,SOCIALIZE,NO,7,8
+623,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,2,0,9,1,Instagram,2,3,2,NO,MUSIC,NO,ALL,NO,6,12
+624,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,6,3,Instagram,0,3,2,NO,MUSIC,NO,BEING OUTSIDE,YES,8,10
+625,Outside Delhi-NCR,20,4,Poor,Smartphone,4,0,8,1,Instagram,0,3,2,NO,REST,NO,BEING OUTSIDE,NO,8,9
+626,Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,8,2,Whatsapp,0,4,0,NO,REST,NO,SCHOOL/WORK,NO,8,10
+627,Delhi-NCR,25,4,Poor,Smartphone,4,1,8,2,Youtube,1,2,1,NO,MUSIC,YES,TRAVELLING,YES,8,12
+628,Outside Delhi-NCR,20,4,Poor,Smartphone,1,0,9,3,Whatsapp,0,2,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,5,12
+629,Delhi-NCR,20,2,Poor,Smartphone,3,0,9,5,Instagram,1,4,1,YES,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,5,14
+630,Outside Delhi-NCR,25,2,Poor,Smartphone,4,0,8,1,Whatsapp,2,3,0,YES,MUSIC,NO,BEING OUTSIDE,NO,6,11
+631,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,2,7,4,Instagram,0,3,1,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,7,13
+632,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,2,Instagram,1,3,2,NO,REST,YES,BEING OUTSIDE,YES,6,12
+633,Outside Delhi-NCR,30,1,Poor,Smartphone,3,1,8,4,Youtube,0,3,1,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,4,13
+634,Delhi-NCR,25,3,Poor,Laptop/Desktop,2,0,8,5,Instagram,3,4,0,NO,MUSIC,NO,BEING OUTSIDE,YES,5,14
+635,Delhi-NCR,20,4,Poor,Smartphone,2,0,6,3,Instagram,0,1,0,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,6,9
+636,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,6,2,Whatsapp,0,3,2,NO,REST,NO,BEING OUTSIDE,NO,6,9
+637,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,1,0,7,5,Others,2,3,1,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,5,14
+638,Delhi-NCR,20,4,Poor,Smartphone,2,0,7,3,Instagram,0,3,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,10
+639,Delhi-NCR,30,1,Poor,Laptop/Desktop,2,0,8,3,Instagram,2,3,0,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,3,13
+640,Outside Delhi-NCR,30,3,Poor,Smartphone,1,0,6,1,Whatsapp,3,2,1,YES,REST,NO,BEING OUTSIDE,YES,4,10
+641,Outside Delhi-NCR,25,4,Poor,Smartphone,3,1,9,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,NO,7,14
+642,Outside Delhi-NCR,25,2,Poor,Smartphone,3,0,8,4,Whatsapp,1,3,2,NO,ONLINE ACTIVITIES,NO,ALL,NO,5,13
+643,Outside Delhi-NCR,25,0,Poor,Smartphone,1,0,6,4,Others,3,3,1,YES,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,2,13
+644,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,9,5,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,5,14
+645,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,2,1,8,5,Instagram,2,2,0,NO,READING,NO,BEING OUTSIDE,YES,6,14
+646,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,6,5,Instagram,1,3,2,NO,EXERCISE,NO,SOCIALIZE,YES,5,13
+647,Delhi-NCR,20,4,Poor,Smartphone,4,2,6,4,Instagram,0,3,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,8,12
+648,Outside Delhi-NCR,20,3,Poor,Smartphone,2,0,8,1,Others,1,3,2,NO,REST,NO,SCHOOL/WORK,YES,5,10
+649,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,2,Whatsapp,1,3,0,NO,MUSIC,NO,BEING OUTSIDE,YES,6,12
+650,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,4,2,7,4,Others,2,4,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,14
+651,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,2,0,9,2,Whatsapp,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,NO,6,11
+652,Outside Delhi-NCR,15,4,Poor,Laptop/Desktop,2,1,9,1,Whatsapp,1,4,0,NO,INDOOR ACTIVITIES,YES,ALL,YES,6,12
+653,Delhi-NCR,15,4,Poor,Tablet,1,1,9,1,Youtube,3,3,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,5,14
+654,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,3,1,7,1,Others,2,3,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,7,11
+655,Delhi-NCR,25,2,Poor,Smartphone,2,1,6,3,Whatsapp,0,3,0,NO,MUSIC,NO,SCHOOL/WORK,NO,4,10
+656,Delhi-NCR,15,4,Poor,Smartphone,1,1,7,4,Youtube,2,4,1,NO,MUSIC,NO,SCHOOL/WORK,YES,5,14
+657,Outside Delhi-NCR,30,3,Poor,Smartphone,4,0,6,1,Whatsapp,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,8
+658,Delhi-NCR,30,2,Poor,Smartphone,2,1,6,1,Youtube,0,1,2,NO,MUSIC,YES,TRAVELLING,YES,4,8
+659,Outside Delhi-NCR,25,3,Poor,Smartphone,2,1,8,5,Whatsapp,3,2,2,NO,ART,NO,SCHOOL/WORK,YES,5,14
+660,Outside Delhi-NCR,15,4,Poor,Tablet,3,1,6,4,Youtube,0,2,0,YES,MUSIC,YES,TRAVELLING,YES,7,11
+661,Delhi-NCR,25,1,Poor,Smartphone,1,0,9,3,Instagram,0,3,0,NO,MUSIC,YES,BEING OUTSIDE,YES,2,12
+662,Outside Delhi-NCR,30,4,Poor,Laptop/Desktop,2,0,6,3,Others,1,3,0,NO,READING,YES,SCHOOL/WORK,YES,6,10
+663,Outside Delhi-NCR,25,2,Poor,Smartphone,2,0,7,1,Youtube,1,3,2,YES,MUSIC,NO,SCHOOL/WORK,YES,4,9
+664,Delhi-NCR,25,1,Poor,Laptop/Desktop,4,0,6,2,Whatsapp,0,2,0,YES,ONLINE ACTIVITIES,YES,TRAVELLING,YES,5,8
+665,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,3,1,8,5,Instagram,2,3,2,NO,EXERCISE,YES,TRAVELLING,YES,5,14
+666,Delhi-NCR,20,3,Poor,Smartphone,3,0,9,5,Instagram,3,4,2,NO,MUSIC,NO,BEING OUTSIDE,YES,6,14
+667,Outside Delhi-NCR,20,4,Poor,Smartphone,3,1,8,5,Youtube,2,4,0,NO,READING,YES,BEING OUTSIDE,YES,7,14
+668,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,1,0,8,4,Whatsapp,0,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,12
+669,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,8,5,Instagram,1,3,0,NO,MUSIC,NO,BEING OUTSIDE,YES,8,14
+670,Outside Delhi-NCR,20,3,Poor,Smartphone,2,1,8,5,Whatsapp,3,1,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,5,14
+671,Delhi-NCR,25,0,Poor,Laptop/Desktop,4,1,8,1,Whatsapp,0,3,0,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,4,10
+672,Delhi-NCR,20,1,Poor,Smartphone,0,0,8,5,Instagram,2,2,1,YES,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,2,14
+673,Delhi-NCR,25,4,Poor,Laptop/Desktop,1,0,8,5,Youtube,1,3,1,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,5,14
+674,Delhi-NCR,25,4,Poor,Smartphone,2,1,7,3,Whatsapp,1,3,1,NO,READING,YES,SOCIALIZE,YES,6,12
+675,Delhi-NCR,25,2,Poor,Laptop/Desktop,4,1,7,2,Others,1,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,6,11
+676,Outside Delhi-NCR,30,2,Poor,Smartphone,1,0,6,1,Whatsapp,0,2,2,NO,REST,NO,TRAVELLING,YES,3,8
+677,Outside Delhi-NCR,25,2,Poor,Smartphone,2,1,8,1,Whatsapp,0,3,1,NO,REST,YES,SOCIALIZE,YES,4,10
+678,Delhi-NCR,20,0,Poor,Smartphone,0,2,9,1,Others,0,4,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,2,12
+679,Delhi-NCR,25,4,Poor,Smartphone,4,0,6,1,Youtube,0,2,1,YES,ONLINE ACTIVITIES,NO,TRAVELLING,NO,8,8
+680,Delhi-NCR,30,2,Poor,Laptop/Desktop,4,0,7,3,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,6,11
+681,Delhi-NCR,25,4,Poor,Laptop/Desktop,1,1,9,2,Instagram,0,3,2,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,5,12
+682,Delhi-NCR,30,0,Poor,Smartphone,0,0,9,2,Others,2,2,2,YES,MUSIC,NO,SCHOOL/WORK,NO,2,13
+683,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,1,1,7,1,Whatsapp,2,3,2,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,3,11
+684,Delhi-NCR,20,3,Poor,Smartphone,4,1,6,1,Youtube,0,2,2,NO,READING,YES,SOCIALIZE,YES,7,8
+685,Delhi-NCR,25,4,Poor,Smartphone,3,1,8,4,Youtube,0,4,2,YES,INDOOR ACTIVITIES,NO,SCHOOL/WORK,NO,7,13
+686,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,0,9,2,Instagram,1,2,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,NO,7,12
+687,Outside Delhi-NCR,20,4,Poor,Smartphone,2,0,9,1,Instagram,0,3,1,NO,REST,NO,BEING OUTSIDE,NO,6,10
+688,Delhi-NCR,20,2,Poor,Laptop/Desktop,3,1,8,2,Instagram,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,5,12
+689,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,5,Instagram,0,3,2,NO,ONLINE ACTIVITIES,NO,NOTHING,NO,6,14
+690,Outside Delhi-NCR,30,4,Poor,Smartphone,2,0,7,5,Youtube,3,3,0,NO,MUSIC,NO,TRAVELLING,YES,6,14
+691,Delhi-NCR,20,4,Poor,Smartphone,4,0,9,2,Instagram,0,2,1,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,11
+692,Outside Delhi-NCR,20,4,Poor,Smartphone,4,1,6,5,Whatsapp,2,3,2,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,NO,8,14
+693,Delhi-NCR,20,4,Poor,Smartphone,0,0,7,1,Instagram,0,3,1,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,NO,4,8
+694,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,8,2,Instagram,0,3,0,NO,MUSIC,NO,BEING OUTSIDE,NO,6,10
+695,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,7,3,Instagram,0,4,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,8,11
+696,Delhi-NCR,20,4,Poor,Smartphone,0,1,6,5,Whatsapp,0,2,1,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,12
+697,Delhi-NCR,20,4,Poor,Smartphone,0,1,8,2,Instagram,0,3,2,NO,ART,YES,SOCIALIZE,YES,4,11
+698,Delhi-NCR,30,1,Poor,Smartphone,1,0,8,3,Others,0,3,0,NO,MUSIC,NO,SCHOOL/WORK,YES,2,11
+699,Outside Delhi-NCR,20,4,Poor,Smartphone,3,1,6,4,Youtube,2,2,1,NO,MUSIC,NO,SCHOOL/WORK,NO,7,13
+700,Outside Delhi-NCR,20,4,Poor,Smartphone,2,0,6,1,Instagram,0,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,8
+701,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,1,0,9,3,Instagram,0,2,0,NO,MUSIC,NO,SCHOOL/WORK,YES,3,12
+702,Outside Delhi-NCR,20,0,Poor,Laptop/Desktop,4,0,8,5,Instagram,0,3,2,YES,SOCIALIZE,YES,SOCIALIZE,YES,4,13
+703,Outside Delhi-NCR,25,2,Poor,Laptop/Desktop,2,2,7,5,Whatsapp,2,2,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,14
+704,Delhi-NCR,20,4,Poor,Smartphone,4,0,6,1,Whatsapp,2,2,2,NO,REST,NO,SCHOOL/WORK,YES,8,9
+705,Delhi-NCR,20,4,Poor,Smartphone,4,0,7,3,Instagram,0,4,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,8,10
+706,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,0,8,2,Youtube,0,3,2,NO,MUSIC,YES,BEING OUTSIDE,NO,7,10
+707,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,2,6,3,Instagram,0,2,0,NO,MUSIC,NO,SCHOOL/WORK,YES,6,11
+708,Delhi-NCR,20,3,Poor,Laptop/Desktop,2,0,7,3,Instagram,0,4,1,YES,READING,NO,SCHOOL/WORK,NO,5,10
+709,Outside Delhi-NCR,30,4,Poor,Smartphone,2,0,7,2,Instagram,0,3,0,NO,MUSIC,NO,TRAVELLING,YES,6,9
+710,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,2,1,8,1,Whatsapp,1,4,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,5,11
+711,Delhi-NCR,30,4,Poor,Smartphone,3,1,7,2,Youtube,1,3,2,NO,MUSIC,NO,BEING OUTSIDE,NO,7,11
+712,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,8,2,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,6,12
+713,Outside Delhi-NCR,25,3,Poor,Smartphone,4,1,8,3,Whatsapp,2,3,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,NO,7,14
+714,Outside Delhi-NCR,30,4,Poor,Laptop/Desktop,3,1,8,2,Others,2,3,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,7,13
+715,Delhi-NCR,30,3,Poor,Laptop/Desktop,2,0,6,2,Whatsapp,0,3,0,YES,SOCIALIZE,YES,SOCIALIZE,YES,5,8
+716,Outside Delhi-NCR,25,0,Poor,Smartphone,1,2,7,2,Instagram,0,4,1,NO,REST,YES,TRAVELLING,YES,2,11
+717,Delhi-NCR,30,4,Poor,Laptop/Desktop,4,1,6,0,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,8
+718,Delhi-NCR,30,3,Poor,Laptop/Desktop,2,0,9,2,Youtube,0,3,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,5,11
+719,Delhi-NCR,25,4,Poor,Laptop/Desktop,1,1,8,1,Others,0,3,1,YES,REST,YES,BEING OUTSIDE,YES,5,10
+720,Outside Delhi-NCR,20,4,Poor,Smartphone,2,0,9,2,Youtube,0,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,11
+721,Outside Delhi-NCR,30,2,Poor,Laptop/Desktop,3,1,6,3,Whatsapp,0,3,0,NO,MUSIC,YES,BEING OUTSIDE,NO,5,10
+722,Outside Delhi-NCR,25,0,Poor,Smartphone,2,0,7,5,Others,0,3,2,NO,MUSIC,NO,BEING OUTSIDE,YES,2,12
+723,Outside Delhi-NCR,20,2,Poor,Smartphone,4,1,6,1,Youtube,0,3,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,8
+724,Delhi-NCR,25,2,Poor,Smartphone,1,0,9,3,Youtube,2,2,1,YES,MUSIC,NO,SCHOOL/WORK,YES,3,14
+725,Delhi-NCR,25,4,Poor,Smartphone,3,1,8,2,Whatsapp,0,4,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,7,11
+726,Outside Delhi-NCR,25,2,Poor,Smartphone,4,0,9,4,Others,0,4,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,13
+727,Delhi-NCR,20,0,Poor,Smartphone,0,2,9,2,Youtube,0,3,2,NO,EXERCISE,NO,SCHOOL/WORK,YES,2,13
+728,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,1,Instagram,1,3,0,NO,MUSIC,NO,BEING OUTSIDE,YES,8,11
+729,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,3,0,8,3,Whatsapp,0,3,2,YES,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,6,11
+730,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,9,3,Whatsapp,1,4,0,NO,READING,NO,BEING OUTSIDE,NO,5,14
+731,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,3,1,9,3,Whatsapp,2,3,0,NO,REST,YES,SOCIALIZE,NO,7,14
+732,Outside Delhi-NCR,20,2,Poor,Laptop/Desktop,1,0,6,1,Others,2,3,1,NO,MUSIC,NO,BEING OUTSIDE,NO,3,9
+733,Delhi-NCR,25,2,Poor,Laptop/Desktop,2,1,8,3,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,4,12
+734,Delhi-NCR,25,2,Poor,Smartphone,3,1,9,4,Instagram,2,4,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,YES,5,14
+735,Delhi-NCR,25,0,Poor,Smartphone,1,0,7,0,Whatsapp,0,2,0,NO,READING,YES,SOCIALIZE,YES,2,8
+736,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,0,9,4,Youtube,0,2,0,YES,REST,NO,SCHOOL/WORK,NO,7,13
+737,Delhi-NCR,20,2,Poor,Smartphone,2,1,8,1,Instagram,2,4,2,NO,ART,NO,SOCIALIZE,YES,4,12
+738,Delhi-NCR,20,3,Poor,Smartphone,2,0,6,3,Instagram,0,2,0,NO,READING,YES,BEING OUTSIDE,NO,5,9
+739,Delhi-NCR,20,3,Poor,Smartphone,3,1,9,3,Others,0,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,13
+740,Delhi-NCR,30,4,Poor,Laptop/Desktop,1,0,8,2,Whatsapp,1,2,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,5,11
+741,Delhi-NCR,20,4,Poor,Laptop/Desktop,2,0,8,1,Instagram,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,9
+742,Outside Delhi-NCR,20,3,Poor,Laptop/Desktop,2,0,9,5,Youtube,0,4,0,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,5,14
+743,Delhi-NCR,30,4,Poor,Smartphone,2,1,6,4,Youtube,1,3,0,YES,SOCIALIZE,YES,SCHOOL/WORK,YES,6,12
+744,Delhi-NCR,25,2,Poor,Smartphone,4,0,6,3,Instagram,0,4,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,6,9
+745,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,0,1,7,0,Youtube,0,3,2,NO,INDOOR ACTIVITIES,YES,TRAVELLING,NO,4,8
+746,Outside Delhi-NCR,15,4,Poor,Laptop/Desktop,3,0,8,2,Instagram,1,3,2,NO,ART,YES,BEING OUTSIDE,YES,7,11
+747,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,4,2,7,0,Youtube,0,3,2,NO,OTHERS,NO,SOCIALIZE,YES,8,9
+748,Outside Delhi-NCR,15,4,Poor,Tablet,4,0,6,2,Youtube,1,3,2,NO,OTHERS,YES,SCHOOL/WORK,NO,8,9
+749,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,2,1,9,1,Others,2,4,0,NO,MUSIC,YES,TRAVELLING,YES,6,13
+750,Outside Delhi-NCR,20,4,Poor,Smartphone,1,2,9,1,Instagram,0,3,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,5,12
+751,Delhi-NCR,20,4,Poor,Smartphone,4,1,7,2,Instagram,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,8,10
+752,Outside Delhi-NCR,30,2,Poor,Laptop/Desktop,0,1,8,1,Youtube,3,4,0,NO,ONLINE ACTIVITIES,NO,NOTHING,NO,2,13
+753,Outside Delhi-NCR,20,4,Poor,Smartphone,2,1,7,1,Youtube,2,3,2,NO,SOCIALIZE,NO,SOCIALIZE,YES,6,11
+754,Delhi-NCR,15,4,Poor,Laptop/Desktop,4,1,8,2,Whatsapp,1,3,2,NO,MUSIC,YES,SOCIALIZE,YES,8,12
+755,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,1,8,0,Youtube,0,4,1,NO,MUSIC,YES,SCHOOL/WORK,YES,8,9
+756,Delhi-NCR,15,4,Poor,Laptop/Desktop,4,0,6,4,Youtube,0,3,1,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,NO,8,10
+757,Delhi-NCR,15,4,Poor,Smartphone,2,0,8,1,Youtube,0,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,6,9
+758,Delhi-NCR,15,3,Poor,Smartphone,4,1,7,1,Instagram,1,4,0,NO,MUSIC,YES,BEING OUTSIDE,YES,7,10
+759,Outside Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,8,0,Others,0,2,0,YES,NO ACTIVITIES,NO,SOCIALIZE,NO,5,9
+760,Delhi-NCR,20,4,Poor,Laptop/Desktop,3,0,8,3,Youtube,2,2,2,NO,ART,NO,SCHOOL/WORK,NO,7,13
+761,Delhi-NCR,15,4,Poor,Laptop/Desktop,4,1,7,1,Whatsapp,1,3,2,NO,READING,YES,SOCIALIZE,YES,8,10
+762,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,7,2,Whatsapp,0,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,8,9
+763,Delhi-NCR,20,4,Poor,Smartphone,4,0,6,5,Whatsapp,3,3,2,NO,MUSIC,YES,SOCIALIZE,YES,8,14
+764,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,9,1,Whatsapp,1,2,1,NO,OTHERS,NO,SOCIALIZE,YES,5,12
+765,Delhi-NCR,20,4,Poor,Smartphone,1,0,8,1,Others,0,2,2,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,NO,5,9
+766,Delhi-NCR,20,4,Poor,Smartphone,4,1,8,1,Others,1,3,2,NO,REST,YES,SOCIALIZE,YES,8,11
+767,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,1,9,2,Youtube,0,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,5,12
+768,Delhi-NCR,20,3,Poor,Smartphone,4,0,8,2,Youtube,0,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,7,10
+769,Delhi-NCR,20,4,Poor,Smartphone,3,1,9,1,Youtube,0,3,2,NO,REST,YES,ALL,YES,7,11
+770,Delhi-NCR,20,4,Poor,Laptop/Desktop,0,0,6,5,Instagram,0,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,4,11
+771,Delhi-NCR,20,4,Poor,Laptop/Desktop,1,0,8,1,Youtube,2,2,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,11
+772,Delhi-NCR,15,4,Poor,Smartphone,3,1,9,3,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,7,13
+773,Delhi-NCR,20,4,Poor,Laptop/Desktop,0,1,7,1,Youtube,3,4,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,4,12
+774,Delhi-NCR,25,4,Poor,Laptop/Desktop,1,3,6,5,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,5,14
+775,Delhi-NCR,20,0,Poor,Smartphone,4,1,9,3,Youtube,0,3,0,NO,MUSIC,YES,TRAVELLING,YES,4,13
+776,Delhi-NCR,20,4,Poor,Smartphone,2,1,8,1,Whatsapp,3,2,0,NO,SOCIALIZE,NO,SOCIALIZE,YES,6,13
+777,Delhi-NCR,20,4,Poor,Smartphone,4,1,7,1,Instagram,1,3,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,8,10
+778,Delhi-NCR,20,4,Poor,Smartphone,2,2,6,5,Youtube,0,4,0,NO,REST,NO,SCHOOL/WORK,YES,6,13
+779,Delhi-NCR,25,4,Poor,Smartphone,4,0,7,2,Youtube,0,3,1,NO,INDOOR ACTIVITIES,YES,TRAVELLING,NO,8,9
+780,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,0,6,1,Instagram,0,3,2,NO,ART,YES,SOCIALIZE,YES,8,8
+781,Delhi-NCR,20,4,Poor,Smartphone,2,1,9,1,Whatsapp,0,3,2,NO,MUSIC,NO,SCHOOL/WORK,YES,6,11
+782,Outside Delhi-NCR,15,4,Poor,Smartphone,1,1,9,1,Instagram,2,3,1,NO,MUSIC,YES,SOCIALIZE,YES,5,13
+783,Outside Delhi-NCR,20,2,Poor,Tablet,4,3,6,0,Youtube,1,4,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,10
+784,Delhi-NCR,20,4,Poor,Laptop/Desktop,4,2,6,2,Youtube,0,4,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,8,10
+785,Delhi-NCR,15,4,Poor,Smartphone,4,1,7,5,Youtube,0,4,0,NO,OTHERS,YES,TRAVELLING,YES,8,13
+786,Delhi-NCR,15,4,Poor,Laptop/Desktop,2,0,6,1,Youtube,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,6,8
+787,Delhi-NCR,15,4,Poor,Laptop/Desktop,4,1,8,1,Youtube,0,2,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,8,10
+788,Delhi-NCR,15,4,Poor,Smartphone,0,1,9,3,Youtube,1,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,4,14
+789,Delhi-NCR,15,4,Poor,Smartphone,2,1,6,1,Youtube,2,3,2,NO,EXERCISE,YES,SOCIALIZE,NO,6,10
+790,Delhi-NCR,20,4,Poor,Smartphone,4,0,6,1,Whatsapp,0,2,2,NO,MUSIC,NO,SOCIALIZE,NO,8,8
+791,Delhi-NCR,15,4,Poor,Smartphone,3,1,9,1,Whatsapp,2,4,2,NO,REST,YES,SCHOOL/WORK,YES,7,13
+792,Delhi-NCR,15,3,Poor,Smartphone,1,2,7,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,NO,NOTHING,YES,4,14
+793,Delhi-NCR,15,4,Poor,Smartphone,2,1,8,2,Youtube,3,3,2,NO,INDOOR ACTIVITIES,NO,ALL,YES,6,14
+794,Delhi-NCR,20,4,Poor,Smartphone,2,0,6,1,Youtube,1,3,0,NO,INDOOR ACTIVITIES,YES,TRAVELLING,NO,6,8
+795,Outside Delhi-NCR,15,4,Poor,Smartphone,1,1,8,2,Youtube,0,2,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,5,11
+796,Delhi-NCR,15,4,Poor,Any Gadget,2,0,9,0,Whatsapp,0,4,0,YES,MUSIC,YES,TRAVELLING,YES,6,9
+797,Delhi-NCR,15,3,Poor,Smartphone,1,1,9,1,Whatsapp,2,2,1,NO,MUSIC,YES,SOCIALIZE,YES,4,13
+798,Delhi-NCR,15,4,Poor,Smartphone,1,0,9,1,Others,1,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,11
+799,Delhi-NCR,15,4,Poor,Smartphone,2,1,9,0,Instagram,2,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,12
+800,Outside Delhi-NCR,20,4,Poor,Smartphone,3,1,7,1,Instagram,1,2,1,NO,EXERCISE,NO,SOCIALIZE,YES,7,10
+801,Outside Delhi-NCR,25,4,Poor,Laptop/Desktop,4,0,8,3,Others,0,2,0,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,8,11
+802,Outside Delhi-NCR,15,4,Poor,Smartphone,2,1,8,1,Whatsapp,0,1,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,NO,6,10
+803,Delhi-NCR,15,4,Poor,Smartphone,2,1,9,1,Whatsapp,1,3,2,NO,REST,YES,SOCIALIZE,YES,6,12
+804,Delhi-NCR,15,4,Poor,Laptop/Desktop,3,1,8,2,Whatsapp,2,3,1,NO,MUSIC,YES,SOCIALIZE,NO,7,13
+805,Delhi-NCR,15,4,Poor,Smartphone,1,0,9,5,Youtube,1,4,0,NO,ART,NO,SOCIALIZE,YES,5,14
+806,Delhi-NCR,15,4,Poor,Smartphone,3,1,9,1,Whatsapp,1,4,2,NO,MUSIC,NO,BEING OUTSIDE,YES,7,12
+807,Delhi-NCR,15,4,Poor,Smartphone,2,1,9,1,Youtube,1,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,12
+808,Delhi-NCR,15,4,Poor,Laptop/Desktop,2,1,7,1,Whatsapp,1,3,1,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,6,10
+809,Delhi-NCR,15,3,Poor,Smartphone,1,1,8,3,Youtube,1,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,4,13
+810,Delhi-NCR,15,4,Poor,Smartphone,4,1,9,1,Whatsapp,1,4,2,NO,MUSIC,YES,SOCIALIZE,YES,8,12
+811,Delhi-NCR,15,4,Poor,Smartphone,0,1,8,3,Youtube,2,4,1,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,4,14
+812,Delhi-NCR,15,4,Excellent,Smartphone,2,1,8,0,Whatsapp,3,4,2,NO,REST,YES,SOCIALIZE,YES,6,12
+813,Delhi-NCR,20,4,Excellent,Smartphone,3,1,6,1,Youtube,1,1,1,NO,SOCIALIZE,YES,SOCIALIZE,YES,7,9
+814,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,5,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,14
+815,Outside Delhi-NCR,15,4,Excellent,Smartphone,3,1,8,1,Youtube,0,1,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,10
+816,Delhi-NCR,25,4,Excellent,Smartphone,4,1,8,2,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,NO,8,11
+817,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,4,1,9,2,Youtube,0,3,2,NO,MUSIC,YES,TRAVELLING,YES,7,12
+818,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,7,2,Instagram,2,3,2,NO,SOCIALIZE,YES,SOCIALIZE,YES,8,12
+819,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,0,7,2,Others,0,3,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,6,9
+820,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,1,9,1,Whatsapp,3,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,14
+821,Outside Delhi-NCR,20,0,Excellent,Smartphone,2,2,6,1,Instagram,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,10
+822,Delhi-NCR,20,3,Excellent,Smartphone,0,1,6,4,Others,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,3,12
+823,Delhi-NCR,30,1,Excellent,Smartphone,3,1,7,2,Whatsapp,0,2,2,NO,SOCIALIZE,YES,TRAVELLING,YES,4,10
+824,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,2,6,0,Whatsapp,2,3,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,6,10
+825,Delhi-NCR,20,4,Excellent,Smartphone,3,1,8,1,Whatsapp,1,4,2,NO,SOCIALIZE,YES,BEING OUTSIDE,NO,7,11
+826,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,9,2,Youtube,0,3,1,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,12
+827,Outside Delhi-NCR,15,3,Excellent,Smartphone,2,0,9,1,Youtube,1,2,2,NO,MUSIC,NO,SCHOOL/WORK,YES,5,11
+828,Outside Delhi-NCR,25,2,Excellent,Smartphone,4,0,9,3,Youtube,0,4,2,NO,MUSIC,NO,TRAVELLING,NO,6,12
+829,Delhi-NCR,20,3,Excellent,Laptop/Desktop,4,0,7,4,Whatsapp,0,2,2,YES,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,7,11
+830,Outside Delhi-NCR,15,4,Excellent,Tablet,1,1,9,1,Youtube,3,3,0,NO,MUSIC,NO,SOCIALIZE,YES,5,14
+831,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,8,5,Instagram,3,3,0,NO,REST,NO,TRAVELLING,YES,8,14
+832,Delhi-NCR,15,4,Excellent,Smartphone,4,1,8,1,Whatsapp,2,3,1,NO,READING,YES,SCHOOL/WORK,YES,8,12
+833,Outside Delhi-NCR,30,0,Excellent,Laptop/Desktop,2,0,9,5,Whatsapp,3,3,1,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+834,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,0,0,8,3,Youtube,0,1,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,11
+835,Delhi-NCR,15,4,Excellent,Any Gadget,3,1,9,3,Instagram,2,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+836,Delhi-NCR,15,4,Excellent,Smartphone,3,1,9,1,Whatsapp,2,2,0,NO,REST,NO,SOCIALIZE,YES,7,13
+837,Delhi-NCR,20,3,Excellent,Laptop/Desktop,3,1,7,2,Instagram,1,2,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+838,Outside Delhi-NCR,15,3,Excellent,Laptop/Desktop,2,0,8,1,Whatsapp,1,1,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,10
+839,Delhi-NCR,30,2,Excellent,Tablet,3,1,7,5,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+840,Delhi-NCR,20,4,Excellent,Smartphone,2,2,8,5,Instagram,1,2,1,YES,EXERCISE,NO,SCHOOL/WORK,YES,6,14
+841,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,3,Instagram,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,6,13
+842,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,1,1,8,3,Instagram,0,3,2,NO,MUSIC,YES,SOCIALIZE,NO,5,12
+843,Delhi-NCR,15,2,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,2,3,2,NO,EXERCISE,YES,BEING OUTSIDE,YES,4,12
+844,Outside Delhi-NCR,20,0,Excellent,Smartphone,3,1,7,2,Instagram,1,4,2,NO,REST,YES,SOCIALIZE,YES,3,11
+845,Delhi-NCR,20,0,Excellent,Laptop/Desktop,3,1,8,3,Instagram,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,3,13
+846,Outside Delhi-NCR,15,4,Excellent,Tablet,4,1,8,1,Youtube,0,2,1,NO,MUSIC,YES,SOCIALIZE,NO,8,10
+847,Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,9,1,Youtube,1,3,0,NO,REST,YES,SOCIALIZE,YES,6,12
+848,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Instagram,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+849,Outside Delhi-NCR,20,0,Excellent,Smartphone,2,1,9,1,Instagram,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,12
+850,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,0,Instagram,0,3,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,8,8
+851,Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,8,0,Whatsapp,1,2,2,NO,OTHERS,YES,ALL,YES,8,10
+852,Delhi-NCR,20,0,Excellent,Tablet,0,1,6,2,Instagram,1,4,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,10
+853,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Others,0,2,1,NO,READING,YES,TRAVELLING,YES,8,11
+854,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,2,9,2,Others,0,2,1,NO,SOCIALIZE,YES,TRAVELLING,YES,7,13
+855,Outside Delhi-NCR,15,3,Excellent,Laptop/Desktop,2,0,8,1,Whatsapp,1,1,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,10
+856,Outside Delhi-NCR,25,1,Excellent,Laptop/Desktop,3,1,9,3,Instagram,1,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,4,14
+857,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,1,Youtube,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,10
+858,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,1,Whatsapp,0,3,2,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,6,9
+859,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,3,Whatsapp,2,1,1,YES,MUSIC,NO,SCHOOL/WORK,YES,4,14
+860,Delhi-NCR,15,2,Excellent,Smartphone,1,1,6,2,Youtube,1,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+861,Delhi-NCR,20,4,Excellent,Smartphone,1,1,6,1,Youtube,0,1,1,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,8
+862,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,11
+863,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,2,3,0,NO,INDOOR ACTIVITIES,NO,ALL,NO,8,12
+864,Delhi-NCR,15,4,Excellent,Smartphone,4,1,7,2,Youtube,1,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,11
+865,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,2,3,0,NO,INDOOR ACTIVITIES,NO,ALL,NO,8,12
+866,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,0,8,2,Others,0,3,2,NO,READING,NO,BEING OUTSIDE,YES,5,10
+867,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,0,Whatsapp,2,4,2,NO,MUSIC,YES,SOCIALIZE,YES,8,8
+868,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,0,8,0,Whatsapp,3,3,0,YES,REST,YES,SOCIALIZE,YES,6,11
+869,Outside Delhi-NCR,25,2,Excellent,Smartphone,4,0,9,3,Youtube,0,4,2,NO,MUSIC,NO,TRAVELLING,NO,6,12
+870,Delhi-NCR,25,2,Excellent,Laptop/Desktop,4,0,7,3,Others,1,4,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+871,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,2,8,5,Others,2,3,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,14
+872,Delhi-NCR,15,4,Excellent,Smartphone,2,1,6,1,Whatsapp,1,2,2,NO,MUSIC,YES,SCHOOL/WORK,YES,6,9
+873,Delhi-NCR,15,4,Excellent,Smartphone,1,1,7,1,Instagram,2,4,0,NO,MUSIC,YES,SCHOOL/WORK,YES,5,11
+874,Delhi-NCR,15,4,Excellent,Tablet,2,1,9,1,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,12
+875,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,3,8,2,Whatsapp,2,3,2,NO,WORK,YES,ALL,YES,7,14
+876,Delhi-NCR,25,0,Excellent,Smartphone,0,2,9,3,Youtube,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,2,14
+877,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,7,0,Others,2,2,2,NO,MUSIC,YES,BEING OUTSIDE,YES,7,10
+878,Delhi-NCR,25,3,Excellent,Smartphone,2,1,9,1,Youtube,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,5,11
+879,Outside Delhi-NCR,15,4,Excellent,Tablet,1,1,9,1,Youtube,3,3,0,NO,MUSIC,NO,SOCIALIZE,YES,5,14
+880,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,2,2,2,NO,SOCIALIZE,YES,TRAVELLING,YES,8,10
+881,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,4,Youtube,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,12
+882,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+883,Delhi-NCR,15,2,Excellent,Laptop/Desktop,1,1,6,1,Youtube,1,2,2,NO,REST,YES,SCHOOL/WORK,YES,3,9
+884,Delhi-NCR,15,4,Excellent,Smartphone,2,1,9,0,Youtube,1,3,2,NO,EXERCISE,YES,SOCIALIZE,YES,6,11
+885,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,3,Whatsapp,2,1,1,YES,MUSIC,NO,SCHOOL/WORK,YES,4,14
+886,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,0,9,3,Instagram,1,2,0,NO,MUSIC,YES,SCHOOL/WORK,YES,6,13
+887,Delhi-NCR,20,4,Excellent,Tablet,3,0,8,0,Whatsapp,0,2,1,NO,MUSIC,NO,ALL,NO,7,8
+888,Delhi-NCR,15,4,Excellent,Smartphone,2,1,7,0,Youtube,0,2,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,8
+889,Delhi-NCR,20,4,Excellent,Smartphone,2,1,9,1,Instagram,0,3,0,NO,REST,NO,SOCIALIZE,YES,6,11
+890,Delhi-NCR,15,4,Excellent,Smartphone,4,1,9,2,Whatsapp,3,2,1,YES,READING,YES,SOCIALIZE,YES,8,14
+891,Delhi-NCR,20,2,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,10
+892,Outside Delhi-NCR,15,4,Excellent,Smartphone,1,1,8,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,5,10
+893,Outside Delhi-NCR,25,4,Excellent,Smartphone,2,1,7,3,Others,1,3,2,YES,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,12
+894,Outside Delhi-NCR,20,4,Excellent,Smartphone,3,2,8,3,Youtube,0,3,2,NO,MUSIC,NO,TRAVELLING,YES,7,13
+895,Delhi-NCR,15,1,Excellent,Smartphone,3,1,6,1,Youtube,1,1,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,4,9
+896,Outside Delhi-NCR,30,0,Excellent,Laptop/Desktop,2,0,9,5,Whatsapp,3,3,1,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+897,Delhi-NCR,30,2,Excellent,Laptop/Desktop,2,1,7,1,Whatsapp,1,2,2,NO,REST,YES,TRAVELLING,YES,4,10
+898,Delhi-NCR,20,4,Excellent,Smartphone,3,0,7,2,Instagram,1,2,0,NO,MUSIC,NO,SOCIALIZE,YES,7,10
+899,Delhi-NCR,15,0,Excellent,Smartphone,2,0,7,1,Youtube,0,1,2,NO,READING,YES,SCHOOL/WORK,NO,2,8
+900,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,7,3,Youtube,1,3,0,NO,READING,YES,TRAVELLING,YES,8,12
+901,Delhi-NCR,20,2,Excellent,Smartphone,3,1,6,2,Whatsapp,3,2,2,NO,REST,NO,TRAVELLING,YES,5,12
+902,Outside Delhi-NCR,15,3,Excellent,Any Gadget,2,0,6,1,Whatsapp,1,1,0,NO,MUSIC,YES,SCHOOL/WORK,YES,5,8
+903,Delhi-NCR,15,4,Excellent,Tablet,2,1,9,1,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,12
+904,Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,8,0,Others,1,3,2,NO,REST,YES,SOCIALIZE,YES,8,10
+905,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,1,Whatsapp,0,3,2,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,6,9
+906,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,8,5,Instagram,3,3,0,NO,REST,NO,TRAVELLING,YES,8,14
+907,Outside Delhi-NCR,30,2,Excellent,Smartphone,0,0,9,1,Whatsapp,3,4,2,NO,REST,NO,BEING OUTSIDE,NO,2,13
+908,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Instagram,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+909,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Instagram,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+910,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,2,6,3,Others,0,3,2,NO,READING,YES,SOCIALIZE,YES,8,11
+911,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,11
+912,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+913,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,11
+914,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,6,2,Whatsapp,2,3,1,NO,MUSIC,YES,SCHOOL/WORK,NO,6,11
+915,Outside Delhi-NCR,15,4,Excellent,Smartphone,2,0,9,1,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,10
+916,Delhi-NCR,15,3,Excellent,Smartphone,2,0,8,1,Youtube,0,3,2,NO,MUSIC,YES,SOCIALIZE,YES,5,9
+917,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,2,Instagram,3,3,1,NO,REST,YES,SOCIALIZE,YES,4,14
+918,Delhi-NCR,15,2,Excellent,Smartphone,1,0,9,2,Youtube,3,2,0,YES,ONLINE ACTIVITIES,NO,SCHOOL/WORK,NO,3,14
+919,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+920,Delhi-NCR,15,4,Excellent,Smartphone,2,1,9,0,Youtube,1,3,2,NO,EXERCISE,YES,SOCIALIZE,YES,6,11
+921,Outside Delhi-NCR,20,2,Excellent,Laptop/Desktop,3,1,8,2,Youtube,1,3,2,YES,READING,YES,SCHOOL/WORK,YES,5,12
+922,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,9,2,Whatsapp,1,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,13
+923,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+924,Delhi-NCR,15,4,Excellent,Smartphone,2,1,9,0,Youtube,1,3,2,NO,EXERCISE,YES,SOCIALIZE,YES,6,11
+925,Delhi-NCR,15,4,Excellent,Smartphone,2,0,9,1,Whatsapp,0,3,2,NO,REST,YES,SCHOOL/WORK,YES,6,10
+926,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,0,8,2,Others,2,3,0,NO,REST,NO,SCHOOL/WORK,YES,8,12
+927,Delhi-NCR,30,1,Excellent,Laptop/Desktop,2,1,6,1,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,3,9
+928,Delhi-NCR,25,3,Excellent,Laptop/Desktop,1,0,9,3,Others,2,1,2,NO,READING,YES,BEING OUTSIDE,NO,4,14
+929,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,7,1,Instagram,1,3,0,NO,SOCIALIZE,NO,SCHOOL/WORK,NO,6,10
+930,Outside Delhi-NCR,25,2,Excellent,Smartphone,1,1,6,2,Others,1,2,1,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,3,10
+931,Delhi-NCR,15,4,Excellent,Smartphone,3,2,9,1,Others,1,4,0,NO,REST,YES,SOCIALIZE,YES,7,13
+932,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,9,4,Youtube,3,4,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,7,14
+933,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,2,Youtube,0,2,0,NO,MUSIC,YES,TRAVELLING,NO,8,10
+934,Delhi-NCR,15,3,Excellent,Smartphone,4,1,8,1,Instagram,2,3,1,NO,EXERCISE,YES,TRAVELLING,YES,7,12
+935,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,7,2,Whatsapp,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,9
+936,Delhi-NCR,15,4,Excellent,Smartphone,2,1,8,0,Whatsapp,3,4,2,NO,REST,YES,SOCIALIZE,YES,6,12
+937,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,2,Others,1,2,1,NO,MUSIC,YES,BEING OUTSIDE,YES,8,9
+938,Delhi-NCR,20,0,Excellent,Smartphone,0,0,7,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,2,12
+939,Delhi-NCR,20,4,Excellent,Smartphone,1,1,6,1,Youtube,0,1,1,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,8
+940,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,9,4,Youtube,3,4,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,7,14
+941,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,2,3,0,NO,INDOOR ACTIVITIES,NO,ALL,NO,8,12
+942,Delhi-NCR,15,4,Excellent,Smartphone,4,1,9,2,Whatsapp,3,2,1,YES,READING,YES,SOCIALIZE,YES,8,14
+943,Delhi-NCR,20,0,Excellent,Smartphone,0,0,7,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,2,12
+944,Delhi-NCR,15,4,Excellent,Smartphone,4,1,8,1,Whatsapp,2,3,1,NO,READING,YES,SCHOOL/WORK,YES,8,12
+945,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,6,1,Youtube,1,3,2,NO,REST,YES,SCHOOL/WORK,YES,7,9
+946,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,1,8,1,Whatsapp,0,2,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,7,10
+947,Outside Delhi-NCR,15,4,Excellent,Smartphone,3,2,6,0,Whatsapp,1,3,2,NO,REST,NO,SCHOOL/WORK,YES,7,9
+948,Outside Delhi-NCR,15,4,Excellent,Any Gadget,2,1,7,1,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,6,9
+949,Delhi-NCR,15,3,Excellent,Smartphone,4,1,8,1,Instagram,2,3,1,NO,EXERCISE,YES,TRAVELLING,YES,7,12
+950,Delhi-NCR,15,4,Excellent,Any Gadget,3,1,9,3,Instagram,2,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+951,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Others,0,2,1,NO,READING,YES,TRAVELLING,YES,8,11
+952,Outside Delhi-NCR,20,3,Excellent,Smartphone,4,2,7,4,Whatsapp,0,4,2,YES,SOCIALIZE,NO,SCHOOL/WORK,YES,7,13
+953,Delhi-NCR,25,3,Excellent,Smartphone,2,1,9,1,Youtube,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,5,11
+954,Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,1,9,5,Whatsapp,3,4,0,NO,MUSIC,YES,SOCIALIZE,YES,6,14
+955,Delhi-NCR,15,4,Excellent,Smartphone,2,1,7,3,Youtube,1,2,2,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,6,12
+956,Delhi-NCR,15,4,Excellent,Smartphone,2,1,7,0,Youtube,0,2,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,8
+957,Delhi-NCR,15,2,Excellent,Smartphone,1,1,8,1,Whatsapp,2,1,0,YES,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,3,12
+958,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+959,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,6,1,Others,0,3,2,YES,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,8
+960,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,0,8,0,Whatsapp,3,3,0,YES,REST,YES,SOCIALIZE,YES,6,11
+961,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,0,9,1,Whatsapp,0,3,0,NO,MUSIC,NO,TRAVELLING,YES,6,10
+962,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,8,2,Instagram,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+963,Delhi-NCR,20,3,Excellent,Laptop/Desktop,4,0,7,4,Whatsapp,0,2,2,YES,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,7,11
+964,Delhi-NCR,15,0,Excellent,Smartphone,2,0,7,1,Youtube,0,1,2,NO,READING,YES,SCHOOL/WORK,NO,2,8
+965,Delhi-NCR,15,4,Excellent,Smartphone,3,1,8,2,Youtube,1,2,0,NO,READING,YES,SCHOOL/WORK,YES,7,12
+966,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,3,8,2,Whatsapp,2,3,2,NO,WORK,YES,ALL,YES,7,14
+967,Delhi-NCR,25,0,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,2,2,YES,ONLINE ACTIVITIES,NO,TRAVELLING,YES,4,11
+968,Delhi-NCR,25,3,Excellent,Laptop/Desktop,4,0,7,0,Whatsapp,0,3,2,NO,MUSIC,YES,BEING OUTSIDE,NO,7,8
+969,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,8,3,Whatsapp,1,3,0,NO,REST,NO,SCHOOL/WORK,YES,4,13
+970,Delhi-NCR,15,4,Excellent,Tablet,1,0,7,4,Youtube,0,2,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,11
+971,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Others,0,2,1,NO,READING,YES,TRAVELLING,YES,8,11
+972,Delhi-NCR,15,3,Excellent,Laptop/Desktop,4,2,9,3,Others,3,3,1,NO,MUSIC,YES,SOCIALIZE,YES,7,14
+973,Outside Delhi-NCR,15,4,Excellent,Smartphone,4,0,6,1,Youtube,2,2,2,NO,MUSIC,YES,SOCIALIZE,YES,8,9
+974,Delhi-NCR,15,4,Excellent,Smartphone,2,0,9,1,Whatsapp,0,3,2,NO,REST,YES,SCHOOL/WORK,YES,6,10
+975,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,3,Whatsapp,2,1,1,YES,MUSIC,NO,SCHOOL/WORK,YES,4,14
+976,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,11
+977,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,2,6,0,Whatsapp,2,3,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,6,10
+978,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+979,Delhi-NCR,15,4,Excellent,Tablet,4,1,7,2,Whatsapp,0,4,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,8,10
+980,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,6,0,Youtube,0,4,2,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+981,Delhi-NCR,15,1,Excellent,Smartphone,4,3,6,2,Instagram,2,4,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,5,13
+982,Delhi-NCR,15,2,Excellent,Smartphone,1,3,9,3,Youtube,2,4,0,NO,READING,NO,BEING OUTSIDE,YES,3,14
+983,Delhi-NCR,20,2,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,10
+984,Delhi-NCR,15,4,Excellent,Any Gadget,3,1,9,3,Instagram,2,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+985,Delhi-NCR,15,4,Excellent,Tablet,2,1,9,1,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,12
+986,Delhi-NCR,25,0,Excellent,Laptop/Desktop,3,0,9,4,Youtube,1,3,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,3,14
+987,Delhi-NCR,20,3,Excellent,Laptop/Desktop,2,1,7,5,Whatsapp,2,3,2,NO,READING,NO,SCHOOL/WORK,YES,5,14
+988,Delhi-NCR,15,1,Excellent,Laptop/Desktop,3,2,8,2,Youtube,1,4,0,NO,READING,YES,SOCIALIZE,YES,4,13
+989,Delhi-NCR,20,1,Excellent,Laptop/Desktop,0,1,7,2,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,2,10
+990,Delhi-NCR,25,0,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,2,2,YES,ONLINE ACTIVITIES,NO,TRAVELLING,YES,4,11
+991,Delhi-NCR,30,3,Excellent,Laptop/Desktop,3,1,7,1,Whatsapp,1,3,2,NO,REST,NO,SCHOOL/WORK,NO,6,10
+992,Delhi-NCR,15,4,Excellent,Smartphone,2,1,8,1,Whatsapp,1,1,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,11
+993,Delhi-NCR,15,1,Excellent,Smartphone,1,1,9,0,Whatsapp,2,3,0,NO,SOCIALIZE,YES,SOCIALIZE,YES,2,12
+994,Delhi-NCR,15,2,Excellent,Smartphone,2,1,9,2,Others,1,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,NO,4,13
+995,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,7,4,Instagram,0,2,0,NO,SOCIALIZE,YES,TRAVELLING,YES,8,12
+996,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,0,Whatsapp,2,4,2,NO,MUSIC,YES,SOCIALIZE,YES,8,8
+997,Outside Delhi-NCR,20,4,Excellent,Any Gadget,3,1,8,5,Youtube,3,3,0,NO,MUSIC,NO,BEING OUTSIDE,NO,7,14
+998,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,3,3,2,YES,REST,YES,SOCIALIZE,YES,6,13
+999,Outside Delhi-NCR,25,0,Excellent,Smartphone,4,1,8,2,Instagram,0,2,1,YES,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,11
+1000,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,1,2,2,NO,READING,YES,TRAVELLING,YES,8,9
+1001,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,6,1,Youtube,1,3,2,NO,REST,YES,SCHOOL/WORK,YES,7,9
+1002,Delhi-NCR,15,4,Excellent,Tablet,2,1,7,1,Whatsapp,1,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,6,10
+1003,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,3,Instagram,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,6,13
+1004,Outside Delhi-NCR,25,4,Excellent,Smartphone,3,1,8,3,Instagram,3,3,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+1005,Outside Delhi-NCR,25,1,Excellent,Laptop/Desktop,2,0,7,0,Others,0,2,0,NO,READING,YES,TRAVELLING,YES,3,8
+1006,Delhi-NCR,25,0,Excellent,Laptop/Desktop,3,0,9,4,Youtube,1,3,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,3,14
+1007,Delhi-NCR,20,4,Excellent,Smartphone,2,1,9,1,Instagram,0,3,0,NO,REST,NO,SOCIALIZE,YES,6,11
+1008,Outside Delhi-NCR,25,1,Excellent,Smartphone,3,2,9,1,Youtube,2,4,0,YES,REST,NO,SOCIALIZE,YES,4,14
+1009,Delhi-NCR,15,4,Excellent,Smartphone,4,0,6,0,Youtube,0,3,2,NO,OTHERS,YES,NOTHING,NO,8,8
+1010,Outside Delhi-NCR,15,4,Excellent,Smartphone,3,1,8,1,Youtube,0,1,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,10
+1011,Outside Delhi-NCR,15,4,Excellent,Tablet,4,1,8,1,Youtube,0,2,1,NO,MUSIC,YES,SOCIALIZE,NO,8,10
+1012,Delhi-NCR,25,0,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,2,2,YES,ONLINE ACTIVITIES,NO,TRAVELLING,YES,4,11
+1013,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,3,Youtube,0,2,2,NO,READING,YES,SOCIALIZE,NO,8,11
+1014,Delhi-NCR,15,4,Excellent,Smartphone,4,1,9,2,Whatsapp,3,2,1,YES,READING,YES,SOCIALIZE,YES,8,14
+1015,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,6,0,Whatsapp,0,2,0,YES,MUSIC,YES,TRAVELLING,NO,6,8
+1016,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,1,9,1,Whatsapp,3,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,14
+1017,Delhi-NCR,20,4,Excellent,Smartphone,1,1,6,1,Youtube,0,1,1,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,8
+1018,Outside Delhi-NCR,20,4,Excellent,Smartphone,4,0,9,1,Youtube,0,2,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,8,10
+1019,Delhi-NCR,15,4,Excellent,Smartphone,3,1,8,2,Youtube,1,2,0,NO,READING,YES,SCHOOL/WORK,YES,7,12
+1020,Delhi-NCR,20,2,Excellent,Smartphone,2,1,9,2,Youtube,1,2,2,NO,REST,YES,SCHOOL/WORK,YES,4,13
+1021,Delhi-NCR,15,3,Excellent,Tablet,4,1,7,1,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,7,12
+1022,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,2,Others,1,2,1,NO,MUSIC,YES,BEING OUTSIDE,YES,8,9
+1023,Delhi-NCR,15,3,Excellent,Laptop/Desktop,4,2,9,3,Others,3,3,1,NO,MUSIC,YES,SOCIALIZE,YES,7,14
+1024,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,7,1,Instagram,1,3,0,NO,SOCIALIZE,NO,SCHOOL/WORK,NO,6,10
+1025,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,4,Youtube,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,13
+1026,Delhi-NCR,25,3,Excellent,Laptop/Desktop,1,0,9,3,Others,2,1,2,NO,READING,YES,BEING OUTSIDE,NO,4,14
+1027,Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,1,9,5,Whatsapp,3,4,0,NO,MUSIC,YES,SOCIALIZE,YES,6,14
+1028,Outside Delhi-NCR,15,3,Excellent,Any Gadget,2,0,6,1,Whatsapp,1,1,0,NO,MUSIC,YES,SCHOOL/WORK,YES,5,8
+1029,Outside Delhi-NCR,20,1,Excellent,Smartphone,2,1,8,1,Others,0,2,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1030,Outside Delhi-NCR,20,1,Excellent,Smartphone,2,1,8,1,Others,0,2,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1031,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,6,5,Instagram,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,14
+1032,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,5,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,14
+1033,Delhi-NCR,25,3,Excellent,Laptop/Desktop,1,0,9,3,Others,2,1,2,NO,READING,YES,BEING OUTSIDE,NO,4,14
+1034,Delhi-NCR,25,4,Excellent,Smartphone,1,1,9,2,Whatsapp,0,4,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1035,Outside Delhi-NCR,25,4,Excellent,Smartphone,3,1,8,3,Instagram,3,3,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+1036,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,7,3,Youtube,1,3,0,NO,READING,YES,TRAVELLING,YES,8,12
+1037,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,6,1,Others,0,3,2,YES,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,8
+1038,Outside Delhi-NCR,15,1,Excellent,Smartphone,2,1,8,1,Whatsapp,2,2,0,NO,REST,NO,SCHOOL/WORK,YES,3,12
+1039,Delhi-NCR,15,4,Excellent,Smartphone,4,1,7,2,Youtube,1,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,11
+1040,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,1,8,1,Whatsapp,0,2,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,7,10
+1041,Delhi-NCR,15,2,Excellent,Smartphone,2,1,9,1,Youtube,1,4,2,NO,READING,YES,SCHOOL/WORK,YES,4,12
+1042,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,2,7,2,Instagram,1,3,0,NO,EXERCISE,YES,TRAVELLING,YES,6,12
+1043,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Instagram,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+1044,Delhi-NCR,15,3,Excellent,Laptop/Desktop,4,2,9,3,Others,3,3,1,NO,MUSIC,YES,SOCIALIZE,YES,7,14
+1045,Delhi-NCR,15,3,Excellent,Smartphone,4,2,9,0,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,YES,7,11
+1046,Delhi-NCR,20,4,Excellent,Smartphone,3,1,8,1,Whatsapp,1,4,2,NO,SOCIALIZE,YES,BEING OUTSIDE,NO,7,11
+1047,Outside Delhi-NCR,20,2,Excellent,Smartphone,3,1,8,1,Others,2,1,0,NO,REST,YES,SCHOOL/WORK,YES,5,12
+1048,Delhi-NCR,20,4,Excellent,Smartphone,2,1,6,2,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,NO,6,9
+1049,Outside Delhi-NCR,15,1,Excellent,Laptop/Desktop,1,1,9,3,Youtube,1,4,0,NO,MUSIC,YES,SCHOOL/WORK,YES,2,14
+1050,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,2,1,9,2,Instagram,2,2,2,NO,REST,YES,SCHOOL/WORK,YES,2,14
+1051,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+1052,Outside Delhi-NCR,15,4,Excellent,Smartphone,2,2,6,1,Youtube,1,1,1,NO,MUSIC,YES,SOCIALIZE,YES,6,10
+1053,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,4,Youtube,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,12
+1054,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,0,8,0,Whatsapp,3,3,0,YES,REST,YES,SOCIALIZE,YES,6,11
+1055,Delhi-NCR,20,4,Excellent,Smartphone,2,2,8,5,Instagram,1,2,1,YES,EXERCISE,NO,SCHOOL/WORK,YES,6,14
+1056,Delhi-NCR,15,2,Excellent,Smartphone,1,3,9,3,Youtube,2,4,0,NO,READING,NO,BEING OUTSIDE,YES,3,14
+1057,Outside Delhi-NCR,20,1,Excellent,Laptop/Desktop,2,0,8,1,Whatsapp,0,3,2,NO,EXERCISE,NO,SCHOOL/WORK,YES,3,9
+1058,Outside Delhi-NCR,20,2,Excellent,Smartphone,3,1,8,1,Others,2,1,0,NO,REST,YES,SCHOOL/WORK,YES,5,12
+1059,Delhi-NCR,15,1,Excellent,Smartphone,1,1,9,0,Whatsapp,2,3,0,NO,SOCIALIZE,YES,SOCIALIZE,YES,2,12
+1060,Outside Delhi-NCR,15,3,Excellent,Smartphone,2,0,9,1,Youtube,1,2,2,NO,MUSIC,NO,SCHOOL/WORK,YES,5,11
+1061,Delhi-NCR,20,4,Excellent,Smartphone,2,0,8,0,Youtube,1,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,9
+1062,Delhi-NCR,15,4,Excellent,Tablet,1,0,7,4,Youtube,0,2,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,11
+1063,Delhi-NCR,15,4,Excellent,Smartphone,3,2,9,1,Others,1,4,0,NO,REST,YES,SOCIALIZE,YES,7,13
+1064,Outside Delhi-NCR,15,0,Excellent,Smartphone,3,1,8,1,Whatsapp,2,2,0,NO,READING,YES,SCHOOL/WORK,YES,3,12
+1065,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,2,7,1,Instagram,0,3,1,YES,MUSIC,YES,TRAVELLING,YES,5,10
+1066,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,8,3,Whatsapp,1,3,0,NO,REST,NO,SCHOOL/WORK,YES,4,13
+1067,Delhi-NCR,20,3,Excellent,Laptop/Desktop,2,1,7,5,Whatsapp,2,3,2,NO,READING,NO,SCHOOL/WORK,YES,5,14
+1068,Outside Delhi-NCR,20,4,Excellent,Smartphone,4,0,9,1,Youtube,0,2,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,8,10
+1069,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,7,3,Youtube,1,3,0,NO,READING,YES,TRAVELLING,YES,8,12
+1070,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,3,Others,0,3,0,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,8,11
+1071,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,9,2,Instagram,2,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,14
+1072,Delhi-NCR,15,2,Excellent,Smartphone,2,1,9,2,Others,1,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,NO,4,13
+1073,Delhi-NCR,15,4,Excellent,Tablet,2,1,9,1,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,12
+1074,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,0,9,3,Youtube,0,4,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,12
+1075,Delhi-NCR,15,3,Excellent,Smartphone,4,2,9,0,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,YES,7,11
+1076,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,6,5,Others,3,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,8,14
+1077,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,2,7,2,Instagram,1,3,0,NO,EXERCISE,YES,TRAVELLING,YES,6,12
+1078,Delhi-NCR,20,4,Excellent,Laptop/Desktop,1,1,8,1,Instagram,1,4,1,NO,MUSIC,YES,SOCIALIZE,YES,5,11
+1079,Delhi-NCR,15,4,Excellent,Tablet,2,0,8,1,Youtube,2,3,0,NO,INDOOR ACTIVITIES,NO,ALL,YES,6,11
+1080,Delhi-NCR,20,0,Excellent,Laptop/Desktop,4,1,7,4,Youtube,2,3,2,YES,ONLINE ACTIVITIES,NO,TRAVELLING,YES,4,14
+1081,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,8,5,Instagram,3,3,0,NO,REST,NO,TRAVELLING,YES,8,14
+1082,Delhi-NCR,20,4,Excellent,Smartphone,2,2,8,5,Instagram,1,2,1,YES,EXERCISE,NO,SCHOOL/WORK,YES,6,14
+1083,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,2,Instagram,3,3,1,NO,REST,YES,SOCIALIZE,YES,4,14
+1084,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,6,5,Instagram,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,14
+1085,Outside Delhi-NCR,15,3,Excellent,Laptop/Desktop,2,0,8,1,Whatsapp,1,1,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,10
+1086,Delhi-NCR,15,2,Excellent,Smartphone,2,1,9,1,Youtube,1,4,2,NO,READING,YES,SCHOOL/WORK,YES,4,12
+1087,Delhi-NCR,25,1,Excellent,Smartphone,4,0,7,2,Others,2,2,2,NO,EXERCISE,NO,SCHOOL/WORK,NO,5,11
+1088,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,2,Others,1,2,1,NO,MUSIC,YES,BEING OUTSIDE,YES,8,9
+1089,Outside Delhi-NCR,15,4,Excellent,Tablet,4,1,8,1,Youtube,0,2,1,NO,MUSIC,YES,SOCIALIZE,NO,8,10
+1090,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,6,5,Others,3,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,8,14
+1091,Outside Delhi-NCR,15,4,Excellent,Smartphone,4,0,6,1,Youtube,2,2,2,NO,MUSIC,YES,SOCIALIZE,YES,8,9
+1092,Outside Delhi-NCR,15,1,Excellent,Smartphone,2,1,8,1,Whatsapp,2,2,0,NO,REST,NO,SCHOOL/WORK,YES,3,12
+1093,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,2,Youtube,0,2,0,NO,MUSIC,YES,TRAVELLING,NO,8,10
+1094,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,1,2,7,1,Whatsapp,1,4,0,NO,REST,YES,BEING OUTSIDE,YES,5,11
+1095,Outside Delhi-NCR,20,4,Excellent,Any Gadget,3,1,8,5,Youtube,3,3,0,NO,MUSIC,NO,BEING OUTSIDE,NO,7,14
+1096,Delhi-NCR,20,3,Excellent,Smartphone,0,1,6,4,Others,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,3,12
+1097,Delhi-NCR,20,4,Excellent,Smartphone,2,0,8,0,Youtube,1,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,9
+1098,Delhi-NCR,20,3,Excellent,Smartphone,0,1,6,4,Others,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,3,12
+1099,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,4,1,9,2,Youtube,0,3,2,NO,MUSIC,YES,TRAVELLING,YES,7,12
+1100,Delhi-NCR,20,4,Excellent,Smartphone,2,2,8,5,Instagram,1,2,1,YES,EXERCISE,NO,SCHOOL/WORK,YES,6,14
+1101,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,4,0,6,1,Youtube,0,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,7,8
+1102,Delhi-NCR,15,1,Excellent,Smartphone,3,1,6,1,Youtube,1,1,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,4,9
+1103,Delhi-NCR,15,4,Excellent,Smartphone,2,0,9,1,Whatsapp,0,3,2,NO,REST,YES,SCHOOL/WORK,YES,6,10
+1104,Outside Delhi-NCR,20,1,Excellent,Laptop/Desktop,3,1,9,3,Youtube,2,4,2,NO,READING,YES,SCHOOL/WORK,YES,4,14
+1105,Delhi-NCR,15,4,Excellent,Smartphone,2,0,9,1,Whatsapp,2,2,2,NO,REST,YES,SOCIALIZE,YES,6,12
+1106,Delhi-NCR,15,4,Excellent,Smartphone,4,1,6,3,Youtube,2,3,2,NO,REST,YES,SOCIALIZE,YES,8,12
+1107,Delhi-NCR,15,2,Excellent,Smartphone,2,1,9,1,Youtube,1,4,2,NO,READING,YES,SCHOOL/WORK,YES,4,12
+1108,Delhi-NCR,15,3,Excellent,Laptop/Desktop,4,2,9,3,Others,3,3,1,NO,MUSIC,YES,SOCIALIZE,YES,7,14
+1109,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,7,5,Others,2,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,8,14
+1110,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,3,1,8,3,Instagram,0,3,1,NO,INDOOR ACTIVITIES,YES,TRAVELLING,NO,3,12
+1111,Outside Delhi-NCR,30,2,Excellent,Smartphone,0,0,9,1,Whatsapp,3,4,2,NO,REST,NO,BEING OUTSIDE,NO,2,13
+1112,Outside Delhi-NCR,15,4,Excellent,Smartphone,2,2,6,1,Youtube,1,1,1,NO,MUSIC,YES,SOCIALIZE,YES,6,10
+1113,Delhi-NCR,20,1,Excellent,Laptop/Desktop,0,1,7,2,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,2,10
+1114,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Youtube,1,4,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,8,11
+1115,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,3,Youtube,1,3,2,NO,SOCIALIZE,YES,TRAVELLING,YES,6,12
+1116,Delhi-NCR,20,4,Excellent,Smartphone,3,1,8,1,Whatsapp,1,4,2,NO,SOCIALIZE,YES,BEING OUTSIDE,NO,7,11
+1117,Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,0,6,5,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,8,12
+1118,Delhi-NCR,25,1,Excellent,Laptop/Desktop,1,2,7,2,Youtube,0,3,2,NO,MUSIC,YES,SOCIALIZE,YES,2,11
+1119,Delhi-NCR,15,1,Excellent,Laptop/Desktop,3,2,8,2,Youtube,1,4,0,NO,READING,YES,SOCIALIZE,YES,4,13
+1120,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+1121,Delhi-NCR,25,3,Excellent,Smartphone,1,0,6,2,Whatsapp,3,3,2,NO,MUSIC,NO,SOCIALIZE,YES,4,11
+1122,Delhi-NCR,15,4,Excellent,Smartphone,2,1,7,0,Youtube,0,2,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,8
+1123,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,1,9,1,Whatsapp,3,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,14
+1124,Delhi-NCR,15,4,Excellent,Smartphone,2,1,6,1,Whatsapp,1,2,2,NO,MUSIC,YES,SCHOOL/WORK,YES,6,9
+1125,Outside Delhi-NCR,20,2,Excellent,Laptop/Desktop,3,1,8,2,Youtube,1,3,2,YES,READING,YES,SCHOOL/WORK,YES,5,12
+1126,Delhi-NCR,25,2,Excellent,Smartphone,4,0,7,4,Instagram,1,4,0,NO,EXERCISE,NO,TRAVELLING,YES,6,12
+1127,Delhi-NCR,25,2,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,0,4,0,NO,MUSIC,YES,TRAVELLING,YES,6,8
+1128,Delhi-NCR,15,4,Excellent,Smartphone,3,1,8,2,Youtube,1,2,0,NO,READING,YES,SCHOOL/WORK,YES,7,12
+1129,Delhi-NCR,15,4,Excellent,Tablet,2,1,6,1,Youtube,2,3,1,NO,EXERCISE,YES,SOCIALIZE,YES,6,10
+1130,Delhi-NCR,25,4,Excellent,Smartphone,4,1,8,2,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,NO,8,11
+1131,Delhi-NCR,15,2,Excellent,Laptop/Desktop,1,1,6,1,Youtube,1,2,2,NO,REST,YES,SCHOOL/WORK,YES,3,9
+1132,Delhi-NCR,30,0,Excellent,Smartphone,2,0,8,2,Youtube,2,3,2,NO,REST,NO,TRAVELLING,YES,2,12
+1133,Outside Delhi-NCR,15,3,Excellent,Smartphone,2,0,9,1,Youtube,1,2,2,NO,MUSIC,NO,SCHOOL/WORK,YES,5,11
+1134,Delhi-NCR,30,3,Excellent,Laptop/Desktop,3,1,7,1,Whatsapp,1,3,2,NO,REST,NO,SCHOOL/WORK,NO,6,10
+1135,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,4,1,7,3,Instagram,0,3,0,NO,MUSIC,NO,TRAVELLING,YES,4,11
+1136,Outside Delhi-NCR,20,1,Excellent,Smartphone,2,1,8,1,Others,0,2,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1137,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,0,7,2,Others,0,3,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,6,9
+1138,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,8,2,Instagram,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+1139,Delhi-NCR,20,2,Excellent,Smartphone,2,1,9,2,Youtube,1,2,2,NO,REST,YES,SCHOOL/WORK,YES,4,13
+1140,Delhi-NCR,15,4,Excellent,Smartphone,4,1,6,3,Youtube,2,3,2,NO,REST,YES,SOCIALIZE,YES,8,12
+1141,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,1,2,2,NO,MUSIC,YES,SOCIALIZE,YES,8,11
+1142,Outside Delhi-NCR,20,3,Excellent,Laptop/Desktop,4,0,8,2,Youtube,0,3,2,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,7,10
+1143,Delhi-NCR,15,3,Excellent,Smartphone,3,1,8,1,Whatsapp,0,2,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,10
+1144,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,2,Instagram,0,4,1,YES,ONLINE ACTIVITIES,NO,TRAVELLING,NO,5,11
+1145,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,2,Instagram,0,4,1,YES,ONLINE ACTIVITIES,NO,TRAVELLING,NO,5,11
+1146,Outside Delhi-NCR,15,1,Excellent,Smartphone,2,1,8,1,Whatsapp,2,2,0,NO,REST,NO,SCHOOL/WORK,YES,3,12
+1147,Delhi-NCR,15,4,Excellent,Smartphone,4,1,7,2,Youtube,1,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,11
+1148,Delhi-NCR,25,4,Excellent,Smartphone,1,1,9,2,Whatsapp,0,4,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1149,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,3,Youtube,1,3,2,NO,SOCIALIZE,YES,TRAVELLING,YES,6,12
+1150,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,0,9,3,Instagram,1,2,0,NO,MUSIC,YES,SCHOOL/WORK,YES,6,13
+1151,Delhi-NCR,20,1,Excellent,Smartphone,3,1,8,3,Youtube,1,4,2,NO,READING,NO,SCHOOL/WORK,YES,4,13
+1152,Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,8,0,Others,1,3,2,NO,REST,YES,SOCIALIZE,YES,8,10
+1153,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+1154,Delhi-NCR,25,2,Excellent,Laptop/Desktop,3,1,8,2,Instagram,1,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1155,Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,0,7,2,Whatsapp,0,3,2,NO,REST,YES,TRAVELLING,YES,7,9
+1156,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,2,1,6,1,Whatsapp,0,2,2,NO,READING,YES,BEING OUTSIDE,YES,5,8
+1157,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,1,2,2,NO,MUSIC,YES,SOCIALIZE,YES,8,11
+1158,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,3,Youtube,1,3,2,NO,SOCIALIZE,YES,TRAVELLING,YES,6,12
+1159,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,6,5,Instagram,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,14
+1160,Delhi-NCR,25,2,Excellent,Laptop/Desktop,3,0,7,2,Others,3,2,2,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,5,12
+1161,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,8,2,Instagram,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+1162,Outside Delhi-NCR,30,1,Excellent,Laptop/Desktop,4,0,6,5,Others,3,3,2,NO,SOCIALIZE,NO,TRAVELLING,YES,5,14
+1163,Delhi-NCR,25,0,Excellent,Laptop/Desktop,4,1,8,2,Whatsapp,0,2,2,YES,ONLINE ACTIVITIES,NO,TRAVELLING,YES,4,11
+1164,Delhi-NCR,25,2,Excellent,Laptop/Desktop,3,1,8,2,Instagram,1,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1165,Delhi-NCR,15,2,Excellent,Smartphone,1,1,6,2,Youtube,1,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1166,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+1167,Delhi-NCR,20,0,Excellent,Smartphone,0,0,7,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,2,12
+1168,Delhi-NCR,20,2,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,10
+1169,Outside Delhi-NCR,15,2,Excellent,Laptop/Desktop,2,0,9,5,Youtube,0,3,2,NO,ONLINE ACTIVITIES,NO,NOTHING,YES,4,14
+1170,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Instagram,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+1171,Outside Delhi-NCR,25,2,Excellent,Laptop/Desktop,2,1,8,2,Whatsapp,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,4,11
+1172,Delhi-NCR,15,4,Excellent,Smartphone,3,2,9,1,Others,1,4,0,NO,REST,YES,SOCIALIZE,YES,7,13
+1173,Delhi-NCR,20,3,Excellent,Smartphone,0,1,6,4,Others,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,3,12
+1174,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,3,1,8,3,Instagram,0,3,1,NO,INDOOR ACTIVITIES,YES,TRAVELLING,NO,3,12
+1175,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,2,Youtube,0,2,0,NO,MUSIC,YES,TRAVELLING,NO,8,10
+1176,Outside Delhi-NCR,15,4,Excellent,Any Gadget,2,1,7,1,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,6,9
+1177,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,2,Instagram,0,4,1,YES,ONLINE ACTIVITIES,NO,TRAVELLING,NO,5,11
+1178,Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,0,7,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,7,8
+1179,Outside Delhi-NCR,30,1,Excellent,Smartphone,1,1,7,1,Whatsapp,0,4,2,NO,EXERCISE,NO,SCHOOL/WORK,YES,2,9
+1180,Delhi-NCR,15,4,Excellent,Tablet,4,1,7,2,Whatsapp,0,4,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,YES,8,10
+1181,Delhi-NCR,25,1,Excellent,Laptop/Desktop,1,2,7,2,Youtube,0,3,2,NO,MUSIC,YES,SOCIALIZE,YES,2,11
+1182,Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,0,7,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,7,8
+1183,Outside Delhi-NCR,20,0,Excellent,Smartphone,1,1,9,1,Others,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,12
+1184,Delhi-NCR,25,3,Excellent,Laptop/Desktop,1,0,9,3,Others,2,1,2,NO,READING,YES,BEING OUTSIDE,NO,4,14
+1185,Delhi-NCR,15,4,Excellent,Tablet,4,0,7,1,Youtube,2,4,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,8,10
+1186,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,8,3,Whatsapp,1,3,0,NO,REST,NO,SCHOOL/WORK,YES,4,13
+1187,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,2,2,2,NO,SOCIALIZE,YES,TRAVELLING,YES,8,10
+1188,Outside Delhi-NCR,30,1,Excellent,Smartphone,1,1,7,1,Whatsapp,0,4,2,NO,EXERCISE,NO,SCHOOL/WORK,YES,2,9
+1189,Outside Delhi-NCR,15,4,Excellent,Smartphone,2,0,9,1,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,10
+1190,Delhi-NCR,15,4,Excellent,Smartphone,4,1,7,2,Youtube,1,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,11
+1191,Outside Delhi-NCR,15,1,Excellent,Smartphone,3,1,6,4,Whatsapp,1,4,0,NO,MUSIC,YES,SCHOOL/WORK,YES,4,12
+1192,Outside Delhi-NCR,15,1,Excellent,Smartphone,1,1,8,1,Youtube,2,3,2,NO,MUSIC,NO,SCHOOL/WORK,YES,2,12
+1193,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,2,7,1,Instagram,0,3,1,YES,MUSIC,YES,TRAVELLING,YES,5,10
+1194,Outside Delhi-NCR,15,2,Excellent,Laptop/Desktop,2,0,9,5,Youtube,0,3,2,NO,ONLINE ACTIVITIES,NO,NOTHING,YES,4,14
+1195,Delhi-NCR,25,4,Excellent,Smartphone,2,1,7,3,Instagram,0,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,6,11
+1196,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,9,2,Instagram,2,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,14
+1197,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,3,Youtube,0,2,2,NO,READING,YES,SOCIALIZE,NO,8,11
+1198,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,3,Youtube,0,2,2,NO,READING,YES,SOCIALIZE,NO,8,11
+1199,Delhi-NCR,25,4,Excellent,Smartphone,2,1,7,3,Instagram,0,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,6,11
+1200,Outside Delhi-NCR,20,4,Excellent,Smartphone,3,3,6,5,Instagram,0,4,1,NO,EXERCISE,YES,ALL,YES,7,14
+1201,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,2,8,5,Others,2,3,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,14
+1202,Delhi-NCR,20,0,Excellent,Smartphone,0,2,6,1,Others,3,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,12
+1203,Delhi-NCR,20,1,Excellent,Laptop/Desktop,0,1,7,2,Instagram,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,2,10
+1204,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,1,Youtube,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,10
+1205,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,3,Instagram,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,6,13
+1206,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,7,3,Youtube,1,3,0,NO,READING,YES,TRAVELLING,YES,8,12
+1207,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,7,5,Others,2,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,8,14
+1208,Outside Delhi-NCR,15,4,Excellent,Smartphone,1,1,8,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,5,10
+1209,Outside Delhi-NCR,15,0,Excellent,Smartphone,3,1,8,1,Whatsapp,2,2,0,NO,READING,YES,SCHOOL/WORK,YES,3,12
+1210,Delhi-NCR,25,4,Excellent,Smartphone,1,1,9,2,Whatsapp,0,4,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1211,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,8,5,Instagram,3,3,0,NO,REST,NO,TRAVELLING,YES,8,14
+1212,Outside Delhi-NCR,15,3,Excellent,Tablet,3,0,9,1,Youtube,3,3,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,6,13
+1213,Outside Delhi-NCR,15,4,Excellent,Any Gadget,2,1,7,1,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,6,9
+1214,Outside Delhi-NCR,15,4,Excellent,Any Gadget,2,1,7,1,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,6,9
+1215,Delhi-NCR,15,4,Excellent,Smartphone,4,1,6,3,Youtube,2,3,2,NO,REST,YES,SOCIALIZE,YES,8,12
+1216,Delhi-NCR,30,2,Excellent,Tablet,3,1,7,5,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+1217,Delhi-NCR,20,0,Excellent,Smartphone,0,2,6,1,Others,3,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,12
+1218,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,5,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,14
+1219,Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,6,0,Whatsapp,2,3,2,NO,READING,NO,SOCIALIZE,YES,8,9
+1220,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,3,8,2,Whatsapp,2,3,2,NO,WORK,YES,ALL,YES,7,14
+1221,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,0,8,2,Others,2,3,0,NO,REST,NO,SCHOOL/WORK,YES,8,12
+1222,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,0,Instagram,0,3,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,8,8
+1223,Delhi-NCR,15,4,Excellent,Tablet,4,1,8,0,Youtube,0,4,2,NO,MUSIC,YES,SCHOOL/WORK,NO,8,9
+1224,Delhi-NCR,15,4,Excellent,Any Gadget,3,1,9,3,Instagram,2,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+1225,Outside Delhi-NCR,20,0,Excellent,Smartphone,3,1,7,2,Instagram,1,4,2,NO,REST,YES,SOCIALIZE,YES,3,11
+1226,Delhi-NCR,20,0,Excellent,Smartphone,4,1,7,1,Whatsapp,0,2,1,NO,REST,YES,SCHOOL/WORK,YES,4,9
+1227,Outside Delhi-NCR,25,4,Excellent,Smartphone,2,1,7,3,Others,1,3,2,YES,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,12
+1228,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,0,9,1,Whatsapp,0,3,0,NO,MUSIC,NO,TRAVELLING,YES,6,10
+1229,Outside Delhi-NCR,20,4,Excellent,Smartphone,3,0,7,2,Youtube,2,4,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,7,11
+1230,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,0,8,2,Others,2,3,0,NO,REST,NO,SCHOOL/WORK,YES,8,12
+1231,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,7,0,Others,2,2,2,NO,MUSIC,YES,BEING OUTSIDE,YES,7,10
+1232,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,3,Whatsapp,2,1,1,YES,MUSIC,NO,SCHOOL/WORK,YES,4,14
+1233,Delhi-NCR,15,4,Excellent,Tablet,1,0,7,4,Youtube,0,2,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,11
+1234,Outside Delhi-NCR,15,1,Excellent,Laptop/Desktop,1,1,9,3,Youtube,1,4,0,NO,MUSIC,YES,SCHOOL/WORK,YES,2,14
+1235,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,3,0,7,1,Whatsapp,1,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,7,9
+1236,Delhi-NCR,20,2,Excellent,Smartphone,1,1,8,3,Others,2,3,1,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,3,14
+1237,Delhi-NCR,15,4,Excellent,Smartphone,2,2,9,1,Whatsapp,2,3,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,6,14
+1238,Delhi-NCR,20,2,Excellent,Smartphone,3,2,9,1,Youtube,1,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,5,13
+1239,Outside Delhi-NCR,15,3,Excellent,Smartphone,1,0,8,3,Youtube,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,12
+1240,Outside Delhi-NCR,30,0,Excellent,Laptop/Desktop,2,0,9,5,Whatsapp,3,3,1,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+1241,Delhi-NCR,20,0,Excellent,Smartphone,0,2,6,1,Others,3,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,12
+1242,Delhi-NCR,25,0,Excellent,Smartphone,0,2,9,3,Youtube,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,2,14
+1243,Delhi-NCR,30,2,Excellent,Smartphone,2,0,6,2,Youtube,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,4,9
+1244,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,2,6,3,Others,0,3,2,NO,READING,YES,SOCIALIZE,YES,8,11
+1245,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,0,9,1,Whatsapp,0,3,0,NO,MUSIC,NO,TRAVELLING,YES,6,10
+1246,Delhi-NCR,25,3,Excellent,Smartphone,3,0,9,1,Youtube,3,2,2,NO,INDOOR ACTIVITIES,NO,ALL,NO,6,13
+1247,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,7,3,Whatsapp,0,3,2,YES,MUSIC,NO,TRAVELLING,YES,8,11
+1248,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Youtube,1,4,0,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,8,11
+1249,Delhi-NCR,15,4,Excellent,Smartphone,2,1,7,0,Others,1,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,6,9
+1250,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,9,2,Instagram,2,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,14
+1251,Delhi-NCR,30,1,Excellent,Laptop/Desktop,2,1,6,1,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,3,9
+1252,Outside Delhi-NCR,20,0,Excellent,Smartphone,2,1,9,1,Instagram,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,12
+1253,Delhi-NCR,15,1,Excellent,Smartphone,4,3,6,2,Instagram,2,4,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,5,13
+1254,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,4,Instagram,1,3,2,NO,READING,YES,TRAVELLING,YES,5,14
+1255,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,1,9,1,Whatsapp,3,4,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,6,14
+1256,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,3,Whatsapp,2,1,1,YES,MUSIC,NO,SCHOOL/WORK,YES,4,14
+1257,Delhi-NCR,15,2,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,2,3,2,NO,EXERCISE,YES,BEING OUTSIDE,YES,4,12
+1258,Delhi-NCR,30,2,Excellent,Smartphone,2,0,6,2,Youtube,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,4,9
+1259,Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,8,0,Whatsapp,1,2,2,NO,OTHERS,YES,ALL,YES,8,10
+1260,Delhi-NCR,20,4,Excellent,Smartphone,3,1,6,1,Youtube,1,1,1,NO,SOCIALIZE,YES,SOCIALIZE,YES,7,9
+1261,Delhi-NCR,25,4,Excellent,Smartphone,4,1,8,2,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,NO,8,11
+1262,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,3,Youtube,1,3,2,NO,SOCIALIZE,YES,TRAVELLING,YES,6,12
+1263,Outside Delhi-NCR,25,2,Excellent,Laptop/Desktop,2,2,7,0,Whatsapp,0,4,2,NO,READING,YES,SOCIALIZE,YES,4,9
+1264,Delhi-NCR,20,2,Excellent,Smartphone,1,1,8,3,Others,2,3,1,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,3,14
+1265,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,2,6,3,Others,0,3,2,NO,READING,YES,SOCIALIZE,YES,8,11
+1266,Delhi-NCR,30,1,Excellent,Smartphone,3,1,7,2,Whatsapp,0,2,2,NO,SOCIALIZE,YES,TRAVELLING,YES,4,10
+1267,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,6,2,Whatsapp,2,3,1,NO,MUSIC,YES,SCHOOL/WORK,NO,6,11
+1268,Delhi-NCR,30,2,Excellent,Tablet,1,1,7,1,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,9
+1269,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+1270,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,1,8,1,Whatsapp,0,2,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,7,10
+1271,Delhi-NCR,15,1,Excellent,Smartphone,2,1,9,2,Youtube,1,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,3,13
+1272,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,4,Instagram,1,3,2,NO,READING,YES,TRAVELLING,YES,5,14
+1273,Outside Delhi-NCR,25,1,Excellent,Laptop/Desktop,2,0,7,0,Others,0,2,0,NO,READING,YES,TRAVELLING,YES,3,8
+1274,Delhi-NCR,25,1,Excellent,Laptop/Desktop,1,2,7,2,Youtube,0,3,2,NO,MUSIC,YES,SOCIALIZE,YES,2,11
+1275,Delhi-NCR,20,4,Excellent,Smartphone,2,0,8,0,Youtube,1,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,9
+1276,Delhi-NCR,20,4,Excellent,Smartphone,2,1,9,1,Instagram,0,3,0,NO,REST,NO,SOCIALIZE,YES,6,11
+1277,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,1,Whatsapp,0,3,2,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,6,9
+1278,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,6,5,Others,3,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,8,14
+1279,Outside Delhi-NCR,15,3,Excellent,Smartphone,1,0,8,3,Youtube,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,12
+1280,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,8,2,Instagram,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+1281,Outside Delhi-NCR,20,0,Excellent,Smartphone,2,1,9,1,Instagram,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,12
+1282,Outside Delhi-NCR,20,1,Excellent,Laptop/Desktop,3,1,9,3,Youtube,2,4,2,NO,READING,YES,SCHOOL/WORK,YES,4,14
+1283,Delhi-NCR,20,2,Excellent,Smartphone,1,1,8,3,Others,2,3,1,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,3,14
+1284,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,1,Whatsapp,0,3,2,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,6,9
+1285,Delhi-NCR,15,4,Excellent,Smartphone,2,2,9,1,Whatsapp,2,3,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,6,14
+1286,Delhi-NCR,30,0,Excellent,Smartphone,2,0,8,2,Youtube,2,3,2,NO,REST,NO,TRAVELLING,YES,2,12
+1287,Outside Delhi-NCR,15,3,Excellent,Smartphone,4,1,9,0,Instagram,1,3,2,NO,REST,YES,SOCIALIZE,YES,7,11
+1288,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,2,3,0,NO,INDOOR ACTIVITIES,NO,ALL,NO,8,12
+1289,Delhi-NCR,15,2,Excellent,Smartphone,2,1,9,1,Youtube,1,4,2,NO,READING,YES,SCHOOL/WORK,YES,4,12
+1290,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,8,2,Instagram,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+1291,Delhi-NCR,15,4,Excellent,Smartphone,1,1,7,1,Instagram,2,4,0,NO,MUSIC,YES,SCHOOL/WORK,YES,5,11
+1292,Delhi-NCR,20,0,Excellent,Smartphone,0,0,7,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,2,12
+1293,Delhi-NCR,25,1,Excellent,Smartphone,4,0,7,2,Others,2,2,2,NO,EXERCISE,NO,SCHOOL/WORK,NO,5,11
+1294,Delhi-NCR,30,2,Excellent,Tablet,3,1,7,5,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+1295,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,4,Instagram,1,3,2,NO,READING,YES,TRAVELLING,YES,5,14
+1296,Outside Delhi-NCR,15,4,Excellent,Smartphone,1,1,8,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,5,10
+1297,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,4,Youtube,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,13
+1298,Outside Delhi-NCR,25,2,Excellent,Smartphone,1,1,6,2,Others,1,2,1,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,3,10
+1299,Delhi-NCR,20,3,Excellent,Laptop/Desktop,2,1,7,5,Whatsapp,2,3,2,NO,READING,NO,SCHOOL/WORK,YES,5,14
+1300,Delhi-NCR,20,3,Excellent,Laptop/Desktop,0,1,8,5,Youtube,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,3,14
+1301,Outside Delhi-NCR,15,1,Excellent,Smartphone,1,1,8,1,Youtube,2,3,2,NO,MUSIC,NO,SCHOOL/WORK,YES,2,12
+1302,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,1,2,7,1,Whatsapp,1,4,0,NO,REST,YES,BEING OUTSIDE,YES,5,11
+1303,Delhi-NCR,25,2,Excellent,Smartphone,0,1,9,5,Instagram,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,2,14
+1304,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+1305,Delhi-NCR,15,3,Excellent,Smartphone,4,1,8,1,Instagram,2,3,1,NO,EXERCISE,YES,TRAVELLING,YES,7,12
+1306,Outside Delhi-NCR,25,2,Excellent,Laptop/Desktop,2,2,7,0,Whatsapp,0,4,2,NO,READING,YES,SOCIALIZE,YES,4,9
+1307,Delhi-NCR,20,2,Excellent,Smartphone,3,1,6,2,Whatsapp,3,2,2,NO,REST,NO,TRAVELLING,YES,5,12
+1308,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,4,0,6,1,Youtube,0,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,7,8
+1309,Outside Delhi-NCR,15,1,Excellent,Smartphone,2,1,8,1,Whatsapp,2,2,0,NO,REST,NO,SCHOOL/WORK,YES,3,12
+1310,Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,9,1,Youtube,1,3,0,NO,REST,YES,SOCIALIZE,YES,6,12
+1311,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,5,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,14
+1312,Delhi-NCR,15,4,Excellent,Smartphone,2,1,9,1,Whatsapp,2,3,2,NO,MUSIC,YES,SOCIALIZE,YES,6,13
+1313,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,1,8,1,Whatsapp,0,2,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,7,10
+1314,Delhi-NCR,30,2,Excellent,Laptop/Desktop,1,1,7,0,Whatsapp,1,2,2,NO,MUSIC,YES,TRAVELLING,YES,3,9
+1315,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,9,2,Youtube,0,3,1,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,12
+1316,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,3,Youtube,0,2,2,NO,READING,YES,SOCIALIZE,NO,8,11
+1317,Delhi-NCR,30,2,Excellent,Tablet,3,1,7,5,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+1318,Delhi-NCR,20,4,Excellent,Smartphone,3,1,8,1,Whatsapp,1,4,2,NO,SOCIALIZE,YES,BEING OUTSIDE,NO,7,11
+1319,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,5,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,14
+1320,Delhi-NCR,20,4,Excellent,Smartphone,2,1,9,3,Instagram,0,2,2,NO,EXERCISE,YES,SCHOOL/WORK,YES,6,13
+1321,Delhi-NCR,20,0,Excellent,Smartphone,0,0,7,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,2,12
+1322,Delhi-NCR,15,4,Excellent,Tablet,2,1,9,1,Whatsapp,1,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,12
+1323,Delhi-NCR,25,2,Excellent,Laptop/Desktop,3,0,7,2,Others,3,2,2,NO,SOCIALIZE,YES,BEING OUTSIDE,YES,5,12
+1324,Outside Delhi-NCR,15,4,Excellent,Smartphone,1,1,8,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,5,10
+1325,Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,0,8,4,Instagram,0,3,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,12
+1326,Outside Delhi-NCR,15,4,Excellent,Tablet,1,1,9,1,Youtube,3,3,0,NO,MUSIC,NO,SOCIALIZE,YES,5,14
+1327,Delhi-NCR,15,3,Excellent,Laptop/Desktop,4,2,9,3,Others,3,3,1,NO,MUSIC,YES,SOCIALIZE,YES,7,14
+1328,Outside Delhi-NCR,20,1,Excellent,Smartphone,2,1,8,1,Others,0,2,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1329,Delhi-NCR,20,0,Excellent,Laptop/Desktop,4,1,7,4,Youtube,2,3,2,YES,ONLINE ACTIVITIES,NO,TRAVELLING,YES,4,14
+1330,Delhi-NCR,25,2,Excellent,Any Gadget,1,1,7,1,Youtube,2,3,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,3,11
+1331,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,4,Instagram,1,3,2,NO,READING,YES,TRAVELLING,YES,5,14
+1332,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+1333,Delhi-NCR,25,2,Excellent,Smartphone,0,1,9,5,Instagram,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,2,14
+1334,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,1,2,2,NO,MUSIC,YES,SOCIALIZE,YES,8,11
+1335,Outside Delhi-NCR,15,3,Excellent,Any Gadget,2,0,6,1,Whatsapp,1,1,0,NO,MUSIC,YES,SCHOOL/WORK,YES,5,8
+1336,Delhi-NCR,20,2,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,10
+1337,Outside Delhi-NCR,20,4,Excellent,Smartphone,4,0,9,1,Youtube,0,2,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,8,10
+1338,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,0,7,2,Others,0,3,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,6,9
+1339,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Others,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,8
+1340,Delhi-NCR,20,4,Excellent,Tablet,3,1,8,2,Others,0,2,2,NO,READING,NO,TRAVELLING,YES,7,11
+1341,Delhi-NCR,15,4,Excellent,Smartphone,2,2,9,1,Whatsapp,2,3,1,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,6,14
+1342,Outside Delhi-NCR,20,4,Excellent,Smartphone,4,0,9,1,Youtube,0,2,0,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,8,10
+1343,Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,8,0,Instagram,2,4,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,6,11
+1344,Outside Delhi-NCR,25,2,Excellent,Smartphone,4,0,9,3,Youtube,0,4,2,NO,MUSIC,NO,TRAVELLING,NO,6,12
+1345,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,4,Instagram,1,3,2,NO,READING,YES,TRAVELLING,YES,5,14
+1346,Delhi-NCR,20,1,Excellent,Smartphone,1,1,8,2,Instagram,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,12
+1347,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,0,Whatsapp,2,4,2,NO,MUSIC,YES,SOCIALIZE,YES,8,8
+1348,Delhi-NCR,15,4,Excellent,Tablet,2,1,7,1,Whatsapp,1,3,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,6,10
+1349,Outside Delhi-NCR,20,3,Excellent,Laptop/Desktop,0,0,9,5,Whatsapp,0,2,2,YES,REST,YES,NOTHING,YES,3,14
+1350,Outside Delhi-NCR,15,3,Excellent,Tablet,3,0,9,1,Youtube,3,3,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,6,13
+1351,Delhi-NCR,15,4,Excellent,Tablet,4,0,7,1,Youtube,2,4,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,8,10
+1352,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,8,2,Instagram,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,11
+1353,Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,0,7,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,7,8
+1354,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,3,0,7,1,Whatsapp,1,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,7,9
+1355,Delhi-NCR,15,4,Excellent,Smartphone,4,0,6,0,Youtube,0,3,2,NO,OTHERS,YES,NOTHING,NO,8,8
+1356,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,7,1,Instagram,1,3,0,NO,SOCIALIZE,NO,SCHOOL/WORK,NO,6,10
+1357,Delhi-NCR,20,4,Excellent,Smartphone,4,1,7,2,Whatsapp,1,2,2,NO,MUSIC,YES,SOCIALIZE,YES,8,11
+1358,Delhi-NCR,30,2,Excellent,Laptop/Desktop,1,1,7,0,Whatsapp,1,2,2,NO,MUSIC,YES,TRAVELLING,YES,3,9
+1359,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Youtube,2,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,8,13
+1360,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,2,7,1,Instagram,0,3,1,YES,MUSIC,YES,TRAVELLING,YES,5,10
+1361,Delhi-NCR,15,2,Excellent,Smartphone,1,1,6,2,Youtube,1,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1362,Delhi-NCR,15,2,Excellent,Smartphone,2,1,6,1,Whatsapp,0,2,1,NO,MUSIC,NO,BEING OUTSIDE,YES,4,8
+1363,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,3,0,7,1,Whatsapp,1,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,7,9
+1364,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,4,Youtube,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,12
+1365,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,6,1,Youtube,1,3,2,NO,REST,YES,SCHOOL/WORK,YES,7,9
+1366,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,3,3,2,YES,REST,YES,SOCIALIZE,YES,6,13
+1367,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,4,1,8,2,Youtube,1,3,0,NO,REST,YES,SOCIALIZE,YES,7,12
+1368,Delhi-NCR,20,0,Excellent,Smartphone,0,2,6,1,Others,3,2,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,12
+1369,Delhi-NCR,15,1,Excellent,Smartphone,2,1,9,2,Youtube,1,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,3,13
+1370,Delhi-NCR,15,1,Excellent,Smartphone,3,1,6,1,Youtube,1,1,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,4,9
+1371,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,4,1,9,2,Youtube,0,3,2,NO,MUSIC,YES,TRAVELLING,YES,7,12
+1372,Delhi-NCR,20,2,Excellent,Smartphone,3,2,9,1,Youtube,1,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,5,13
+1373,Outside Delhi-NCR,15,1,Excellent,Laptop/Desktop,1,1,9,3,Youtube,1,4,0,NO,MUSIC,YES,SCHOOL/WORK,YES,2,14
+1374,Delhi-NCR,30,1,Excellent,Laptop/Desktop,2,1,6,1,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,3,9
+1375,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,5,Whatsapp,2,2,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,8,14
+1376,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,6,1,Youtube,1,3,2,NO,REST,YES,SCHOOL/WORK,YES,7,9
+1377,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,9,4,Youtube,3,4,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,7,14
+1378,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,2,8,5,Others,2,3,2,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,YES,6,14
+1379,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,0,8,0,Whatsapp,3,3,0,YES,REST,YES,SOCIALIZE,YES,6,11
+1380,Delhi-NCR,20,4,Excellent,Smartphone,4,1,9,1,Youtube,1,3,2,NO,MUSIC,NO,SOCIALIZE,YES,8,12
+1381,Delhi-NCR,20,4,Excellent,Laptop/Desktop,1,1,7,1,Instagram,3,2,2,NO,MUSIC,YES,TRAVELLING,YES,5,12
+1382,Outside Delhi-NCR,30,0,Excellent,Laptop/Desktop,2,0,9,5,Whatsapp,3,3,1,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+1383,Delhi-NCR,25,1,Excellent,Smartphone,4,0,7,2,Others,2,2,2,NO,EXERCISE,NO,SCHOOL/WORK,NO,5,11
+1384,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,3,Instagram,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,NO,6,13
+1385,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,4,0,6,1,Youtube,0,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,7,8
+1386,Delhi-NCR,20,2,Excellent,Smartphone,4,1,8,4,Whatsapp,3,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,6,14
+1387,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,2,9,2,Others,0,2,1,NO,SOCIALIZE,YES,TRAVELLING,YES,7,13
+1388,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,1,Others,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,8
+1389,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,2,7,1,Instagram,0,3,1,YES,MUSIC,YES,TRAVELLING,YES,5,10
+1390,Delhi-NCR,25,3,Excellent,Laptop/Desktop,1,0,9,3,Others,2,1,2,NO,READING,YES,BEING OUTSIDE,NO,4,14
+1391,Delhi-NCR,20,4,Excellent,Smartphone,4,1,9,1,Youtube,1,3,2,NO,MUSIC,NO,SOCIALIZE,YES,8,12
+1392,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,7,2,Whatsapp,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,9
+1393,Delhi-NCR,25,3,Excellent,Smartphone,2,1,9,1,Youtube,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,NO,5,11
+1394,Delhi-NCR,20,1,Excellent,Smartphone,1,1,7,2,Youtube,2,2,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,2,12
+1395,Outside Delhi-NCR,25,0,Excellent,Smartphone,4,1,8,2,Instagram,0,2,1,YES,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,11
+1396,Delhi-NCR,15,4,Excellent,Smartphone,1,1,7,1,Instagram,2,4,0,NO,MUSIC,YES,SCHOOL/WORK,YES,5,11
+1397,Delhi-NCR,15,1,Excellent,Smartphone,2,1,8,3,Youtube,0,3,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,3,12
+1398,Delhi-NCR,30,2,Excellent,Tablet,3,1,7,5,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+1399,Delhi-NCR,20,0,Excellent,Tablet,0,1,6,2,Instagram,1,4,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,10
+1400,Outside Delhi-NCR,25,4,Excellent,Smartphone,3,1,8,3,Instagram,3,3,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+1401,Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,0,7,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,7,8
+1402,Delhi-NCR,15,2,Excellent,Smartphone,2,1,9,2,Others,1,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,NO,4,13
+1403,Delhi-NCR,25,0,Excellent,Smartphone,0,2,9,3,Youtube,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,2,14
+1404,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,1,2,2,NO,READING,YES,TRAVELLING,YES,8,9
+1405,Delhi-NCR,15,1,Excellent,Smartphone,2,1,8,2,Whatsapp,2,4,2,NO,MUSIC,NO,TRAVELLING,YES,3,13
+1406,Delhi-NCR,20,3,Excellent,Laptop/Desktop,2,0,8,5,Youtube,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,5,14
+1407,Delhi-NCR,15,1,Excellent,Smartphone,2,0,8,0,Others,3,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,3,11
+1408,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,4,1,7,3,Instagram,0,3,0,NO,MUSIC,NO,TRAVELLING,YES,4,11
+1409,Delhi-NCR,20,1,Excellent,Smartphone,1,1,8,2,Instagram,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,12
+1410,Delhi-NCR,30,2,Excellent,Tablet,3,1,7,5,Youtube,3,3,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,14
+1411,Outside Delhi-NCR,20,4,Excellent,Smartphone,3,2,8,3,Youtube,0,3,2,NO,MUSIC,NO,TRAVELLING,YES,7,13
+1412,Outside Delhi-NCR,15,4,Excellent,Tablet,1,1,9,1,Youtube,3,3,0,NO,MUSIC,NO,SOCIALIZE,YES,5,14
+1413,Delhi-NCR,20,3,Excellent,Laptop/Desktop,4,2,7,2,Youtube,2,3,0,NO,EXERCISE,YES,TRAVELLING,YES,7,13
+1414,Delhi-NCR,25,4,Excellent,Smartphone,1,1,9,2,Whatsapp,0,4,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1415,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,4,1,7,3,Instagram,0,3,0,NO,MUSIC,NO,TRAVELLING,YES,4,11
+1416,Delhi-NCR,15,4,Excellent,Tablet,4,1,8,0,Youtube,0,4,2,NO,MUSIC,YES,SCHOOL/WORK,NO,8,9
+1417,Delhi-NCR,15,4,Excellent,Smartphone,2,1,7,0,Youtube,0,2,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,8
+1418,Outside Delhi-NCR,20,3,Excellent,Smartphone,4,2,7,4,Whatsapp,0,4,2,YES,SOCIALIZE,NO,SCHOOL/WORK,YES,7,13
+1419,Outside Delhi-NCR,25,0,Excellent,Smartphone,4,1,8,2,Instagram,0,2,1,YES,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,11
+1420,Delhi-NCR,15,3,Excellent,Smartphone,4,2,9,0,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,YES,7,11
+1421,Delhi-NCR,15,4,Excellent,Laptop/Desktop,1,1,8,0,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,9
+1422,Delhi-NCR,20,1,Excellent,Smartphone,1,1,8,2,Instagram,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,12
+1423,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,3,3,2,YES,REST,YES,SOCIALIZE,YES,6,13
+1424,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,0,8,2,Others,0,3,2,NO,READING,NO,BEING OUTSIDE,YES,5,10
+1425,Delhi-NCR,15,2,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,2,3,2,NO,EXERCISE,YES,BEING OUTSIDE,YES,4,12
+1426,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,0,Instagram,0,3,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,8,8
+1427,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,2,7,2,Instagram,1,3,0,NO,EXERCISE,YES,TRAVELLING,YES,6,12
+1428,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,8,1,Instagram,0,4,1,YES,INDOOR ACTIVITIES,NO,TRAVELLING,NO,8,11
+1429,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,7,3,Youtube,1,3,2,NO,SOCIALIZE,YES,TRAVELLING,YES,6,12
+1430,Delhi-NCR,15,2,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,2,3,2,NO,EXERCISE,YES,BEING OUTSIDE,YES,4,12
+1431,Outside Delhi-NCR,20,4,Excellent,Smartphone,4,0,7,1,Whatsapp,2,3,1,NO,MUSIC,YES,SCHOOL/WORK,NO,8,10
+1432,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,4,0,6,1,Youtube,0,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,7,8
+1433,Delhi-NCR,25,3,Excellent,Smartphone,1,0,6,2,Whatsapp,3,3,2,NO,MUSIC,NO,SOCIALIZE,YES,4,11
+1434,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+1435,Outside Delhi-NCR,15,2,Excellent,Smartphone,1,1,6,2,Whatsapp,0,1,1,YES,READING,YES,SCHOOL/WORK,YES,3,9
+1436,Outside Delhi-NCR,20,3,Excellent,Laptop/Desktop,3,0,9,2,Instagram,0,2,0,NO,MUSIC,NO,SOCIALIZE,YES,6,11
+1437,Outside Delhi-NCR,25,1,Excellent,Laptop/Desktop,3,1,9,3,Instagram,1,3,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,4,14
+1438,Delhi-NCR,15,4,Excellent,Laptop/Desktop,1,1,8,0,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,9
+1439,Outside Delhi-NCR,20,1,Excellent,Laptop/Desktop,2,0,8,1,Whatsapp,0,3,2,NO,EXERCISE,NO,SCHOOL/WORK,YES,3,9
+1440,Outside Delhi-NCR,20,0,Excellent,Smartphone,2,2,6,1,Instagram,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,10
+1441,Delhi-NCR,20,4,Excellent,Laptop/Desktop,1,1,8,1,Instagram,1,4,1,NO,MUSIC,YES,SOCIALIZE,YES,5,11
+1442,Delhi-NCR,15,1,Excellent,Smartphone,3,1,6,1,Youtube,1,1,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,4,9
+1443,Delhi-NCR,30,2,Excellent,Smartphone,2,0,6,2,Youtube,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,4,9
+1444,Outside Delhi-NCR,15,3,Excellent,Smartphone,4,1,9,0,Instagram,1,3,2,NO,REST,YES,SOCIALIZE,YES,7,11
+1445,Outside Delhi-NCR,15,1,Excellent,Smartphone,3,1,9,1,Others,0,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,4,11
+1446,Delhi-NCR,25,0,Excellent,Laptop/Desktop,3,0,9,4,Youtube,1,3,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,3,14
+1447,Delhi-NCR,25,4,Excellent,Smartphone,1,1,9,2,Whatsapp,0,4,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1448,Outside Delhi-NCR,20,3,Excellent,Laptop/Desktop,0,0,9,5,Whatsapp,0,2,2,YES,REST,YES,NOTHING,YES,3,14
+1449,Delhi-NCR,20,4,Excellent,Tablet,3,1,8,2,Others,0,2,2,NO,READING,NO,TRAVELLING,YES,7,11
+1450,Delhi-NCR,25,2,Excellent,Any Gadget,1,1,7,1,Youtube,2,3,0,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,3,11
+1451,Delhi-NCR,20,4,Excellent,Smartphone,4,0,7,1,Whatsapp,1,2,0,NO,MUSIC,YES,SCHOOL/WORK,NO,8,9
+1452,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,0,0,8,3,Youtube,0,1,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,11
+1453,Delhi-NCR,15,4,Excellent,Smartphone,3,2,9,1,Others,1,4,0,NO,REST,YES,SOCIALIZE,YES,7,13
+1454,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,2,6,3,Others,0,3,2,NO,READING,YES,SOCIALIZE,YES,8,11
+1455,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,3,1,7,1,Whatsapp,2,3,2,NO,REST,YES,TRAVELLING,YES,6,11
+1456,Delhi-NCR,15,2,Excellent,Smartphone,1,1,8,1,Whatsapp,2,1,0,YES,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,3,12
+1457,Delhi-NCR,25,1,Excellent,Smartphone,4,0,7,2,Others,2,2,2,NO,EXERCISE,NO,SCHOOL/WORK,NO,5,11
+1458,Delhi-NCR,15,1,Excellent,Smartphone,1,1,9,0,Whatsapp,2,3,0,NO,SOCIALIZE,YES,SOCIALIZE,YES,2,12
+1459,Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,1,9,5,Whatsapp,3,4,0,NO,MUSIC,YES,SOCIALIZE,YES,6,14
+1460,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,1,2,2,NO,READING,YES,TRAVELLING,YES,8,9
+1461,Outside Delhi-NCR,20,4,Excellent,Smartphone,2,1,7,1,Instagram,1,3,0,NO,SOCIALIZE,NO,SCHOOL/WORK,NO,6,10
+1462,Outside Delhi-NCR,25,2,Excellent,Smartphone,1,1,6,2,Others,1,2,1,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,3,10
+1463,Outside Delhi-NCR,25,0,Excellent,Laptop/Desktop,0,0,8,3,Youtube,0,1,2,NO,ONLINE ACTIVITIES,NO,BEING OUTSIDE,NO,2,11
+1464,Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,9,1,Youtube,1,3,0,NO,REST,YES,SOCIALIZE,YES,6,12
+1465,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,4,Instagram,1,3,2,NO,READING,YES,TRAVELLING,YES,5,14
+1466,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,1,Youtube,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,10
+1467,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,0,9,2,Youtube,0,3,1,YES,READING,YES,SOCIALIZE,YES,8,11
+1468,Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,0,8,4,Instagram,0,3,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,6,12
+1469,Delhi-NCR,20,1,Excellent,Laptop/Desktop,4,0,8,2,Others,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,5,10
+1470,Delhi-NCR,15,4,Excellent,Smartphone,2,1,7,0,Youtube,0,2,0,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,8
+1471,Delhi-NCR,20,4,Excellent,Smartphone,3,1,8,1,Whatsapp,1,4,2,NO,SOCIALIZE,YES,BEING OUTSIDE,NO,7,11
+1472,Outside Delhi-NCR,30,0,Excellent,Laptop/Desktop,2,0,9,5,Whatsapp,3,3,1,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,2,14
+1473,Delhi-NCR,15,3,Excellent,Smartphone,4,2,9,0,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,YES,7,11
+1474,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,4,1,8,2,Youtube,1,3,0,NO,REST,YES,SOCIALIZE,YES,7,12
+1475,Delhi-NCR,20,4,Excellent,Smartphone,2,1,6,2,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,NO,6,9
+1476,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,1,Youtube,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,10
+1477,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,2,1,6,1,Whatsapp,0,2,2,NO,READING,YES,BEING OUTSIDE,YES,5,8
+1478,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,9,2,Youtube,0,3,1,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,12
+1479,Delhi-NCR,15,4,Excellent,Smartphone,3,1,9,1,Whatsapp,2,2,0,NO,REST,NO,SOCIALIZE,YES,7,13
+1480,Delhi-NCR,30,1,Excellent,Laptop/Desktop,2,1,6,1,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,3,9
+1481,Outside Delhi-NCR,15,1,Excellent,Smartphone,2,1,8,1,Whatsapp,2,2,0,NO,REST,NO,SCHOOL/WORK,YES,3,12
+1482,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,4,0,6,1,Youtube,0,2,2,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,7,8
+1483,Delhi-NCR,30,2,Excellent,Smartphone,2,0,6,2,Youtube,1,3,2,NO,MUSIC,YES,SCHOOL/WORK,NO,4,9
+1484,Delhi-NCR,15,4,Excellent,Smartphone,3,1,7,1,Whatsapp,1,4,2,NO,REST,YES,SCHOOL/WORK,YES,7,10
+1485,Delhi-NCR,20,4,Excellent,Smartphone,2,1,6,2,Whatsapp,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,NO,6,9
+1486,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,7,2,Whatsapp,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,9
+1487,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,9,2,Instagram,2,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,14
+1488,Delhi-NCR,15,1,Excellent,Smartphone,2,1,9,2,Youtube,1,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,3,13
+1489,Delhi-NCR,25,2,Excellent,Smartphone,0,1,9,5,Instagram,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,2,14
+1490,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,4,Instagram,1,3,2,NO,READING,YES,TRAVELLING,YES,5,14
+1491,Delhi-NCR,30,1,Excellent,Laptop/Desktop,2,1,6,1,Whatsapp,1,2,2,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,3,9
+1492,Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,6,2,Youtube,2,2,0,NO,EXERCISE,YES,TRAVELLING,YES,6,11
+1493,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,2,7,1,Instagram,0,3,1,YES,MUSIC,YES,TRAVELLING,YES,5,10
+1494,Delhi-NCR,20,4,Excellent,Smartphone,1,1,6,1,Youtube,0,1,1,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,8
+1495,Delhi-NCR,15,4,Excellent,Any Gadget,3,1,9,3,Instagram,2,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,7,14
+1496,Outside Delhi-NCR,15,4,Excellent,Smartphone,1,1,8,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,5,10
+1497,Delhi-NCR,20,4,Excellent,Smartphone,4,0,7,1,Whatsapp,1,2,0,NO,MUSIC,YES,SCHOOL/WORK,NO,8,9
+1498,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,0,9,3,Youtube,0,4,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,12
+1499,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,1,2,2,NO,READING,YES,TRAVELLING,YES,8,9
+1500,Delhi-NCR,15,4,Excellent,Smartphone,2,1,8,1,Whatsapp,1,1,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,11
+1501,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,2,Others,0,2,1,NO,READING,YES,TRAVELLING,YES,8,11
+1502,Delhi-NCR,20,2,Excellent,Smartphone,3,2,9,1,Youtube,1,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,YES,5,13
+1503,Outside Delhi-NCR,15,3,Excellent,Smartphone,1,0,8,3,Youtube,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,12
+1504,Outside Delhi-NCR,30,1,Excellent,Laptop/Desktop,4,0,6,5,Others,3,3,2,NO,SOCIALIZE,NO,TRAVELLING,YES,5,14
+1505,Delhi-NCR,20,0,Excellent,Smartphone,0,0,7,3,Youtube,2,3,2,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,2,12
+1506,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,3,Instagram,1,4,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,6,13
+1507,Delhi-NCR,30,2,Excellent,Laptop/Desktop,1,1,7,0,Whatsapp,1,2,2,NO,MUSIC,YES,TRAVELLING,YES,3,9
+1508,Delhi-NCR,20,4,Excellent,Smartphone,4,0,7,1,Whatsapp,1,2,0,NO,MUSIC,YES,SCHOOL/WORK,NO,8,9
+1509,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,8,0,Whatsapp,0,3,0,NO,SOCIALIZE,YES,TRAVELLING,NO,8,9
+1510,Outside Delhi-NCR,20,0,Excellent,Smartphone,2,1,9,1,Instagram,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,12
+1511,Delhi-NCR,20,1,Excellent,Smartphone,1,1,7,2,Youtube,2,2,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,2,12
+1512,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,2,6,0,Whatsapp,2,3,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,6,10
+1513,Outside Delhi-NCR,15,4,Excellent,Smartphone,4,0,6,1,Youtube,2,2,2,NO,MUSIC,YES,SOCIALIZE,YES,8,9
+1514,Delhi-NCR,20,2,Excellent,Smartphone,3,1,6,2,Whatsapp,3,2,2,NO,REST,NO,TRAVELLING,YES,5,12
+1515,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Others,0,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,8
+1516,Delhi-NCR,25,3,Excellent,Smartphone,1,0,6,2,Whatsapp,3,3,2,NO,MUSIC,NO,SOCIALIZE,YES,4,11
+1517,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,0,9,3,Youtube,0,4,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,12
+1518,Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,0,8,2,Youtube,1,3,2,NO,MUSIC,YES,SOCIALIZE,NO,6,11
+1519,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,4,Youtube,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,12
+1520,Delhi-NCR,30,1,Excellent,Smartphone,3,1,7,2,Whatsapp,0,2,2,NO,SOCIALIZE,YES,TRAVELLING,YES,4,10
+1521,Delhi-NCR,20,0,Excellent,Smartphone,4,1,7,1,Whatsapp,0,2,1,NO,REST,YES,SCHOOL/WORK,YES,4,9
+1522,Outside Delhi-NCR,25,2,Excellent,Laptop/Desktop,2,1,8,2,Whatsapp,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,4,11
+1523,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,7,0,Others,2,2,2,NO,MUSIC,YES,BEING OUTSIDE,YES,7,10
+1524,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,3,0,7,1,Whatsapp,1,3,2,NO,MUSIC,NO,SCHOOL/WORK,NO,7,9
+1525,Outside Delhi-NCR,25,3,Excellent,Smartphone,2,1,8,2,Youtube,1,2,2,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,NO,5,12
+1526,Outside Delhi-NCR,20,4,Excellent,Smartphone,3,2,8,3,Youtube,0,3,2,NO,MUSIC,NO,TRAVELLING,YES,7,13
+1527,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,7,3,Whatsapp,0,3,2,YES,MUSIC,NO,TRAVELLING,YES,8,11
+1528,Outside Delhi-NCR,25,2,Excellent,Smartphone,1,1,6,2,Others,1,2,1,NO,INDOOR ACTIVITIES,YES,NOTHING,YES,3,10
+1529,Outside Delhi-NCR,25,2,Excellent,Laptop/Desktop,2,1,8,2,Whatsapp,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,4,11
+1530,Delhi-NCR,15,3,Excellent,Laptop/Desktop,3,1,7,1,Youtube,2,2,0,NO,REST,YES,SOCIALIZE,YES,6,11
+1531,Delhi-NCR,20,4,Excellent,Smartphone,2,2,8,5,Instagram,0,3,1,NO,REST,YES,SCHOOL/WORK,YES,6,14
+1532,Delhi-NCR,20,4,Excellent,Smartphone,3,1,8,1,Whatsapp,1,4,2,NO,SOCIALIZE,YES,BEING OUTSIDE,NO,7,11
+1533,Outside Delhi-NCR,20,3,Excellent,Laptop/Desktop,0,0,9,5,Whatsapp,0,2,2,YES,REST,YES,NOTHING,YES,3,14
+1534,Delhi-NCR,20,4,Excellent,Smartphone,4,1,9,1,Youtube,1,3,2,NO,MUSIC,NO,SOCIALIZE,YES,8,12
+1535,Delhi-NCR,20,4,Excellent,Smartphone,4,1,9,1,Youtube,1,3,2,NO,MUSIC,NO,SOCIALIZE,YES,8,12
+1536,Outside Delhi-NCR,15,4,Excellent,Smartphone,2,2,6,1,Youtube,1,1,1,NO,MUSIC,YES,SOCIALIZE,YES,6,10
+1537,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,3,Instagram,1,4,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,6,13
+1538,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,3,3,8,2,Whatsapp,2,3,2,NO,WORK,YES,ALL,YES,7,14
+1539,Outside Delhi-NCR,15,3,Excellent,Smartphone,1,0,8,3,Youtube,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,12
+1540,Delhi-NCR,15,4,Excellent,Smartphone,2,1,9,0,Youtube,1,3,2,NO,EXERCISE,YES,SOCIALIZE,YES,6,11
+1541,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,2,7,2,Instagram,1,3,0,NO,EXERCISE,YES,TRAVELLING,YES,6,12
+1542,Outside Delhi-NCR,15,3,Excellent,Smartphone,1,0,8,3,Youtube,1,4,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,4,12
+1543,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,3,0,9,5,Whatsapp,1,3,2,NO,INDOOR ACTIVITIES,YES,TRAVELLING,YES,7,14
+1544,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,2,7,2,Instagram,1,3,0,NO,EXERCISE,YES,TRAVELLING,YES,6,12
+1545,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,6,1,Youtube,1,3,2,NO,REST,YES,SCHOOL/WORK,YES,7,9
+1546,Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,0,7,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,7,8
+1547,Delhi-NCR,15,4,Excellent,Laptop/Desktop,3,1,9,4,Youtube,3,4,2,NO,SOCIALIZE,YES,SCHOOL/WORK,YES,7,14
+1548,Outside Delhi-NCR,15,2,Excellent,Smartphone,1,1,6,2,Whatsapp,0,1,1,YES,READING,YES,SCHOOL/WORK,YES,3,9
+1549,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,8,2,Youtube,0,2,0,NO,MUSIC,YES,TRAVELLING,NO,8,10
+1550,Delhi-NCR,30,2,Excellent,Tablet,1,1,7,1,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,9
+1551,Delhi-NCR,15,1,Excellent,Laptop/Desktop,3,2,8,2,Youtube,1,4,0,NO,READING,YES,SOCIALIZE,YES,4,13
+1552,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,1,7,2,Instagram,2,3,2,NO,SOCIALIZE,YES,SOCIALIZE,YES,8,12
+1553,Delhi-NCR,15,4,Excellent,Smartphone,4,0,6,0,Youtube,0,3,2,NO,OTHERS,YES,NOTHING,NO,8,8
+1554,Delhi-NCR,15,4,Excellent,Smartphone,4,1,7,2,Youtube,1,4,2,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,8,11
+1555,Outside Delhi-NCR,25,2,Excellent,Laptop/Desktop,2,2,7,0,Whatsapp,0,4,2,NO,READING,YES,SOCIALIZE,YES,4,9
+1556,Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,8,0,Whatsapp,1,2,2,NO,OTHERS,YES,ALL,YES,8,10
+1557,Delhi-NCR,15,2,Excellent,Smartphone,1,1,6,2,Youtube,1,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1558,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,6,5,Instagram,3,4,0,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,4,14
+1559,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,1,2,2,NO,READING,YES,TRAVELLING,YES,8,9
+1560,Delhi-NCR,15,1,Excellent,Smartphone,2,0,8,0,Others,3,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,3,11
+1561,Outside Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,0,9,3,Instagram,1,2,0,NO,MUSIC,YES,SCHOOL/WORK,YES,6,13
+1562,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,0,8,2,Others,2,3,0,NO,REST,NO,SCHOOL/WORK,YES,8,12
+1563,Delhi-NCR,30,0,Excellent,Laptop/Desktop,2,1,8,2,Youtube,0,4,2,NO,READING,YES,SOCIALIZE,YES,2,11
+1564,Outside Delhi-NCR,15,3,Excellent,Laptop/Desktop,2,0,8,1,Whatsapp,1,1,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,5,10
+1565,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,7,2,Whatsapp,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,9
+1566,Delhi-NCR,25,4,Excellent,Laptop/Desktop,2,1,9,2,Instagram,2,3,2,NO,SOCIALIZE,NO,SCHOOL/WORK,YES,6,14
+1567,Delhi-NCR,25,1,Excellent,Laptop/Desktop,1,2,7,2,Youtube,0,3,2,NO,MUSIC,YES,SOCIALIZE,YES,2,11
+1568,Delhi-NCR,15,4,Excellent,Smartphone,3,0,9,2,Youtube,3,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,7,14
+1569,Delhi-NCR,25,0,Excellent,Smartphone,0,2,9,3,Youtube,0,3,1,NO,ONLINE ACTIVITIES,YES,BEING OUTSIDE,NO,2,14
+1570,Delhi-NCR,20,1,Excellent,Smartphone,1,1,8,2,Instagram,1,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,2,12
+1571,Delhi-NCR,20,4,Excellent,Smartphone,3,1,6,1,Youtube,1,1,1,NO,SOCIALIZE,YES,SOCIALIZE,YES,7,9
+1572,Outside Delhi-NCR,15,4,Excellent,Smartphone,1,1,8,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,5,10
+1573,Outside Delhi-NCR,15,4,Excellent,Smartphone,2,2,6,1,Youtube,1,1,1,NO,MUSIC,YES,SOCIALIZE,YES,6,10
+1574,Delhi-NCR,20,4,Excellent,Smartphone,2,0,7,3,Instagram,2,4,0,NO,ONLINE ACTIVITIES,YES,SCHOOL/WORK,YES,6,12
+1575,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,1,Others,0,4,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,8,8
+1576,Outside Delhi-NCR,20,3,Excellent,Laptop/Desktop,0,0,9,5,Whatsapp,0,2,2,YES,REST,YES,NOTHING,YES,3,14
+1577,Delhi-NCR,15,4,Excellent,Smartphone,2,1,8,1,Whatsapp,1,1,1,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,11
+1578,Delhi-NCR,25,4,Excellent,Smartphone,1,1,9,2,Whatsapp,0,4,1,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,5,12
+1579,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,1,0,9,1,Whatsapp,0,2,0,NO,INDOOR ACTIVITIES,NO,BEING OUTSIDE,YES,4,10
+1580,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,8,4,Youtube,0,3,2,NO,ONLINE ACTIVITIES,NO,SOCIALIZE,YES,6,13
+1581,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,2,Others,1,2,1,NO,MUSIC,YES,BEING OUTSIDE,YES,8,9
+1582,Outside Delhi-NCR,30,3,Excellent,Laptop/Desktop,3,1,7,1,Whatsapp,2,3,2,NO,REST,YES,TRAVELLING,YES,6,11
+1583,Delhi-NCR,15,3,Excellent,Smartphone,4,2,9,0,Whatsapp,0,3,0,NO,REST,YES,SCHOOL/WORK,YES,7,11
+1584,Delhi-NCR,30,2,Excellent,Tablet,1,1,7,1,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,3,9
+1585,Outside Delhi-NCR,15,1,Excellent,Smartphone,3,1,9,1,Others,0,3,0,NO,INDOOR ACTIVITIES,YES,SCHOOL/WORK,YES,4,11
+1586,Outside Delhi-NCR,20,1,Excellent,Laptop/Desktop,3,1,9,3,Youtube,2,4,2,NO,READING,YES,SCHOOL/WORK,YES,4,14
+1587,Delhi-NCR,25,4,Excellent,Smartphone,2,1,7,3,Instagram,0,3,2,NO,MUSIC,YES,SCHOOL/WORK,YES,6,11
+1588,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,4,1,6,1,Whatsapp,1,2,2,NO,READING,YES,TRAVELLING,YES,8,9
+1589,Outside Delhi-NCR,20,4,Excellent,Smartphone,3,2,8,3,Youtube,0,3,2,NO,MUSIC,NO,TRAVELLING,YES,7,13
+1590,Delhi-NCR,15,4,Excellent,Laptop/Desktop,1,1,8,0,Whatsapp,0,3,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,5,9
+1591,Delhi-NCR,15,3,Excellent,Laptop/Desktop,3,1,7,1,Youtube,2,2,0,NO,REST,YES,SOCIALIZE,YES,6,11
+1592,Outside Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,1,6,0,Whatsapp,0,2,0,YES,MUSIC,YES,TRAVELLING,NO,6,8
+1593,Outside Delhi-NCR,20,2,Excellent,Smartphone,2,1,8,3,Whatsapp,2,1,1,YES,MUSIC,NO,SCHOOL/WORK,YES,4,14
+1594,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,7,2,Whatsapp,0,2,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,8,9
+1595,Delhi-NCR,15,2,Excellent,Laptop/Desktop,2,1,8,1,Whatsapp,2,3,2,NO,EXERCISE,YES,BEING OUTSIDE,YES,4,12
+1596,Delhi-NCR,15,4,Excellent,Tablet,4,0,7,1,Youtube,2,4,0,NO,INDOOR ACTIVITIES,NO,SCHOOL/WORK,YES,8,10
+1597,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,0,8,5,Instagram,0,4,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,13
+1598,Delhi-NCR,20,4,Excellent,Laptop/Desktop,1,1,7,1,Instagram,3,2,2,NO,MUSIC,YES,TRAVELLING,YES,5,12
+1599,Delhi-NCR,15,4,Excellent,Smartphone,3,1,8,2,Youtube,1,2,0,NO,READING,YES,SCHOOL/WORK,YES,7,12
+1600,Delhi-NCR,30,3,Excellent,Laptop/Desktop,2,1,8,2,Instagram,0,4,1,YES,ONLINE ACTIVITIES,NO,TRAVELLING,NO,5,11
+1601,Delhi-NCR,20,4,Excellent,Tablet,3,1,8,2,Others,0,2,2,NO,READING,NO,TRAVELLING,YES,7,11
+1602,Delhi-NCR,15,2,Excellent,Smartphone,1,1,6,2,Youtube,1,2,1,NO,INDOOR ACTIVITIES,YES,SOCIALIZE,YES,3,10
+1603,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,2,0,8,5,Instagram,0,4,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,6,13
+1604,Delhi-NCR,20,4,Excellent,Laptop/Desktop,1,0,9,2,Instagram,0,3,0,NO,ONLINE ACTIVITIES,NO,SCHOOL/WORK,YES,5,11
+1605,Delhi-NCR,15,4,Excellent,Tablet,2,1,6,1,Youtube,2,3,1,NO,EXERCISE,YES,SOCIALIZE,YES,6,10
+1606,Outside Delhi-NCR,20,3,Excellent,Laptop/Desktop,3,0,9,2,Instagram,0,2,0,NO,MUSIC,NO,SOCIALIZE,YES,6,11
+1607,Outside Delhi-NCR,30,4,Excellent,Laptop/Desktop,2,1,6,2,Whatsapp,2,3,1,NO,MUSIC,YES,SCHOOL/WORK,NO,6,11
+1608,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,1,6,1,Instagram,0,3,0,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+1609,Outside Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,0,6,1,Whatsapp,0,3,2,NO,ONLINE ACTIVITIES,NO,TRAVELLING,NO,8,8
+1610,Delhi-NCR,30,4,Excellent,Laptop/Desktop,3,0,7,1,Others,0,2,0,NO,ONLINE ACTIVITIES,YES,TRAVELLING,YES,7,8
+1611,Delhi-NCR,15,1,Excellent,Smartphone,2,0,8,0,Others,3,3,0,NO,ONLINE ACTIVITIES,YES,SOCIALIZE,NO,3,11
+1612,Delhi-NCR,15,1,Excellent,Smartphone,3,1,6,1,Youtube,1,1,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,4,9
+1613,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,4,1,6,0,Youtube,0,4,2,NO,MUSIC,YES,SCHOOL/WORK,YES,8,8
+1614,Outside Delhi-NCR,20,3,Excellent,Smartphone,4,2,7,4,Whatsapp,0,4,2,YES,SOCIALIZE,NO,SCHOOL/WORK,YES,7,13
+1615,Delhi-NCR,25,3,Excellent,Laptop/Desktop,3,0,7,2,Others,0,3,2,NO,INDOOR ACTIVITIES,NO,TRAVELLING,YES,6,9
+1616,Delhi-NCR,30,0,Excellent,Laptop/Desktop,2,1,8,2,Youtube,0,4,2,NO,READING,YES,SOCIALIZE,YES,2,11
+1617,Delhi-NCR,20,4,Excellent,Smartphone,3,0,7,2,Instagram,1,2,0,NO,MUSIC,NO,SOCIALIZE,YES,7,10
+1618,Outside Delhi-NCR,15,2,Excellent,Smartphone,2,1,8,3,Whatsapp,1,3,0,NO,REST,NO,SCHOOL/WORK,YES,4,13
+1619,Delhi-NCR,25,4,Excellent,Laptop/Desktop,4,2,6,1,Youtube,1,3,2,NO,INDOOR ACTIVITIES,YES,BEING OUTSIDE,YES,8,10
+1620,Delhi-NCR,15,4,Excellent,Smartphone,4,0,6,0,Youtube,0,3,2,NO,OTHERS,YES,NOTHING,NO,8,8
+1621,Outside Delhi-NCR,15,4,Excellent,Laptop/Desktop,2,0,9,3,Youtube,0,4,2,NO,INDOOR ACTIVITIES,NO,SOCIALIZE,YES,6,12
+1622,Delhi-NCR,20,4,Excellent,Laptop/Desktop,4,2,8,5,Instagram,3,3,0,NO,REST,NO,TRAVELLING,YES,8,14
+1623,Outside Delhi-NCR,20,0,Excellent,Smartphone,1,1,9,1,Others,1,3,0,NO,EXERCISE,YES,SCHOOL/WORK,YES,2,12

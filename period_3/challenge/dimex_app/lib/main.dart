@@ -3,6 +3,7 @@ import 'presentation/screens/login_screen.dart';
 import 'presentation/screens/home_screen.dart';
 import 'presentation/screens/search_screen.dart';
 import 'presentation/screens/client_details_screen.dart';
+import 'presentation/themes/app_theme.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,9 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'MVP App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: AppTheme.theme,
       initialRoute: '/login',
       routes: {
         '/login': (context) => LoginScreen(),

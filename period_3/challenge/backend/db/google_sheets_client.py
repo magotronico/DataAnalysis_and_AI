@@ -20,7 +20,7 @@ def get_sheet_data(range_name: str) -> pd.DataFrame:
 def check_login(id: str, password: str, login_sheet: pd.DataFrame) -> bool:
     """Validate login credentials against the provided sheet data."""
     for _, row in login_sheet.iterrows():
-        if (row['id_gestor'] == id or row.get('email') == id) and row['contrasena'] == password:
+        if (row['id_gestor'] == id or row.get('correo') == id) and row['contrasena'] == password:
             return True
     return False
 

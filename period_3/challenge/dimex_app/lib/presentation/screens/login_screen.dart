@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -10,43 +11,78 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _usernameController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _ipController = TextEditingController();
   bool _obscureText = true; // To toggle password visibility
   String? _errorMessage;
+  bool _isIpVisible = false; // Track IP input visibility
 
-  Future<void> _login() async {
-    final String username = _usernameController.text;
-    final String password = _passwordController.text;
+  @override
+  void initState() {
+    super.initState();
+    _loadCredentials(); // Load IP and username from shared preferences
+  }
 
-    // Replace with your API URL
-    final String url = 'http://10.22.203.93:8000/login/';
+  // Load the stored IP address and username from shared preferences
+  Future<void> _loadCredentials() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String? storedIp = prefs.getString('serverIp');
+    String? storedUsername = prefs.getString('username');
 
-    try {
-      final response = await http.post(
-        Uri.parse(url),
-        headers: {
-          "Content-Type": "application/json", // Set content type to JSON
-        },
-        body: json.encode({
-          'id': username,
-          'password': password,
-        }),
-      );
-
-      if (response.statusCode == 200) {
-        // Login successful, navigate to HomeScreen
-        Navigator.pushReplacementNamed(context, '/home');
-      } else {
-        // Handle the case where the login failed
-        setState(() {
-          _errorMessage = json.decode(response.body)['detail'] ?? 'Login failed. Please try again.';
-        });
-        _showErrorSnackbar(_errorMessage!);
-      }
-    } catch (e) {
-      // Handle any exceptions here
-      _showErrorSnackbar('An error occurred. Please try again.');
+    if (storedIp != null) {
+      _ipController.text = storedIp;
+    }
+    if (storedUsername != null) {
+      _usernameController.text = storedUsername;
     }
   }
+
+  Future<void> _login() async {
+  final String username = _usernameController.text;
+  final String password = _passwordController.text;
+  final String serverIp = _ipController.text; // Get the IP from the input
+
+  // Validate the IP address input
+  if (serverIp.isEmpty) {
+    _showErrorSnackbar('Please enter a server IP address.');
+    return;
+  }
+
+  // Save the IP address to shared preferences
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  await prefs.setString('serverIp', serverIp);
+
+  // Construct the API URL using the inputted IP
+  final String url = 'http://$serverIp:8000/login/';
+
+  try {
+    final response = await http.post(
+      Uri.parse(url),
+      headers: {
+        "Content-Type": "application/json", // Set content type to JSON
+      },
+      body: json.encode({
+        'id': username,
+        'password': password,
+      }),
+    );
+
+    if (response.statusCode == 200) {
+      // Save the login state
+      await prefs.setBool('isLoggedIn', true);
+      // Login successful, navigate to HomeScreen
+      Navigator.pushReplacementNamed(context, '/home');
+    } else {
+      // Handle the case where the login failed
+      setState(() {
+        _errorMessage = json.decode(response.body)['detail'] ?? 'Login failed. Please try again.';
+      });
+      _showErrorSnackbar(_errorMessage!);
+    }
+  } catch (e) {
+    // Handle any exceptions here
+    _showErrorSnackbar('An error occurred. Please try again.');
+  }
+}
 
   void _showErrorSnackbar(String message) {
     ScaffoldMessenger.of(context).showSnackBar(
@@ -79,10 +115,27 @@ class _LoginScreenState extends State<LoginScreen> {
                     height: 100,
                   ),
                   SizedBox(height: 20),
+                  if (_isIpVisible) // Show IP input field based on visibility
+                    TextField(
+                      controller: _ipController, // Controller for IP address input
+                      decoration: InputDecoration(
+                        labelText: 'Server IP Address',
+                      ),
+                    ),
+                  SizedBox(height: 20),
+                  ElevatedButton(
+                    onPressed: () {
+                      setState(() {
+                        _isIpVisible = !_isIpVisible; // Toggle visibility of IP input
+                      });
+                    },
+                    child: Text(_isIpVisible ? 'Hide IP Input' : 'Show IP Input'),
+                  ),
+                  SizedBox(height: 20),
                   TextField(
                     controller: _usernameController,
                     decoration: InputDecoration(
-                      labelText: 'ID, o correo',
+                      labelText: 'ID or Email',
                     ),
                   ),
                   SizedBox(height: 20),
@@ -115,7 +168,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: TextStyle(color: Colors.red),
                     ),
                 ],
-              ),
+              ), 
             ),
           ),
         ),

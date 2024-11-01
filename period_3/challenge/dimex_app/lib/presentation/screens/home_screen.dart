@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -16,14 +17,18 @@ class HomeScreen extends StatelessWidget {
               child: Text('Search Clients'),
             ),
             ElevatedButton(
-              onPressed: () {
-                // Log off and navigate back to the LoginScreen
-                Navigator.pushNamedAndRemoveUntil(
-                  context,
-                  '/login',
-                  (Route<dynamic> route) => false, // Clears navigation stack
-                );
-              },
+              onPressed: () async {
+  // Log off and navigate back to the LoginScreen
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  await prefs.setBool('isLoggedIn', false); // Reset login state
+  
+  Navigator.pushNamedAndRemoveUntil(
+    context,
+    '/login',
+    (Route<dynamic> route) => false, // Clears navigation stack
+  );
+},
+
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.purple,
               ),

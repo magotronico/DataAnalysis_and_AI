@@ -29,7 +29,10 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(),
         '/home': (context) => HomeScreen(),
         '/search': (context) => SearchScreen(),
-        '/clientDetails': (context) => ClientDetailsScreen(),
+        '/clientDetails': (context) {
+          final clientId = ModalRoute.of(context)!.settings.arguments as String;
+          return ClientDetailsScreen(clientId: clientId);
+        },
       },
     );
   }

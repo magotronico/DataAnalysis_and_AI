@@ -100,6 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Center(
         child: SingleChildScrollView(
           child: Card(
+            color: Theme.of(context).cardColor,
             elevation: 8,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),
@@ -112,7 +113,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   Image.asset(
                     'assets/dimex_green.png', // Add your logo image here
-                    height: 100,
+                    height: 150,
                   ),
                   SizedBox(height: 20),
                   if (_isIpVisible) // Show IP input field based on visibility
@@ -170,7 +171,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ],
               ), 
             ),
-          ),
+          ),          
         ),
       ),
     );

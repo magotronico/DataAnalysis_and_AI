@@ -24,10 +24,18 @@ def check_login(id: str, password: str, login_sheet: pd.DataFrame) -> bool:
             return True
     return False
 
-def search_client(client_id: str, clients_sheet: pd.DataFrame) -> dict:
+def get_client_db(client_id: str, clients_sheet: pd.DataFrame) -> dict:
     """Look up a client by ID in the client sheet data."""
     for _, row in clients_sheet.iterrows():
         if row['id_cliente'] == client_id:
             return row.to_dict()
     return None
 
+def search_clients_db(query: str, clients_sheet: pd.DataFrame) -> list:
+    """Search for clients in the client sheet data based on the query."""
+    results = []
+    for _, client in clients_sheet.iterrows():
+        if any(str(field).lower().find(query.lower()) != -1 for field in client.iloc[:3]):
+            # Convert Series to dictionary to make it JSON serializable
+            results.append(client.to_dict())
+    return results

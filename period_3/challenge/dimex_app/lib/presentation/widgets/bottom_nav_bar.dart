@@ -17,21 +17,71 @@ class BottomNavBar extends StatelessWidget {
         border: Border(top: BorderSide(color: Colors.grey.shade300, width: 1)),
       ),
       child: BottomNavigationBar(
+        backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         currentIndex: currentIndex,
         onTap: onTap,
         type: BottomNavigationBarType.fixed,
-        items: const [
+        selectedItemColor: Colors.white, // Color for selected item
+        unselectedItemColor: Colors.white.withOpacity(0.6), // Color for unselected items
+        selectedLabelStyle: const TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+        ),
+        unselectedLabelStyle: TextStyle(
+          color: Colors.white.withOpacity(0.6),
+        ),
+        showUnselectedLabels: true,
+        items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
+            icon: Icon(
+              Icons.home,
+              color: currentIndex == 0 
+                ? Colors.white 
+                : Colors.white.withOpacity(0.6),
+            ),
+            activeIcon: Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.home, color: Colors.white),
+            ),
+            label: 'Inicio',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person_search),
-            label: 'Search',
+            icon: Icon(
+              Icons.person_search,
+              color: currentIndex == 1 
+                ? Colors.white 
+                : Colors.white.withOpacity(0.6),
+            ),
+            activeIcon: Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.person_search, color: Colors.white),
+            ),
+            label: 'Buscar cliente',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Client',
+            icon: Icon(
+              Icons.logout,
+              color: currentIndex == 2 
+                ? Colors.white 
+                : Colors.white.withOpacity(0.6),
+            ),
+            activeIcon: Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.logout, color: Colors.white),
+            ),
+            label: 'Cerrar sesión',
           ),
         ],
       ),

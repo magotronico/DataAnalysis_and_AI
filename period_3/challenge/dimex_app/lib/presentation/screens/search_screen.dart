@@ -67,7 +67,7 @@ class _SearchScreenState extends State<SearchScreen> {
   // Function to handle search with debouncing
   void _onSearchChanged() {
     if (_debounce?.isActive ?? false) _debounce!.cancel();
-    _debounce = Timer(const Duration(milliseconds: 300), () {
+    _debounce = Timer(const Duration(milliseconds: 500), () {
       // Only send the search query if the text is not empty
       if (_searchController.text.isNotEmpty && channel != null) {
         channel!.sink.add(_searchController.text); // Send search query after delay
@@ -86,7 +86,6 @@ class _SearchScreenState extends State<SearchScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Detalles del cliente')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -107,6 +106,7 @@ class _SearchScreenState extends State<SearchScreen> {
                         final client = searchResults[index];
                         return ExcludeSemantics(
                           child: Card(
+                            key: ValueKey(client['id_cliente']), // Add a unique key
                             color: Theme.of(context).cardColor,
                             child: ListTile(
                               title: Text(client['nombre_completo'] ?? 'Unknown'),
@@ -122,7 +122,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           ),
                         );
                       },
-                    ),
+                    )
             ),
           ],
         ),

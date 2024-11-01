@@ -26,13 +26,9 @@ class _LoginScreenState extends State<LoginScreen> {
   Future<void> _loadCredentials() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? storedIp = prefs.getString('serverIp');
-    String? storedUsername = prefs.getString('username');
 
     if (storedIp != null) {
       _ipController.text = storedIp;
-    }
-    if (storedUsername != null) {
-      _usernameController.text = storedUsername;
     }
   }
 

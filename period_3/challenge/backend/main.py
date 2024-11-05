@@ -1,7 +1,7 @@
 # backend/main.py
 
 from fastapi import FastAPI
-from endpoints import auth, client, common  # Updated import paths
+from endpoints import auth, client, common
 
 app = FastAPI()
 

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static const Color green = Color(0xFF63A532);
+  static const Color greenBg = Color.fromARGB(255, 183, 210, 171);
   static const Color background = Color(0xFFF2F2F2);
   static const Color foreground = Color(0xFFFFFFFF);
   static const Color letterBlack = Color(0xFF213333);
@@ -11,6 +12,18 @@ class AppTheme {
       primaryColor: green,
       scaffoldBackgroundColor: background,
       cardColor: foreground,
+      colorScheme: ColorScheme.light(
+        primary: green,
+        onPrimary: foreground,
+        secondary: greenBg,
+        onSecondary: foreground,
+        background: background,
+        onBackground: letterBlack,
+        surface: foreground,
+        onSurface: letterBlack,
+        error: Colors.red,
+        onError: Colors.white,
+      ),
       textTheme: TextTheme(
         bodyLarge: TextStyle(color: letterBlack),
         bodyMedium: TextStyle(color: letterBlack),

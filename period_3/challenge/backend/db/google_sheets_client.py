@@ -20,7 +20,7 @@ def get_sheet_data(range_name: str) -> pd.DataFrame:
 def check_login(id: str, password: str, login_sheet: pd.DataFrame) -> bool:
     """Validate login credentials against the provided sheet data."""
     for _, row in login_sheet.iterrows():
-        if (row['id_gestor'] == id or row.get('correo') == id) and row['contrasena'] == password:
+        if (row['id_usuario'] == id or row.get('correo') == id) and row['contrasena'] == password:
             return True
     return False
 
@@ -39,3 +39,7 @@ def search_clients_db(query: str, clients_sheet: pd.DataFrame) -> list:
             # Convert Series to dictionary to make it JSON serializable
             results.append(client.to_dict())
     return results
+
+def get_clients_usuario(usuario_id: str, clients_sheet: pd.DataFrame) -> list:
+    """Get all clients associated with the specified manager."""
+    return clients_sheet[clients_sheet['id_usuario'] == usuario_id].to_dict(orient='records')

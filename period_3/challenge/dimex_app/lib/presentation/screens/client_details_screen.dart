@@ -75,6 +75,10 @@ class ClientDetailsScreen extends StatelessWidget {
                           ),
                         ),
                         SizedBox(height: 20),
+                        Text('Numero de Cliente: ${client['id_cliente']}',
+                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
+                          textAlign: TextAlign.center,
+                        ),
                         Text(
                           'Name: ${client['nombre_completo']}',
                           style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
@@ -95,17 +99,45 @@ class ClientDetailsScreen extends StatelessWidget {
                           style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
                           textAlign: TextAlign.center,
                         ),
-                        Text(
-                          'Last Contact: ${client['ultimo_contacto']}',
-                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
-                          textAlign: TextAlign.center,
-                        ),
-                        Text(
-                          'Contact Type: ${client['tipo_contacto']}',
+                        Text('Capacidad de Pago: ${client['capacidad_pago']}',
                           style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
                           textAlign: TextAlign.center,
                         ),
                         SizedBox(height: 20),
+
+                        // Propuesta Card inside main card
+                        Card(
+                          color: Theme.of(context).colorScheme.secondary,
+                          elevation: 2,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Recomendación Siguiente Contacto',
+                                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18, fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(height: 10),
+                                Text(
+                                  'Via de Contacto: ${client['tipo_contacto']}',
+                                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 16),
+                                ),
+                                Text(
+                                  'Propuesta: ${client['proxima_propuesta'] ?? 'No information'}',
+                                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 16),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+
+                        SizedBox(height: 20),
+
+                        // Button for new interaction
                         ElevatedButton(
                           onPressed: () {
                             // Navigate to another screen when implemented

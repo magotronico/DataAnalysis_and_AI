@@ -1,7 +1,7 @@
 # backend/endpoints/client.py
 
 from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
-from db.google_sheets_client import get_client_db, get_sheet_data, search_clients_db
+from db.google_sheets_client import get_client_db, get_sheet_data, search_clients_db, send_form_data
 from config import RANGES
 import re
 
@@ -32,3 +32,11 @@ async def search_clients(websocket: WebSocket):
 
     except WebSocketDisconnect:
         await websocket.close()
+
+@router.post("/nueva_interaccion")
+async def form_data(data: dict):
+    try:
+        send_form_data(data)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to send form data: {str(e)}")
+    return {"status": "Form data sent successfully"}

@@ -33,52 +33,60 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Future<void> _login() async {
-  final String username = _usernameController.text;
-  final String password = _passwordController.text;
-  final String serverIp = _ipController.text; // Get the IP from the input
+    final String username = _usernameController.text;
+    final String password = _passwordController.text;
+    final String serverIp = _ipController.text; // Get the IP from the input
 
-  // Validate the IP address input
-  if (serverIp.isEmpty) {
-    _showErrorSnackbar('Please enter a server IP address.');
-    return;
-  }
-
-  // Save the IP address to shared preferences
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  await prefs.setString('serverIp', serverIp);
-
-  // Construct the API URL using the inputted IP
-  final String url = 'http://$serverIp:8000/login/';
-
-  try {
-    final response = await http.post(
-      Uri.parse(url),
-      headers: {
-        "Content-Type": "application/json", // Set content type to JSON
-      },
-      body: json.encode({
-        'id': username,
-        'password': password,
-      }),
-    );
-
-    if (response.statusCode == 200) {
-      // Save the login state
-      await prefs.setBool('isLoggedIn', true);
-      // Login successful, navigate to HomeScreen
-      Navigator.pushReplacementNamed(context, '/home');
-    } else {
-      // Handle the case where the login failed
-      setState(() {
-        _errorMessage = json.decode(response.body)['detail'] ?? 'Login failed. Please try again.';
-      });
-      _showErrorSnackbar(_errorMessage!);
+    // Validate the IP address input
+    if (serverIp.isEmpty) {
+      _showErrorSnackbar('Please enter a server IP address.');
+      return;
     }
-  } catch (e) {
-    // Handle any exceptions here
-    _showErrorSnackbar('An error occurred. Please try again.');
+
+    // Save the IP address to shared preferences
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setString('serverIp', serverIp);
+
+    // Construct the API URL using the inputted IP
+    final String url = 'http://$serverIp:8000/login/';
+
+    try {
+      final response = await http.post(
+        Uri.parse(url),
+        headers: {
+          "Content-Type": "application/json", // Set content type to JSON
+        },
+        body: json.encode({
+          'id': username,
+          'password': password,
+        }),
+      );
+
+      if (response.statusCode == 200) {
+        // Parse the response body
+        final responseBody = json.decode(response.body);
+        final String userId = responseBody['user_id'];
+
+        // Save the user ID to shared preferences
+        await prefs.setString('userId', userId);
+
+        // Save the login state
+        await prefs.setBool('isLoggedIn', true);
+
+        // Login successful, navigate to HomeScreen
+        Navigator.pushReplacementNamed(context, '/home');
+      } else {
+        // Handle the case where the login failed
+        setState(() {
+          _errorMessage = json.decode(response.body)['detail'] ?? 'Login failed. Please try again.';
+        });
+        _showErrorSnackbar(_errorMessage!);
+      }
+    } catch (e) {
+      // Handle any exceptions here
+      _showErrorSnackbar('An error occurred. Please try again.');
+    }
   }
-}
 
   void _showErrorSnackbar(String message) {
     ScaffoldMessenger.of(context).showSnackBar(

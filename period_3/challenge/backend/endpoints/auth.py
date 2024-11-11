@@ -15,6 +15,9 @@ class LoginRequest(BaseModel):
 @router.post("/login/")
 async def login(login_request: LoginRequest):
     login_sheet = get_sheet_data(RANGES["login"])
-    if check_login(login_request.id, login_request.password, login_sheet):
-        return {"status": "success", "message": "Login successful"}
+    result = check_login(login_request.id, login_request.password, login_sheet)
+    
+    if result["status"]:
+        return {"status": "success", "message": "Login successful", "user_id": result["user_id"]}
+    
     raise HTTPException(status_code=401, detail="Invalid credentials")

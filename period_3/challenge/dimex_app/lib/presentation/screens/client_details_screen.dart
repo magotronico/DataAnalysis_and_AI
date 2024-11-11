@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'new_interaction_screen.dart'; // Import the new interaction screen
 
 class ClientDetailsScreen extends StatelessWidget {
   final String clientId;
@@ -140,7 +141,12 @@ class ClientDetailsScreen extends StatelessWidget {
                         // Button for new interaction
                         ElevatedButton(
                           onPressed: () {
-                            // Navigate to another screen when implemented
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => NewInteractionScreen(clientId: client['id_cliente']),
+                              ),
+                            );
                           },
                           child: Text('Nueva Interacción'),
                           style: ElevatedButton.styleFrom(

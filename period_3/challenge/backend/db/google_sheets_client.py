@@ -47,7 +47,6 @@ def get_clients_usuario(usuario_id: str, clients_sheet: pd.DataFrame) -> list:
 def send_form_data(data: dict) -> bool:
     """Append form data to the Google Sheet."""
     body = {"values": [list(data.values())]}
-    print(body)
     creds = get_credentials()
     service = build("sheets", "v4", credentials=creds)
     service.spreadsheets().values().append(spreadsheetId=SPREADSHEET_ID, range="nueva_interaccion!A1", valueInputOption="RAW", body=body).execute()

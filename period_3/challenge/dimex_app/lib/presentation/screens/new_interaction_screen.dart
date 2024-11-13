@@ -14,11 +14,21 @@ class NewInteractionScreen extends StatefulWidget {
 }
 
 class _NewInteractionScreenState extends State<NewInteractionScreen> {
-  final TextEditingController _interactionDetailsController = TextEditingController();
-  final TextEditingController _agreementController = TextEditingController();
-  final TextEditingController _nextPaymentDateController = TextEditingController();
-  final TextEditingController _collectionOfferController = TextEditingController();
-  String _contactMethod = '1'; // Default contact method
+  bool interactionAchieved = false;
+  bool agreementAchieved = false;
+  String? selectedOffer;
+  DateTime? nextPaymentDate;
+  int? interestRate, termMonths;
+  double? payment;
+  String _contactMethod = '1';
+  final TextEditingController _commentsController = TextEditingController();
+
+  final List<String> offerOptions = [
+    'Tus Pesos Valen Más',
+    'Reestructura del Crédito',
+    'Quita / Castigo',
+    'Pago sin Beneficio'
+  ];
 
   Future<String> _loadServerIp() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -26,19 +36,19 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
   }
 
   Future<void> _submitInteraction() async {
-    final String serverIp = await _loadServerIp();
-    if (serverIp.isEmpty) {
-      _showSnackbar('Server IP is not configured.');
+    // Check if all required fields are filled out
+    if (
+        (agreementAchieved && selectedOffer == null) ||
+        (selectedOffer == 'Reestructura del Crédito' && (interestRate == null || termMonths == null || payment == null)) ||
+        (selectedOffer == 'Quita / Castigo' && payment == null)
+        ) {
+      _showSnackbar('Por favor de completar todos los campos requeridos.');
       return;
     }
 
-    final String interactionDetails = _interactionDetailsController.text;
-    final String agreement = _agreementController.text;
-    final String nextPaymentDate = _nextPaymentDateController.text;
-    final String collectionOffer = _collectionOfferController.text;
-
-    if (interactionDetails.isEmpty || agreement.isEmpty || nextPaymentDate.isEmpty || collectionOffer.isEmpty) {
-      _showSnackbar('Please fill in all fields.');
+    final String serverIp = await _loadServerIp();
+    if (serverIp.isEmpty) {
+      _showSnackbar('Server IP is not configured.');
       return;
     }
 
@@ -46,8 +56,8 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final String? userId = prefs.getString('userId');
 
-    final String interactionId = 'I${DateTime.now().millisecondsSinceEpoch}'; // Generate unique interaction ID
-    final String createdAt = DateFormat('hh:mm:ss a').format(DateTime.now()); // Current time in the required format
+    final String interactionId = 'I${DateTime.now().millisecondsSinceEpoch}';
+    final String createdAt = DateFormat('hh:mm:ss a').format(DateTime.now());
 
     try {
       final response = await http.post(
@@ -61,23 +71,39 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
           'id_cliente': widget.clientId,
           'id_usuario': userId,
           'via_contacto': _contactMethod,
-          'interaccion': interactionDetails,
-          'acuerdo': agreement,
-          'fecha_prox_pago': nextPaymentDate,
-          'oferta_cobranza': collectionOffer,
-          'oferta_cobranza_modelo': '0', // Placeholder value
-          'via_contacto_modelo': '0', // Placeholder value
+          'interaccion_lograda': interactionAchieved,
+          'acuerdo_logrado': agreementAchieved,
+          'oferta_cobranza': selectedOffer,
+          'fecha_prox_pago': nextPaymentDate != null ? DateFormat('yyyy-MM-dd').format(nextPaymentDate!) : null,
+          'pago': payment,
+          'tasa_interes': interestRate,
+          'plazo_meses': termMonths,
+          'comentarios': _commentsController.text,
         }),
       );
 
       if (response.statusCode == 200) {
-        _showSnackbar('Interaction successfully recorded.');
+        _showSnackbar('Se guardó correctamente la nueva interacción.');
         Navigator.pop(context);
       } else {
-        _showSnackbar('Failed to record interaction: ${response.reasonPhrase}');
+        _showSnackbar('Hubo un fallo en guardar la nueva interacción: ${response.reasonPhrase}');
       }
     } catch (e) {
-      _showSnackbar('An error occurred: $e');
+      _showSnackbar('Ocurrió un error: $e');
+    }
+  }
+
+  Future<void> _selectDate(BuildContext context) async {
+    final DateTime? picked = await showDatePicker(
+      context: context,
+      initialDate: DateTime.now(),
+      firstDate: DateTime.now(),
+      lastDate: DateTime(DateTime.now().year + 5),
+    );
+    if (picked != null && picked != nextPaymentDate) {
+      setState(() {
+        nextPaymentDate = picked;
+      });
     }
   }
 
@@ -95,79 +121,133 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              'Enter Interaction Details',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 10),
-            TextField(
-              controller: _interactionDetailsController,
-              maxLines: 5,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                hintText: 'Describe the interaction...'
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('¿Se logró una interacción con el cliente?'),
+              Switch(
+                value: interactionAchieved,
+                onChanged: (value) {
+                  setState(() {
+                    interactionAchieved = value;
+                    agreementAchieved = false; // Reset following fields
+                    selectedOffer = null;
+                    nextPaymentDate = null;
+                    interestRate = null;
+                    termMonths = null;
+                    payment = null;
+                  });
+                },
               ),
-            ),
-            SizedBox(height: 20),
-            TextField(
-              controller: _agreementController,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'Agreement',
-              ),
-            ),
-            SizedBox(height: 20),
-            TextField(
-              controller: _nextPaymentDateController,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'Next Payment Date (e.g., 7/11/2024)',
-              ),
-            ),
-            SizedBox(height: 20),
-            TextField(
-              controller: _collectionOfferController,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'Collection Offer',
-              ),
-            ),
-            SizedBox(height: 20),
-            DropdownButtonFormField<String>(
-              value: _contactMethod,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'Contact Method',
-              ),
-              items: [
-                DropdownMenuItem(
-                  value: '1',
-                  child: Text('Method 1'),
-                ),
-                DropdownMenuItem(
-                  value: '2',
-                  child: Text('Method 2'),
+              if (interactionAchieved) ...[
+                SizedBox(height: 20),
+                Text('¿Se logró un acuerdo con el cliente?'),
+                Switch(
+                  value: agreementAchieved,
+                  onChanged: (value) {
+                    setState(() {
+                      agreementAchieved = value;
+                      selectedOffer = null; // Reset following fields
+                      nextPaymentDate = null;
+                      interestRate = null;
+                      termMonths = null;
+                      payment = null;
+                    });
+                  },
                 ),
               ],
-              onChanged: (value) {
-                setState(() {
-                  _contactMethod = value!;
-                });
-              },
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _submitInteraction,
-              child: Text('Submit'),
-              style: ElevatedButton.styleFrom(
-                padding: EdgeInsets.symmetric(vertical: 15, horizontal: 30),
-                textStyle: TextStyle(fontSize: 18),
+              if (agreementAchieved) ...[
+                SizedBox(height: 20),
+                Text('¿Qué tipo de acuerdo se logró?'),
+                DropdownButton<String>(
+                  value: selectedOffer,
+                  items: offerOptions.map((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
+                  onChanged: (value) {
+                    setState(() {
+                      selectedOffer = value;
+                    });
+                  },
+                  hint: Text('Seleccionar tipo de acuerdo'),
+                ),
+                SizedBox(height: 20),
+                Text('Fecha del próximo pago'),
+                GestureDetector(
+                  onTap: () => _selectDate(context),
+                  child: Container(
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200],
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(color: Colors.grey),
+                    ),
+                    child: Text(
+                      nextPaymentDate == null
+                          ? 'Seleccionar fecha'
+                          : DateFormat('yyyy-MM-dd').format(nextPaymentDate!),
+                      style: TextStyle(color: Colors.blue),
+                    ),
+                  ),
+                ),
+                SizedBox(height: 20),
+                if (selectedOffer == 'Reestructura del Crédito') ...[
+                  SizedBox(height: 10),
+                  TextFormField(
+                    decoration: InputDecoration(labelText: 'Tasa de Interés (%)'),
+                    keyboardType: TextInputType.number,
+                    onChanged: (value) {
+                      interestRate = int.tryParse(value);
+                    },
+                  ),
+                  SizedBox(height: 10),
+                  TextFormField(
+                    decoration: InputDecoration(labelText: 'Plazo (Meses)'),
+                    keyboardType: TextInputType.number,
+                    onChanged: (value) {
+                      termMonths = int.tryParse(value);
+                    },
+                  ),
+                  SizedBox(height: 10),
+                  TextFormField(
+                    decoration: InputDecoration(labelText: 'Pago (\$)'),
+                    keyboardType: TextInputType.numberWithOptions(decimal: true),
+                    onChanged: (value) {
+                      payment = double.tryParse(value);
+                    },
+                  ),
+                ],
+                if (selectedOffer == 'Quita / Castigo') ...[
+                  SizedBox(height: 20),
+                  TextFormField(
+                    decoration: InputDecoration(labelText: 'Pago (\$)'),
+                    keyboardType: TextInputType.numberWithOptions(decimal: true),
+                    onChanged: (value) {
+                      payment = double.tryParse(value);
+                    },
+                  ),
+                ],
+              ],
+              SizedBox(height: 20),
+              TextField(
+                controller: _commentsController,
+                maxLines: 4,
+                decoration: InputDecoration(
+                  labelText: 'Comentarios',
+                  border: OutlineInputBorder(),
+                ),
               ),
-            ),
-          ],
+              SizedBox(height: 30),
+              ElevatedButton(
+                onPressed: _submitInteraction,
+                child: Text('Enviar Nueva Interacción'),
+              ),
+            ],
+          ),
         ),
       ),
     );

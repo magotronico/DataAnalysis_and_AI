@@ -19,7 +19,8 @@ class ClientDetailsScreen extends StatelessWidget {
     final response = await http.get(Uri.parse("http://$storedIp:8000/client/$clientId"));
 
     if (response.statusCode == 200) {
-      return json.decode(response.body);
+    // Decode JSON response with UTF-8 encoding
+      return json.decode(utf8.decode(response.bodyBytes));
     } else {
       throw Exception('Failed to load client details');
     }
@@ -68,12 +69,8 @@ class ClientDetailsScreen extends StatelessWidget {
                       children: [
                         CircleAvatar(
                           radius: 60,
-                          backgroundColor: Colors.grey[300],
-                          child: Icon(
-                            Icons.person,
-                            size: 60,
-                            color: Colors.grey[600],
-                          ),
+                          backgroundImage: AssetImage('assets/fotos_clientes/imagen_${client['id_foto']}.webp'),
+                          backgroundColor: Colors.transparent,
                         ),
                         SizedBox(height: 20),
                         Text('Numero de Cliente: ${client['id_cliente']}',
@@ -81,29 +78,26 @@ class ClientDetailsScreen extends StatelessWidget {
                           textAlign: TextAlign.center,
                         ),
                         Text(
-                          'Name: ${client['nombre_completo']}',
+                          'Nombre: ${client['nombre_completo']}',
                           style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
                           textAlign: TextAlign.center,
                         ),
                         Text(
-                          'Email: ${client['correo']}',
+                          'Correo: ${client['correo']}',
                           style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
                           textAlign: TextAlign.center,
                         ),
                         Text(
-                          'Phone: ${client['telefono']}',
+                          'Telefono: ${client['telefono']}',
                           style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
                           textAlign: TextAlign.center,
                         ),
                         Text(
-                          'Address: ${client['direccion']}',
+                          'Dirección: ${client['direccion']}',
                           style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
                           textAlign: TextAlign.center,
                         ),
-                        Text('Capacidad de Pago: ${client['capacidad_pago']}',
-                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18),
-                          textAlign: TextAlign.center,
-                        ),
+              
                         SizedBox(height: 20),
 
                         // Propuesta Card inside main card
@@ -119,16 +113,20 @@ class ClientDetailsScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Recomendación Siguiente Contacto',
+                                  'Recomendación Siguiente Interacción',
                                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18, fontWeight: FontWeight.bold),
                                 ),
                                 SizedBox(height: 10),
                                 Text(
-                                  'Via de Contacto: ${client['tipo_contacto']}',
+                                  'Via de Contacto: ${client['mejorGestion'] ?? 'No information'}',
                                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 16),
                                 ),
                                 Text(
-                                  'Propuesta: ${client['proxima_propuesta'] ?? 'No information'}',
+                                  'Propuesta: ${client['mejorOferta'] ?? 'No information'}',
+                                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 16),
+                                ),
+                                Text(
+                                  'Capacidad de Pago: \$${client['capacidad_pago']}',
                                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 16),
                                 ),
                               ],

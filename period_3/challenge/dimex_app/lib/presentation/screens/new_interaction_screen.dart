@@ -39,8 +39,9 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
     // Check if all required fields are filled out
     if (
         (agreementAchieved && selectedOffer == null) ||
-        (selectedOffer == 'Reestructura del Crédito' && (interestRate == null || termMonths == null || payment == null)) ||
-        (selectedOffer == 'Quita / Castigo' && payment == null)
+        (selectedOffer == 'Reestructura del Crédito' && (interestRate == null || termMonths == null || payment == null || nextPaymentDate == null)) ||
+        (selectedOffer == 'Quita / Castigo' && (payment == null || nextPaymentDate == null)) ||
+        ((selectedOffer == 'Pago sin Beneficio' || selectedOffer == 'Tus Pesos Valen Más') && nextPaymentDate == null)
         ) {
       _showSnackbar('Por favor de completar todos los campos requeridos.');
       return;

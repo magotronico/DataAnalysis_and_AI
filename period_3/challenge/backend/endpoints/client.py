@@ -1,9 +1,9 @@
 # backend/endpoints/client.py
 
 from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
-from db.google_sheets_client import get_client_db, get_sheet_data, search_clients_db, send_form_data
+from db.google_sheets_client import get_client_db, get_sheet_data, search_clients_db, send_form_data, update_client_data
 from config import RANGES
-from send_msm.snd_msm import send_agreement_message, send_hello, print_agreement_message
+from send_msm.snd_msm import send_agreement_message, print_agreement_message
 import re
 
 router = APIRouter()
@@ -39,22 +39,36 @@ async def form_data(data: dict):
     try:
         # Get client data
         client_data = await get_client(data['id_cliente'])
+        
+        # Convert payment amount to float
+        pago_float = float(re.sub(r"[{},]", "", client_data['Pago']))
 
-        # Calculate payment amount based on agreement and offer
+        # Calculate payment amount based on agreement and offer and print agreement message
         if data['acuerdo_logrado'] and data['oferta_cobranza'] == 'Tus Pesos Valen Más':
-            data['pago'] = 0.5 * client_data['Linea credito']
-        elif data['acuerdo_logrado'] and data['oferta_cobranza'] == 'Pago sin Beneficio':
-            data['pago'] = client_data['Linea credito']
+            data['pago'] = f"{round(0.5 * pago_float, 2):.2f}"
+            print_agreement_message(acuerdo = 1, nombre = client_data['nombre_completo'], amount = data['pago'], fecha = data['fecha_prox_pago'], recipient_number = client_data['telefono'])
 
+        elif data['acuerdo_logrado'] and data['oferta_cobranza'] == 'Pago sin Beneficio':
+            data['pago'] = client_data['Pago']
+            print_agreement_message(acuerdo = 2, nombre = client_data['nombre_completo'], amount = data['pago'], fecha = data['fecha_prox_pago'], recipient_number = client_data['telefono'])
+
+        elif data['acuerdo_logrado'] and data['oferta_cobranza'] == 'Quita / Castigo':
+            data['pago'] = f"{round(float(data['pago']), 2):.2f}"
+            print_agreement_message(acuerdo = 3, nombre = client_data['nombre_completo'], amount = data['pago'], fecha = data['fecha_prox_pago'], recipient_number = client_data['telefono'])
+
+        elif data['acuerdo_logrado'] and data['oferta_cobranza'] == 'Reestructura del Crédito':
+            data['pago'] = f"{round(float(data['pago']), 2):.2f}"
+            client_data['tasa interes'] = data['tasa_interes']
+            client_data['Plazo_Meses'] = data['plazo_meses']
+            client_data['Pago'] = data['pago']
+            print_agreement_message(acuerdo = 4, nombre = client_data['nombre_completo'], amount = data['pago'], fecha = data['fecha_prox_pago'], recipient_number = client_data['telefono'], interes = data['tasa_interes'], meses = data['plazo_meses'])
+        
         # Send form data to Google Sheets
         send_form_data(data)
-        
-        # Send agreement message if agreement was reached
-        if data['acuerdo_logrado']:
-            # send_agreement_message(client_data['nombre_completo'], data['pago'], data['fecha_prox_pago'], client_data['telefono']) # Este es el código original
-            # send_agreement_message(client_data['nombre_completo'], data['pago'], data['fecha_prox_pago'], '+526644423353') # Este es el codigo para prueba de envio de mensaje
-            print_agreement_message(client_data['nombre_completo'], data['pago'], data['fecha_prox_pago'], client_data['telefono']) # Este es el código de prueba en terminal
-            
+
+        # Update client data in Google Sheets
+        # update_client_data(data['id_cliente'], client_data) # Uncomment this line to update client data in Google Sheets
+
     except Exception as e:
         print(f"Failed to send form data: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Failed to send form data: {str(e)}")

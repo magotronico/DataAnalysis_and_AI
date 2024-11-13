@@ -51,3 +51,34 @@ def send_form_data(data: dict) -> bool:
     service = build("sheets", "v4", credentials=creds)
     service.spreadsheets().values().append(spreadsheetId=SPREADSHEET_ID, range="nueva_interaccion!A1", valueInputOption="RAW", body=body).execute()
     return True
+
+def update_client_data(client_id: str, data: dict) -> bool:
+    """Update client data in the Google Sheet based on client_id."""
+    creds = get_credentials()
+    service = build("sheets", "v4", credentials=creds)
+    
+    # Read all data to find the row with the matching client_id
+    sheet = service.spreadsheets().values().get(spreadsheetId=SPREADSHEET_ID, range="clientes!A2:A").execute()
+    rows = sheet.get('values', [])
+    
+    # Find the row index of the matching client_id
+    row_index = None
+    for i, row in enumerate(rows, start=2):  # start=2 to match Google Sheets row numbering
+        if row and row[0] == client_id:
+            row_index = i
+            break
+    print(row_index)
+    # If the client_id is found, update the row
+    if row_index:
+        body = {"values": [list(data.values())]}
+        range_to_update = f"clientes!A{row_index}"
+        service.spreadsheets().values().update(
+            spreadsheetId=SPREADSHEET_ID,
+            range=range_to_update,
+            valueInputOption="RAW",
+            body=body
+        ).execute()
+        return True
+    else:
+        print("Client ID not found.")
+        return False

@@ -1,8 +1,9 @@
 import 'package:dimex_app/presentation/widgets/importance_bar_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../widgets/bottom_nav_bar.dart';
+import 'chatbot_screen.dart';
 import 'search_screen.dart';
+import '../widgets/bottom_nav_bar.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -13,16 +14,14 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
-  String username = 'Usuario'; // Default username, can be updated dynamically
+  String username = 'Usuario';
 
-  // Placeholder data for clients by importance
   final List<Map<String, dynamic>> clients = [
     {'name': 'Client A', 'importance': 'High'},
     {'name': 'Client B', 'importance': 'Medium'},
     {'name': 'Client C', 'importance': 'Low'},
   ];
 
-  // Placeholder for remaining clients count
   final int remainingClients = 20;
 
   Widget _buildHomeContent() {
@@ -123,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _onTabTapped(int index) {
-    if (index == 2) {
+    if (index == 3) {
       _handleLogout(context);
     } else {
       setState(() {
@@ -145,9 +144,10 @@ class _HomeScreenState extends State<HomeScreen> {
       body: IndexedStack(
         index: _currentIndex,
         children: [
-          _buildHomeContent(),
-          SearchScreen(),
-          Container(),
+          _buildHomeContent(), // Index 0
+          SearchScreen(),       // Index 1
+          ChatBot(),            // Index 2
+          Container(),          // Placeholder for logout
         ],
       ),
       bottomNavigationBar: BottomNavBar(

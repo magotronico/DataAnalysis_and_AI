@@ -31,6 +31,13 @@ def get_client_db(client_id: str, clients_sheet: pd.DataFrame) -> dict:
             return row.to_dict()
     return None
 
+def get_user_db(user_id: str, users_sheet: pd.DataFrame) -> dict:
+    """Look up a client by ID in the client sheet data."""
+    for _, row in users_sheet.iterrows():
+        if row['id_usuario'] == user_id:
+            return row.to_dict()
+    return None
+
 def search_clients_db(query: str, clients_sheet: pd.DataFrame) -> list:
     """Search for clients in the client sheet data based on the query."""
     results = []

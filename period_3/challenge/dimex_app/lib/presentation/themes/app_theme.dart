@@ -28,13 +28,17 @@ class AppTheme {
       ),
       appBarTheme: AppBarTheme(
         backgroundColor: green,
-        titleTextStyle: TextStyle(color: foreground, fontSize: 20, fontWeight: FontWeight.bold),
+        titleTextStyle: TextStyle(
+          color: foreground,
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+        ),
         iconTheme: IconThemeData(color: foreground),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          backgroundColor: green, // Button color
-          foregroundColor: foreground, // Text color
+          backgroundColor: green,
+          foregroundColor: foreground,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(8),
           ),

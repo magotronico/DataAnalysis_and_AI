@@ -21,8 +21,8 @@ class BottomNavBar extends StatelessWidget {
         currentIndex: currentIndex,
         onTap: onTap,
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: Colors.white, // Color for selected item
-        unselectedItemColor: Colors.white.withOpacity(0.6), // Color for unselected items
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white.withOpacity(0.6),
         selectedLabelStyle: const TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
@@ -35,9 +35,9 @@ class BottomNavBar extends StatelessWidget {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.home,
-              color: currentIndex == 0 
-                ? Colors.white 
-                : Colors.white.withOpacity(0.6),
+              color: currentIndex == 0
+                  ? Colors.white
+                  : Colors.white.withOpacity(0.6),
             ),
             activeIcon: Container(
               padding: const EdgeInsets.all(8),
@@ -52,9 +52,9 @@ class BottomNavBar extends StatelessWidget {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.person_search,
-              color: currentIndex == 1 
-                ? Colors.white 
-                : Colors.white.withOpacity(0.6),
+              color: currentIndex == 1
+                  ? Colors.white
+                  : Colors.white.withOpacity(0.6),
             ),
             activeIcon: Container(
               padding: const EdgeInsets.all(8),
@@ -68,10 +68,27 @@ class BottomNavBar extends StatelessWidget {
           ),
           BottomNavigationBarItem(
             icon: Icon(
+              Icons.chat,
+              color: currentIndex == 2
+                  ? Colors.white
+                  : Colors.white.withOpacity(0.6),
+            ),
+            activeIcon: Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.chat, color: Colors.white),
+            ),
+            label: 'Dimii',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
               Icons.logout,
-              color: currentIndex == 2 
-                ? Colors.white 
-                : Colors.white.withOpacity(0.6),
+              color: currentIndex == 3
+                  ? Colors.white
+                  : Colors.white.withOpacity(0.6),
             ),
             activeIcon: Container(
               padding: const EdgeInsets.all(8),

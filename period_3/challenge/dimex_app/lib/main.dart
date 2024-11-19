@@ -1,3 +1,4 @@
+import 'package:dimex_app/presentation/screens/chatbot_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'presentation/screens/login_screen.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(),
         '/home': (context) => HomeScreen(),
         '/search': (context) => SearchScreen(),
+        '/chatbot': (context) => ChatBot(),
         '/clientDetails': (context) {
           final clientId = ModalRoute.of(context)!.settings.arguments as String;
           return ClientDetailsScreen(clientId: clientId);

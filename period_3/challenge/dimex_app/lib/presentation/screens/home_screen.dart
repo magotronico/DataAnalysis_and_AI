@@ -122,20 +122,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _getBody() {
-    switch (_currentIndex) {
-      case 0:
-        return _buildHomeContent();
-      case 1:
-        return SearchScreen();
-      case 2:
-        _handleLogout(context);
-        return _buildHomeContent();
-      default:
-        return _buildHomeContent();
-    }
-  }
-
   void _onTabTapped(int index) {
     if (index == 2) {
       _handleLogout(context);

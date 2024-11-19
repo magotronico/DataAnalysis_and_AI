@@ -17,8 +17,6 @@ class AppTheme {
         onPrimary: foreground,
         secondary: greenBg,
         onSecondary: foreground,
-        background: background,
-        onBackground: letterBlack,
         surface: foreground,
         onSurface: letterBlack,
         error: Colors.red,

@@ -118,7 +118,7 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('New Interaction'),
+        title: Text('Nueva Interacción'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

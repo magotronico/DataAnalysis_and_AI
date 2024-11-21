@@ -24,7 +24,8 @@ class AppTheme {
       ),
       textTheme: TextTheme(
         bodyLarge: TextStyle(color: letterBlack),
-        bodyMedium: TextStyle(color: letterBlack),
+        bodyMedium: TextStyle(color: letterBlack, fontWeight: FontWeight.bold, fontSize: 15),
+        bodySmall: TextStyle(color: letterBlack, fontWeight: FontWeight.w500)
       ),
       appBarTheme: AppBarTheme(
         backgroundColor: green,

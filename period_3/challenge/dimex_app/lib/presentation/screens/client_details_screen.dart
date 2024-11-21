@@ -1,4 +1,6 @@
+import 'package:dimex_app/presentation/widgets/percentage_card.dart';
 import 'package:dimex_app/presentation/widgets/progress_bar.dart';
+import 'package:dimex_app/presentation/widgets/text_details.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -148,11 +150,11 @@ class ClientDetailsScreen extends StatelessWidget {
                                           fontSize: 18, fontWeight: FontWeight.bold),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Número de Cliente: ${client['id_cliente']}'),
-                                    Text('Nombre: ${client['nombre_completo']}'),
-                                    Text('Correo: ${client['correo']}'),
-                                    Text('Teléfono: ${client['telefono']}'),
-                                    Text('Dirección: ${client['direccion']}'),
+                                    TextDetails(label: 'Número de Cliente' , value: client['id_cliente']),
+                                    TextDetails(label: 'Nombre', value: client['nombre_completo']),
+                                    TextDetails(label: 'Correo', value: client['correo']),
+                                    TextDetails(label: 'Teléfono', value: client['telefono']),
+                                    TextDetails(label: 'Dirección', value: client['direccion'])
                                   ],
                                 ),
                               ),
@@ -179,8 +181,29 @@ class ClientDetailsScreen extends StatelessWidget {
                                           fontSize: 18, fontWeight: FontWeight.bold),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Vía de Contacto: ${client['mejorGestion'] ?? 'No information'}'),
-                                    Text('Propuesta: ${client['mejorOferta'] ?? 'No information'}'),
+                                    TextDetails(label: 'Vía de Contacto', value: client['mejorGestion']),
+                                    RichText(
+                                      text: TextSpan(
+                                        children: [
+                                          TextSpan(
+                                            text: 'Propuesta: ', // Key part
+                                            style: TextStyle(
+                                              fontSize: 15,
+                                              fontWeight: FontWeight.bold,
+                                              color: const Color.fromARGB(255, 27, 83, 29)
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: client['mejorOferta'].isNotEmpty ? client['mejorOferta'] : 'No information', // Value part
+                                            style: TextStyle(
+                                              fontSize: 15,
+                                              fontWeight: FontWeight.bold,
+                                              color: const Color.fromARGB(255, 27, 83, 29),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    )
                                   ],
                                 ),
                               ),
@@ -205,24 +228,36 @@ class ClientDetailsScreen extends StatelessWidget {
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
-                                      Text('Tasa de Interés: ${client['tasa interes'] ?? 'No information'}%'),
-                                      Text('Plazo de Meses: ${client['Plazo_Meses'] ?? 'No information'}'),
-                                      Text('Línea de Crédito: \$${client['Linea credito'] ?? 'No information'}'),
+                                      Center(
+                                        child: Text(
+                                          'Crédito Actual',
+                                          style: Theme.of(context).textTheme.bodyMedium!
+                                        ),
+                                      ),
+                                      TextDetails(label: 'Tasa de Interés', value: '${client['tasa interes'] ?? 'No information'}%'),
+                                      TextDetails(label: 'Plazo de Meses', value: '${client['Plazo_Meses'] ?? 'No information'}'),
+                                      TextDetails(label: 'Línea de Crédito', value: '\$${client['Linea credito'] ?? 'No information'}'),
                                       PaymentCapacityWidget(
                                         capacidadPago: client['capacidad_pago'],
                                         pagoMensual: client['Pago'],
                                       ),
-                                      Text('Última Gestión: ${client['ultimaGestion'] ?? 'No information'}'),
-                                      Text('Cantidad de Interacciones: ${_calculateTotalContacts(client['gestion_Agencias Especializadas'], client['gestion_Call Center'], client['gestion_Gestion Puerta a Puerta'])}'),
+                                      Center(
+                                        child: Text(
+                                          'Interacciones Pasadas',
+                                          style: Theme.of(context).textTheme.bodyMedium!
+                                        ),
+                                      ),
+                                      TextDetails(label: 'Última Gestión', value: '${client['ultimaGestion'] ?? 'No information'}'),
+                                      TextDetails(label: 'Cantidad de Interacciones', value: '${_calculateTotalContacts(client['gestion_Agencias Especializadas'], client['gestion_Call Center'], client['gestion_Gestion Puerta a Puerta'])}'),
                                       SizedBox(height: 10),
                                       Row(
                                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                         children: [
-                                          Expanded(child: _buildPercentageCard('CC', ccPercentage)),
+                                          Expanded(child: PercentageCard(label: 'CC', value: ccPercentage)),
                                           SizedBox(width: 10),
-                                          Expanded(child: _buildPercentageCard('PP', ppPercentage)),
+                                          Expanded(child: PercentageCard(label: 'PP', value: ppPercentage)),
                                           SizedBox(width: 10),
-                                          Expanded(child: _buildPercentageCard('AE', aePercentage)),
+                                          Expanded(child: PercentageCard(label: 'AE', value: aePercentage)),
                                         ],
                                       ),
                                       Text('** Tipo de Gestion. CC: Call Center, PP: Puerta en Puerta, AE: Agente Externo', style: TextStyle(fontSize: 9)),
@@ -260,23 +295,6 @@ class ClientDetailsScreen extends StatelessWidget {
             },
           );
         },
-      ),
-    );
-  }
-
-  Widget _buildPercentageCard(String label, dynamic value) {
-    return Card(
-      color: Colors.grey[200],
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(label, style: TextStyle(fontWeight: FontWeight.bold)),
-            Text('${value ?? '0'}%', style: TextStyle(fontSize: 16)),
-          ],
-        ),
       ),
     );
   }

@@ -1,3 +1,4 @@
+import 'package:dimex_app/presentation/widgets/text_details.dart';
 import 'package:flutter/material.dart';
 
 class PaymentCapacityWidget extends StatelessWidget {
@@ -30,64 +31,13 @@ class PaymentCapacityWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Estado Financiero del Cliente',
-          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
+        Center(
+          child: Text(
+            'Estado Financiero del Cliente',
+            style: Theme.of(context).textTheme.bodyMedium!
+          ),
         ),
-        SizedBox(height: 10),
 
-        // Dynamically decide layout for Capacidad de Pago and Pago Mensual
-        LayoutBuilder(
-          builder: (context, constraints) {
-            // Threshold width for determining single-line or multi-line display
-            double thresholdWidth = 1080; // Adjust this based on design
-            bool shouldWrap = constraints.maxWidth < thresholdWidth;
-
-            if (shouldWrap) {
-              // Use a Column to stack the texts
-              return Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Capacidad de Pago: \$${capacidadPagoValue.toStringAsFixed(2)}',
-                    style: Theme.of(context).textTheme.bodyMedium,
-                  ),
-                  Text(
-                    'Pago Mensual: \$${pagoMensualValue.toStringAsFixed(2)}',
-                    style: Theme.of(context).textTheme.bodyMedium,
-                  ),
-                ],
-              );
-            } else {
-              // Use a Row to display texts side by side
-              return Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Expanded(
-                    flex: 1,
-                    child: Text(
-                      'Capacidad de Pago: \$${capacidadPagoValue.toStringAsFixed(2)}',
-                      style: Theme.of(context).textTheme.bodyMedium,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                  SizedBox(width: 10),
-                  Expanded(
-                    flex: 1,
-                    child: Text(
-                      'Pago Mensual: \$${pagoMensualValue.toStringAsFixed(2)}',
-                      style: Theme.of(context).textTheme.bodyMedium,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                ],
-              );
-            }
-          },
-        ),
         SizedBox(height: 10),
 
         // Progress bar with responsiveness
@@ -126,6 +76,50 @@ class PaymentCapacityWidget extends StatelessWidget {
             color: (progress >= 1.0) ? const Color.fromARGB(255, 27, 83, 29) : Colors.red,
             fontWeight: FontWeight.bold,
           ),
+        ),
+
+        // Dynamically decide layout for Capacidad de Pago and Pago Mensual
+        LayoutBuilder(
+          builder: (context, constraints) {
+            // Threshold width for determining single-line or multi-line display
+            double thresholdWidth = 1080; // Adjust this based on design
+            bool shouldWrap = constraints.maxWidth < thresholdWidth;
+
+            if (shouldWrap) {
+              // Use a Column to stack the texts
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  TextDetails(label: 'Capacidad de Pago', value: capacidadPagoValue.toStringAsFixed(2)),
+                  TextDetails(label: 'Pago Mensual', value: pagoMensualValue.toStringAsFixed(2)),
+                ],
+              );
+            } else {
+              // Use a Row to display texts side by side
+              return Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Expanded(
+                    flex: 1,
+                    child: Text(
+                      'Capacidad de Pago: \$${capacidadPagoValue.toStringAsFixed(2)}',
+                      style: Theme.of(context).textTheme.bodyMedium,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                  SizedBox(width: 10),
+                  Expanded(
+                    flex: 1,
+                    child: Text(
+                      'Pago Mensual: \$${pagoMensualValue.toStringAsFixed(2)}',
+                      style: Theme.of(context).textTheme.bodyMedium,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
+              );
+            }
+          },
         ),
       ],
     );

@@ -14,12 +14,13 @@ from dotenv import load_dotenv
 router = APIRouter()
 
 @router.get("/usuario/{usuario_id}")
-async def get_client(usuario_id: str):
-    clients_sheet = get_sheet_data(RANGES["usuarios"])
-    client_data = get_user_db(usuario_id, clients_sheet)
-    if client_data:
-        return client_data
-    raise HTTPException(status_code=404, detail="Client not found")
+async def get_user(usuario_id: str):
+    users_sheet = get_sheet_data(RANGES["usuarios"])
+    users_data = get_user_db(usuario_id, users_sheet)
+    
+    if users_data is not None:
+        return users_data
+    raise HTTPException(status_code=404, detail="User not found")
 
 def load_api_key():
     load_dotenv()
@@ -123,3 +124,5 @@ async def websocket_endpoint(websocket: WebSocket):
                 await websocket.send_text(json.dumps({"error": f"Error processing request: {str(e)}"}))
     except WebSocketDisconnect:
         print("WebSocket disconnected.")
+
+

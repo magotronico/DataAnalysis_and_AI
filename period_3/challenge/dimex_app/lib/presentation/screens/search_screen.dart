@@ -109,8 +109,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             key: ValueKey(client['id_cliente']), // Add a unique key
                             color: Theme.of(context).cardColor,
                             child: ListTile(
-                              title: Text(client['nombre_completo'] ?? 'Unknown'),
-                              subtitle: Text('ID: ${client['id_cliente']}'),
+                              title: Text(client['nombre_completo'] ?? 'Unknown', style: TextStyle(fontWeight: FontWeight.w500)),
+                              subtitle: Text('ID: ${client['id_cliente']}', style: TextStyle(fontWeight: FontWeight.normal),),
                               onTap: () {
                                 Navigator.pushNamed(
                                   context,

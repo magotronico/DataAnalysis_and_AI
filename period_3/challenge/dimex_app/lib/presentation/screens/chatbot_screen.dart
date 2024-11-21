@@ -60,7 +60,7 @@ class _ChatBotState extends State<ChatBot> {
         botResponse = "Error: Could not parse response"; // Handle parsing errors
       }
 
-      print("Message received: $botResponse");
+      // print("Message received: $botResponse");
       setState(() {
         isBotThinking = false;
         if (messages.isNotEmpty &&
@@ -95,7 +95,7 @@ class _ChatBotState extends State<ChatBot> {
         textFieldLines = 1; // Reset the lines to 1 after sending
       });
       channel?.sink.add(jsonEncode([6, text]));
-      print("Message sent: $text");
+      // print("Message sent: $text");
     }
   }
 
@@ -103,7 +103,7 @@ class _ChatBotState extends State<ChatBot> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Chat with Dimii'),
+        title: const Text('Chat con Dimii'),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),

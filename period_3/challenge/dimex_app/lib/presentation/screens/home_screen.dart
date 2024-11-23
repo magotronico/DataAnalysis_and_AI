@@ -18,165 +18,237 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
   String username = 'Usuario';
   int clientesPorAtenderCount = 0;
+  List<dynamic> clientesPorAtender = [];
+  List<dynamic> clients = [];
+  Map<String, int> nivelCounts = {'1': 0, '2': 0, '3': 0, '4': 0};
 
 
   @override
   void initState() {
     super.initState();
-    _fetchAndSetUsername();
+    _fetchUserDetails();
   }
 
-  Future<void> _fetchAndSetUsername() async {
+  Future<void> _fetchUserDetails() async {
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
       final String? storedIp = prefs.getString('serverIp');
       if (storedIp == null) {
         throw Exception('No IP stored in preferences.');
       }
-      final details = await fetchClientDetails(storedIp); // Fetch details from API
-      print(details);
+      final String? userId = prefs.getString('userId');
+      final response = await http.get(Uri.parse("http://$storedIp:8000/usuario/$userId"));
 
-      setState(() {
-        username = details['nombre_completo'] ?? 'NoName0'; // Set the username
-        // Count the number of clientes_por_atender
-        final List<String> clientesPorAtender = (details['clientes_por_atender'] is String)
-            ? (jsonDecode(details['clientes_por_atender']) as List<dynamic>)
-                .map((item) => item.toString())
-                .toList()
-            : (details['clientes_por_atender'] as List<dynamic>?)
-                ?.map((item) => item.toString())
-                .toList() ?? [];
+      if (response.statusCode == 200) {
+        final details = json.decode(utf8.decode(response.bodyBytes));
 
-        clientesPorAtenderCount = clientesPorAtender.length; // Set the count
-      });
+        // Decode `clientes_por_atender`
+        final List<dynamic> clientIds = details['clientes_por_atender'] is String
+            ? jsonDecode(details['clientes_por_atender'])
+            : details['clientes_por_atender'] ?? [];
+
+        // Fetch details for each client
+        final List<dynamic> clientsData = [];
+        final Map<String, int> tempNivelCounts = {'1': 0, '2': 0, '3': 0, '4': 0};
+
+        for (var clientId in clientIds) {
+          final clientResponse = await http.get(Uri.parse("http://$storedIp:8000/client/$clientId"));
+
+          if (clientResponse.statusCode == 200) {
+            final client = json.decode(utf8.decode(clientResponse.bodyBytes));
+            clientsData.add(client);
+
+            // Update priority counts
+            String nivel = client['prioridad'] ?? '4'; // Default to '4' if null
+            tempNivelCounts[nivel] = (tempNivelCounts[nivel] ?? 0) + 1;
+          } else {
+            print('Error fetching client details for ID: $clientId');
+          }
+        }
+
+        setState(() {
+          username = details['nombre_completo'] ?? 'Usuario';
+          clientesPorAtender = clientsData; // Update with detailed clients
+          clientesPorAtenderCount = clientsData.length;
+          nivelCounts = tempNivelCounts;
+        });
+      } else {
+        throw Exception('Failed to load user details.');
+      }
     } catch (error) {
       setState(() {
-        username = 'NoName'; // Fallback if there's an error.
-        clientesPorAtenderCount = 0; // Reset count on error
-        print(error);
+        username = 'Usuario';
+        clientesPorAtender = [];
+        nivelCounts = {'1': 0, '2': 0, '3': 0, '4': 0};
       });
+      print(error);
     }
   }
 
+  Widget _buildClientList() {
+    return ListView.builder(
+      itemCount: clientesPorAtender.length,
+      itemBuilder: (context, index) {
+        final client = clientesPorAtender[index];
+        final nivel = client['prioridad'] ?? '4'; // Default to '4'
+        final cardColor = _getPriorityColor(nivel);
 
-  final List<Map<String, dynamic>> clients = [
-    {'name': 'Client A', 'importance': 'High'},
-    {'name': 'Client B', 'importance': 'Medium'},
-    {'name': 'Client C', 'importance': 'Low'},
-  ];
+        return Padding(
+          padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 8.0),
+          child: Container(
+            decoration: BoxDecoration(
+              color: cardColor.withOpacity(0.1),
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundColor: cardColor,
+                child: Text(
+                  nivel,
+                  style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+              ),
+              title: Text(
+                client['nombre_completo'] ?? 'Cliente',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("ID: ${client['id_cliente'] ?? 'N/A'}"),
+                  Text(
+                    "Línea de crédito: \$${client['Linea credito'] ?? '0'}",
+                    style: TextStyle(fontWeight: FontWeight.w400),
+                  ),
+                ],
+              ),
+              trailing: Icon(Icons.chevron_right),
+              onTap: () {
+                Navigator.pushNamed(context, '/client', arguments: client);
+              },
+            ),
+          ),
+        );
+      },
+    );
+  }
 
-  final int remainingClients = 20;
-
-  Future<Map<String, dynamic>> fetchClientDetails(String storedIp) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    final String? userId = prefs.getString('userId');
-    final response = await http.get(Uri.parse("http://$storedIp:8000/usuario/$userId"));
-
-    if (response.statusCode == 200) {
-      return json.decode(utf8.decode(response.bodyBytes));
-    } else {
-      throw Exception('Hubo un error al cargar los detalles del usuario.');
+  Color _getPriorityColor(String nivel) {
+    switch (nivel) {
+      case '1':
+        return const Color.fromARGB(255, 0, 77, 13); // Dark Green
+      case '2':
+        return const Color.fromARGB(255, 0, 128, 0); // Standard Green
+      case '3':
+        return const Color.fromARGB(255, 60, 179, 75); // Medium Green
+      case '4':
+      default:
+        return const Color.fromARGB(255, 144, 238, 144); // Light Green
     }
   }
 
   Widget _buildHomeContent() {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            "Hola $username!",
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          ),
-          SizedBox(height: 16),
-          Row(
+    return Center(
+      child: ConstrainedBox(
+        constraints: BoxConstraints(
+          maxWidth: 450,
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Text(
+                "Hola $username!",
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 16),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(
+                    flex: 2, // Gives more space to the pie chart
+                    child: Container(
+                      height: 180,
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: _buildPieChart(),
+                    ),
+                  ),
+                  SizedBox(width: 8),
+                  Expanded(
+                    flex: 1,
+                    child: Container(
+                      height: 180,
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).cardColor,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: LayoutBuilder(
+                        builder: (context, constraints) {
+                          if (constraints.maxWidth < 100) {
+                            // Compact layout for very small space
+                            return Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(Icons.person, size: 30),
+                                SizedBox(height: 4),
+                                Text(
+                                  "Pendientes",
+                                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500),
+                                ),
+                                Text(
+                                  "$clientesPorAtenderCount",
+                                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            );
+                          } else {
+                            // Default layout
+                            return Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(Icons.person, size: 50),
+                                SizedBox(height: 8),
+                                Text(
+                                  "Pendientes",
+                                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                                ),
+                                Text(
+                                  "$clientesPorAtenderCount",
+                                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            );
+                          }
+                        },
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: 16),
+              Text(
+                "Clientes Asignados",
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 8),
               Expanded(
-                flex: 1, // Adjust the flex if needed for proportions
                 child: Container(
-                  height: 150,
-                  padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: _buildPieChart(), // Call the pie chart widget
-                ),
-              ),
-              SizedBox(width: 16), // Spacing between the two sections
-              Expanded(
-                flex: 1, // Equal space as the pie chart
-                child: Container(
-                  height: 150,
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).cardColor,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Row(
-                    children: [
-                      Icon(Icons.person, size: 50),
-                      SizedBox(width: 16),
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "Pendientes",
-                            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                          ),
-                          SizedBox(height: 8),
-                          Text(
-                            "${clientesPorAtenderCount}",
-                            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
+                  child: _buildClientList(),
                 ),
               ),
             ],
           ),
-
-          SizedBox(height: 16),
-
-          Text(
-            "Clientes Asignados",
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-          ),
-          
-          Expanded(
-            child: ListView.builder(
-              itemCount: clients.length,
-              itemBuilder: (context, index) {
-                final client = clients[index];
-                Color color;
-                switch (client['importance']) {
-                  case 'High':
-                    color = Colors.red[300]!;
-                    break;
-                  case 'Medium':
-                    color = Colors.orange[300]!;
-                    break;
-                  case 'Low':
-                    color = Colors.green[300]!;
-                    break;
-                  default:
-                    color = Colors.grey[300]!;
-                }
-                return Card(
-                  color: color,
-                  child: ListTile(
-                    title: Text(client['name']),
-                    subtitle: Text("Importance: ${client['importance']}"),
-                  ),
-                );
-              },
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
@@ -203,23 +275,80 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildPieChart() {
-    return PieChart(
-      PieChartData(
-        sections: [
-          PieChartSectionData(
-            value: 60,
-            color: Colors.blue,
-            title: '60%',
-            radius: 50,
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        SizedBox(
+          width: 100, // Constrain the pie chart size
+          height: 150,
+          child: PieChart(
+            PieChartData(
+              sections: [
+                PieChartSectionData(
+                  value: nivelCounts['1']?.toDouble() ?? 0.0,
+                  color: const Color.fromARGB(255, 0, 77, 13),
+                  title: '${nivelCounts['1']}',
+                  titleStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+                PieChartSectionData(
+                  value: nivelCounts['2']?.toDouble() ?? 0.0,
+                  color: const Color.fromARGB(255, 0, 128, 0),
+                  title: '${nivelCounts['2']}',
+                  titleStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+                PieChartSectionData(
+                  value: nivelCounts['3']?.toDouble() ?? 0.0,
+                  color: const Color.fromARGB(255, 60, 179, 75),
+                  title: '${nivelCounts['3']}',
+                  titleStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+                PieChartSectionData(
+                  value: nivelCounts['4']?.toDouble() ?? 0.0,
+                  color: const Color.fromARGB(255, 144, 238, 144),
+                  title: '${nivelCounts['4']}',
+                  titleStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+              ],
+              sectionsSpace: 2, // Add space between chart sections
+            ),
           ),
-          PieChartSectionData(
-            value: 40,
-            color: Colors.orange,
-            title: '40%',
-            radius: 50,
+        ),
+        SizedBox(width: 8), // Spacing between the chart and legend
+        Expanded(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              if (nivelCounts['1'] != null && nivelCounts['1']! > 0)
+                _buildLegendItem(const Color.fromARGB(255, 0, 77, 13), 'Nivel 1'), // Dark Green
+              if (nivelCounts['2'] != null && nivelCounts['2']! > 0)
+                _buildLegendItem(const Color.fromARGB(255, 0, 128, 0), 'Nivel 2'), // Standard Green
+              if (nivelCounts['3'] != null && nivelCounts['3']! > 0)
+                _buildLegendItem(const Color.fromARGB(255, 60, 179, 75), 'Nivel 3'), // Medium Green
+              if (nivelCounts['4'] != null && nivelCounts['4']! > 0)
+                _buildLegendItem(const Color.fromARGB(255, 144, 238, 144), 'Nivel 4'), // Light Green
+            ],
           ),
-        ],
-      ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildLegendItem(Color color, String text) {
+    return Row(
+      children: [
+        Container(
+          width: 16,
+          height: 16,
+          color: color,
+        ),
+        SizedBox(width: 8),
+        Text(
+          text,
+          style: TextStyle(fontSize: 14),
+        ),
+      ],
     );
   }
 

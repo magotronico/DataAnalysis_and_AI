@@ -107,7 +107,7 @@ class PaymentCapacityWidget extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  SizedBox(width: 10),
+                  SizedBox(width: 400),
                   Expanded(
                     flex: 1,
                     child: Text(

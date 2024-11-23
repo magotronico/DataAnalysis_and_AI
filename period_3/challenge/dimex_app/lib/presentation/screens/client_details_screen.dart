@@ -219,8 +219,6 @@ class ClientDetailsScreen extends StatelessWidget {
                                           fontSize: 18, fontWeight: FontWeight.bold),
                                     ),
                               backgroundColor: Theme.of(context).colorScheme.secondary,
-                                    // borderRadius: BorderRadius.circular(8),
-                                    // border: Border.all(color: Colors.grey),
                               children: [
                                 Container(
                                   width: cardWidth,
@@ -237,10 +235,12 @@ class ClientDetailsScreen extends StatelessWidget {
                                       TextDetails(label: 'Tasa de Interés', value: '${client['tasa interes'] ?? 'No information'}%'),
                                       TextDetails(label: 'Plazo de Meses', value: '${client['Plazo_Meses'] ?? 'No information'}'),
                                       TextDetails(label: 'Línea de Crédito', value: '\$${client['Linea credito'] ?? 'No information'}'),
+                                      SizedBox(height: 10),
                                       PaymentCapacityWidget(
                                         capacidadPago: client['capacidad_pago'],
                                         pagoMensual: client['Pago'],
                                       ),
+                                      SizedBox(height: 15),
                                       Center(
                                         child: Text(
                                           'Interacciones Pasadas',
@@ -249,7 +249,7 @@ class ClientDetailsScreen extends StatelessWidget {
                                       ),
                                       TextDetails(label: 'Última Gestión', value: '${client['ultimaGestion'] ?? 'No information'}'),
                                       TextDetails(label: 'Cantidad de Interacciones', value: '${_calculateTotalContacts(client['gestion_Agencias Especializadas'], client['gestion_Call Center'], client['gestion_Gestion Puerta a Puerta'])}'),
-                                      SizedBox(height: 10),
+                                      SizedBox(height: 15),
                                       Row(
                                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                         children: [

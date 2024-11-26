@@ -26,10 +26,15 @@ def check_login(id: str, password: str, login_sheet: pd.DataFrame) -> dict:
 
 def get_client_db(client_id: str, clients_sheet: pd.DataFrame) -> dict:
     """Look up a client by ID in the client sheet data."""
-    for _, row in clients_sheet.iterrows():
-        if row['id_cliente'] == client_id:
-            return row.to_dict()
-    return None
+    # Filter rows where 'id_cliente' matches the client_id
+    filtered_row = clients_sheet[clients_sheet['id_cliente'] == client_id]
+    
+    # If no match is found, return None
+    if filtered_row.empty:
+        return None
+    
+    # If a match is found, return the first row as a dictionary
+    return filtered_row.iloc[0].to_dict()
 
 def get_user_db(user_id: str, users_sheet: pd.DataFrame) -> dict:
     """Look up a client by ID in the client sheet data."""

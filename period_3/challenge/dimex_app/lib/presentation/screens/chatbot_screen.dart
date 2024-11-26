@@ -39,7 +39,7 @@ class _ChatBotState extends State<ChatBot> {
   Future<void> initializeWebSocketConnection() async {
     setState(() {
       channel = IOWebSocketChannel.connect(
-        'ws://dimex-api.azurewebsites.net/ws/chat',
+        'wss://dimex-api.azurewebsites.net/ws/chat',
         headers: {"Authorization": "Bearer YOUR_VALID_TOKEN"},
       );
     });

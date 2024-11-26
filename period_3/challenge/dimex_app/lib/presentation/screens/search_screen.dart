@@ -32,7 +32,7 @@ class _SearchScreenState extends State<SearchScreen> {
     // Initialize the WebSocket channel after IP address is loaded
     if (storedIp != null) {
       channel = WebSocketChannel.connect(
-        Uri.parse('ws://dimex-api.azurewebsites.net/ws/search_clients'),
+        Uri.parse('wss://dimex-api.azurewebsites.net/ws/search_clients'),
       );
 
       // Handle incoming data from the WebSocket

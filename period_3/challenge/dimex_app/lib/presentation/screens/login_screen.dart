@@ -18,29 +18,12 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   void initState() {
     super.initState();
-    _loadCredentials(); // Load IP and username from shared preferences
-  }
-
-  // Load the stored IP address and username from shared preferences
-  Future<void> _loadCredentials() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    String? storedIp = prefs.getString('serverIp');
-
-    if (storedIp != null) {
-      _ipController.text = storedIp;
-    }
   }
 
   Future<void> _login() async {
     final String username = _usernameController.text;
     final String password = _passwordController.text;
     final String serverIp = _ipController.text; // Get the IP from the input
-
-    // Validate the IP address input
-    if (serverIp.isEmpty) {
-      _showErrorSnackbar('Please enter a server IP address.');
-      return;
-    }
 
     // Save the IP address to shared preferences
     SharedPreferences prefs = await SharedPreferences.getInstance();

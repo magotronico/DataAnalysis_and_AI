@@ -50,8 +50,11 @@ COPY . .
 # Fetch dependencies for the Flutter project
 RUN flutter pub get
 
+# Generate launcher icons for the Flutter app
+RUN flutter pub run flutter_launcher_icons:main
+
 # Build the Flutter web application
-RUN flutter build web
+RUN flutter build web --web-renderer canvaskit --release
 
 # Use Nginx to serve the Flutter web app
 FROM nginx:stable-alpine

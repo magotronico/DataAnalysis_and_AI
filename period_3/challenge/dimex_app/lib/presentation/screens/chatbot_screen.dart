@@ -45,7 +45,7 @@ class _ChatBotState extends State<ChatBot> {
     final String ip = await _loadCredentials();
     setState(() {
       channel = IOWebSocketChannel.connect(
-        'ws://$ip:8000/ws/chat',
+        'ws://dimex-api.azurewebsites.net/ws/chat',
         headers: {"Authorization": "Bearer YOUR_VALID_TOKEN"},
       );
     });
@@ -203,6 +203,7 @@ class _ChatBotState extends State<ChatBot> {
                       : Theme.of(context).colorScheme.onPrimary,
                   fontSize: FontSize(14),
                   display: Display.inlineBlock, // Prevent Html from stretching
+                  fontWeight: FontWeight.normal,
                 ),
               },
             ),

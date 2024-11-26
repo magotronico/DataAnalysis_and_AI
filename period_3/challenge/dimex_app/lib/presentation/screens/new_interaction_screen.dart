@@ -53,7 +53,7 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
       return;
     }
 
-    final String url = 'http://$serverIp:8000/nueva_interaccion';
+    final String url = 'https://dimex-api.azurewebsites.net/nueva_interaccion';
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final String? userId = prefs.getString('userId');
 

@@ -53,7 +53,7 @@ class ClientDetailsScreen extends StatelessWidget {
 
 
   Future<Map<String, dynamic>> fetchClientDetails(String storedIp) async {
-    final response = await http.get(Uri.parse("http://$storedIp:8000/client/$clientId"));
+    final response = await http.get(Uri.parse("https://dimex-api.azurewebsites.net/client/$clientId"));
 
     if (response.statusCode == 200) {
       return json.decode(utf8.decode(response.bodyBytes));

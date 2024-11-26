@@ -21,6 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
   List<dynamic> clientesPorAtender = [];
   List<dynamic> clients = [];
   Map<String, int> nivelCounts = {'1': 0, '2': 0, '3': 0, '4': 0};
+  bool isLoading = true;
+
 
 
   @override
@@ -30,6 +32,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _fetchUserDetails() async {
+    setState(() {
+      isLoading = true;
+    });
+
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
       final String? storedIp = prefs.getString('serverIp');
@@ -37,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
         throw Exception('No IP stored in preferences.');
       }
       final String? userId = prefs.getString('userId');
-      final response = await http.get(Uri.parse("http://$storedIp:8000/usuario/$userId"));
+      final response = await http.get(Uri.parse("https://dimex-api.azurewebsites.net/usuario/$userId"));
 
       if (response.statusCode == 200) {
         final details = json.decode(utf8.decode(response.bodyBytes));
@@ -47,29 +53,34 @@ class _HomeScreenState extends State<HomeScreen> {
             ? jsonDecode(details['clientes_por_atender'])
             : details['clientes_por_atender'] ?? [];
 
-        // Fetch details for each client
-        final List<dynamic> clientsData = [];
-        final Map<String, int> tempNivelCounts = {'1': 0, '2': 0, '3': 0, '4': 0};
-
-        for (var clientId in clientIds) {
-          final clientResponse = await http.get(Uri.parse("http://$storedIp:8000/client/$clientId"));
-
+        // Parallelize fetching details for each client
+        final List<Future<dynamic>> clientRequests = clientIds.map((clientId) async {
+          final clientResponse = await http.get(Uri.parse("https://dimex-api.azurewebsites.net/client/$clientId"));
           if (clientResponse.statusCode == 200) {
-            final client = json.decode(utf8.decode(clientResponse.bodyBytes));
-            clientsData.add(client);
-
-            // Update priority counts
-            String nivel = client['prioridad'] ?? '4'; // Default to '4' if null
-            tempNivelCounts[nivel] = (tempNivelCounts[nivel] ?? 0) + 1;
+            return json.decode(utf8.decode(clientResponse.bodyBytes));
           } else {
             print('Error fetching client details for ID: $clientId');
+            return null; // Handle invalid responses
           }
+        }).toList();
+
+        // Wait for all requests to complete
+        final List<dynamic> clientsData = await Future.wait(clientRequests);
+
+        // Filter out null responses
+        final List<dynamic> validClients = clientsData.where((client) => client != null).toList();
+
+        // Update priority counts
+        final Map<String, int> tempNivelCounts = {'1': 0, '2': 0, '3': 0, '4': 0};
+        for (var client in validClients) {
+          String nivel = client['prioridad'] ?? '4'; // Default to '4' if null
+          tempNivelCounts[nivel] = (tempNivelCounts[nivel] ?? 0) + 1;
         }
 
         setState(() {
           username = details['nombre_completo'] ?? 'Usuario';
-          clientesPorAtender = clientsData; // Update with detailed clients
-          clientesPorAtenderCount = clientsData.length;
+          clientesPorAtender = validClients;
+          clientesPorAtenderCount = validClients.length;
           nivelCounts = tempNivelCounts;
         });
       } else {
@@ -82,6 +93,10 @@ class _HomeScreenState extends State<HomeScreen> {
         nivelCounts = {'1': 0, '2': 0, '3': 0, '4': 0};
       });
       print(error);
+    } finally {
+      setState(() {
+        isLoading = false;
+      });
     }
   }
 
@@ -363,15 +378,17 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         centerTitle: false,
       ),
-      body: IndexedStack(
-        index: _currentIndex,
-        children: [
-          _buildHomeContent(), // Index 0
-          SearchScreen(),       // Index 1
-          ChatBot(),            // Index 2
-          Container(),          // Placeholder for logout
-        ],
-      ),
+      body: isLoading
+          ? Center(child: CircularProgressIndicator())
+          : IndexedStack(
+              index: _currentIndex,
+              children: [
+                _buildHomeContent(), // Index 0
+                SearchScreen(),       // Index 1
+                ChatBot(),            // Index 2
+                Container(),          // Placeholder for logout
+              ],
+            ),
       bottomNavigationBar: BottomNavBar(
         currentIndex: _currentIndex,
         onTap: _onTabTapped,

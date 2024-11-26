@@ -139,7 +139,11 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               trailing: Icon(Icons.chevron_right),
               onTap: () {
-                Navigator.pushNamed(context, '/client', arguments: client);
+                Navigator.pushNamed(
+                  context,
+                  '/clientDetails',
+                  arguments: client['id_cliente'],
+                );
               },
             ),
           ),

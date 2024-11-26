@@ -14,7 +14,6 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _ipController = TextEditingController();
   bool _obscureText = true; // To toggle password visibility
   String? _errorMessage;
-  bool _isIpVisible = false; // Track IP input visibility
 
   @override
   void initState() {

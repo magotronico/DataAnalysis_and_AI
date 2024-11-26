@@ -3,7 +3,6 @@ import 'package:dimex_app/presentation/widgets/chat_model.dart';
 import 'package:dimex_app/presentation/widgets/typingIndicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:web_socket_channel/io.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
@@ -36,13 +35,8 @@ class _ChatBotState extends State<ChatBot> {
     });
   }
 
-  Future<String> _loadCredentials() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    return prefs.getString('serverIp') ?? '';
-  }
 
   Future<void> initializeWebSocketConnection() async {
-    final String ip = await _loadCredentials();
     setState(() {
       channel = IOWebSocketChannel.connect(
         'ws://dimex-api.azurewebsites.net/ws/chat',

@@ -30,11 +30,6 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
     'Pago sin Beneficio'
   ];
 
-  Future<String> _loadServerIp() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    return prefs.getString('serverIp') ?? '';
-  }
-
   Future<void> _submitInteraction() async {
     // Check if all required fields are filled out
     if (
@@ -44,12 +39,6 @@ class _NewInteractionScreenState extends State<NewInteractionScreen> {
         ((selectedOffer == 'Pago sin Beneficio' || selectedOffer == 'Tus Pesos Valen Más') && nextPaymentDate == null)
         ) {
       _showSnackbar('Por favor de completar todos los campos requeridos.');
-      return;
-    }
-
-    final String serverIp = await _loadServerIp();
-    if (serverIp.isEmpty) {
-      _showSnackbar('Server IP is not configured.');
       return;
     }
 

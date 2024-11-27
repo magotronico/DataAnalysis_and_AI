@@ -11,7 +11,6 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _usernameController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  final TextEditingController _ipController = TextEditingController();
   bool _obscureText = true; // To toggle password visibility
   String? _errorMessage;
 
@@ -23,14 +22,10 @@ class _LoginScreenState extends State<LoginScreen> {
   Future<void> _login() async {
     final String username = _usernameController.text;
     final String password = _passwordController.text;
-    final String serverIp = _ipController.text; // Get the IP from the input
-
-    // Save the IP address to shared preferences
+    
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    await prefs.setString('serverIp', serverIp);
 
-    // Construct the API URL using the inputted IP
-    // final String url = 'http://$storedIp:8000/login/'; // Use this if you are using a local server
+    // Construct the API URL
     final String url = 'https://dimex-api.azurewebsites.net/login/'; // Use this if you are using the Azure server
 
     try {
@@ -102,23 +97,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     'assets/dimex_green.png', // Add your logo image here
                     height: 150,
                   ),
-                  // SizedBox(height: 20),
-                  // if (_isIpVisible) // Show IP input field based on visibility
-                  //   TextField(
-                  //     controller: _ipController, // Controller for IP address input
-                  //     decoration: InputDecoration(
-                  //       labelText: 'Server IP Address',
-                  //     ),
-                  //   ),
-                  // SizedBox(height: 20),
-                  // ElevatedButton(
-                  //   onPressed: () {
-                  //     setState(() {
-                  //       _isIpVisible = !_isIpVisible; // Toggle visibility of IP input
-                  //     });
-                  //   },
-                  //   child: Text(_isIpVisible ? 'Hide IP Input' : 'Show IP Input'),
-                  // ),
                   SizedBox(height: 20),
                   TextField(
                     controller: _usernameController,

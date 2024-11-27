@@ -14,7 +14,7 @@ class ClientDetailsScreen extends StatelessWidget {
 
   Future<String> _loadCredentials() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    return prefs.getString('serverIp') ?? '';
+    return prefs.getString('serverIp') ?? 'https://dimex-api.azurewebsites.net';
   }
 
   double _calculatePercentage(dynamic numerator, dynamic denominator) {
@@ -52,7 +52,7 @@ class ClientDetailsScreen extends StatelessWidget {
 
 
 
-  Future<Map<String, dynamic>> fetchClientDetails(String storedIp) async {
+  Future<Map<String, dynamic>> fetchClientDetails() async {
     final response = await http.get(Uri.parse("https://dimex-api.azurewebsites.net/client/$clientId"));
 
     if (response.statusCode == 200) {
@@ -80,10 +80,8 @@ class ClientDetailsScreen extends StatelessWidget {
             return Center(child: Text('Error cargando el IP: ${ipSnapshot.error}'));
           }
 
-          final storedIp = ipSnapshot.data!;
-
           return FutureBuilder<Map<String, dynamic>>(
-            future: fetchClientDetails(storedIp),
+            future: fetchClientDetails(),
             builder: (context, clientSnapshot) {
               if (clientSnapshot.connectionState == ConnectionState.waiting) {
                 return Center(child: CircularProgressIndicator());

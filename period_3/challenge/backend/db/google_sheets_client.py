@@ -94,3 +94,35 @@ def update_client_data(client_id: str, data: dict) -> bool:
     else:
         print("Client ID not found.")
         return False
+
+def update_user_data(user_id: str, data: dict) -> bool:
+    """Update user data in the Google Sheet based on client_id."""
+    creds = get_credentials()
+    service = build("sheets", "v4", credentials=creds)
+    
+    # Read all data to find the row with the matching client_id
+    sheet = service.spreadsheets().values().get(spreadsheetId=SPREADSHEET_ID, range="usuarios!A2:A").execute()
+    rows = sheet.get('values', [])
+    
+    # Find the row index of the matching client_id
+    row_index = None
+    for i, row in enumerate(rows, start=2):  # start=2 to match Google Sheets row numbering
+        if row and row[0] == user_id:
+            row_index = i
+            break
+    print(row_index)
+
+    # If the user_id is found, update the row
+    if row_index:
+        body = {"values": [list(data.values())]}
+        range_to_update = f"clientes!A{row_index}"
+        service.spreadsheets().values().update(
+            spreadsheetId=SPREADSHEET_ID,
+            range=range_to_update,
+            valueInputOption="RAW",
+            body=body
+        ).execute()
+        return True
+    else:
+        print("Client ID not found.")
+        return False

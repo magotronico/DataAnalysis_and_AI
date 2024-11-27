@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:async';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:web_socket_channel/status.dart' as status;
@@ -15,7 +14,6 @@ class _SearchScreenState extends State<SearchScreen> {
   List<Map<String, dynamic>> searchResults = [];
   Timer? _debounce;
   WebSocketChannel? channel; // Declare channel variable
-  String? storedIp; // Store the loaded IP address
 
   @override
   void initState() {
@@ -26,42 +24,31 @@ class _SearchScreenState extends State<SearchScreen> {
 
   // Load the stored IP address from shared preferences
   Future<void> _loadCredentials() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    storedIp = prefs.getString('serverIp'); // Retrieve the IP address
+    channel = WebSocketChannel.connect(
+      Uri.parse('wss://dimex-api.azurewebsites.net/ws/search_clients'),
+    );
 
-    // Initialize the WebSocket channel after IP address is loaded
-    if (storedIp != null) {
-      channel = WebSocketChannel.connect(
-        Uri.parse('wss://dimex-api.azurewebsites.net/ws/search_clients'),
-      );
-
-      // Handle incoming data from the WebSocket
-      channel!.stream.listen(
-        (data) {
-          try {
-            final decodedData = jsonDecode(data);
-            setState(() {
-              searchResults = List<Map<String, dynamic>>.from(decodedData);
-            });
-          } catch (e) {
-            // Handle parsing error
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text('Data parsing error: $e')),
-            );
-          }
-        },
-        onError: (error) {
+    // Handle incoming data from the WebSocket
+    channel!.stream.listen(
+      (data) {
+        try {
+          final decodedData = jsonDecode(data);
+          setState(() {
+            searchResults = List<Map<String, dynamic>>.from(decodedData);
+          });
+        } catch (e) {
+          // Handle parsing error
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Connection error: $error')),
+            SnackBar(content: Text('Data parsing error: $e')),
           );
-        },
-      );
-    } else {
-      // Handle case where IP address is not found
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Server IP address not found.')),
-      );
-    }
+        }
+      },
+      onError: (error) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Connection error: $error')),
+        );
+      },
+    );
   }
 
   // Function to handle search with debouncing

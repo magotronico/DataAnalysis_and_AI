@@ -38,10 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
-      final String? storedIp = prefs.getString('serverIp');
-      if (storedIp == null) {
-        throw Exception('No IP stored in preferences.');
-      }
       final String? userId = prefs.getString('userId');
       final response = await http.get(Uri.parse("https://dimex-api.azurewebsites.net/usuario/$userId"));
 
